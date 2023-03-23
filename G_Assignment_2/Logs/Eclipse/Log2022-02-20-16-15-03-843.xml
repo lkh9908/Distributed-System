@@ -1,0 +1,373 @@
+<Events startTimestamp="1645391703843" logVersion="1.0.0.202108012048">
+  <Command __id="23" _type="MoveCaretCommand" caretOffset="5275" date="Sun Feb 20 16:15:05 EST 2022" docOffset="5943" starttimestamp="1645391703843" timestamp="1649" />
+  <Command __id="25" _type="PauseCommand" date="Sun Feb 20 16:15:46 EST 2022" range="30s-1m" starttimestamp="1645391703843" timestamp="42371">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[40713]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="24" _type="ShellCommand" date="Sun Feb 20 16:15:46 EST 2022" starttimestamp="1645391703843" timestamp="42362" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="26" _type="ShellCommand" date="Sun Feb 20 16:15:46 EST 2022" starttimestamp="1645391703843" timestamp="42422" type="ECLIPSE_MINIMIZED" />
+  <Command __id="28" _type="PauseCommand" date="Sun Feb 20 16:15:51 EST 2022" range="5s-10s" starttimestamp="1645391703843" timestamp="47915">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[5489]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="27" _type="ShellCommand" date="Sun Feb 20 16:15:51 EST 2022" starttimestamp="1645391703843" timestamp="47911" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="29" _type="ShellCommand" date="Sun Feb 20 16:15:51 EST 2022" starttimestamp="1645391703843" timestamp="47965" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="34" _type="PauseCommand" date="Sun Feb 20 16:15:58 EST 2022" range="2s-5s" starttimestamp="1645391703843" timestamp="54407">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2887]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ProgramExecutionEvent]]></next>
+  </Command>
+  <Command __id="33" _type="ProgramExecutionEvent" className="/533Assignment2/src/comp533/SumMain.java" date="Sun Feb 20 16:15:58 EST 2022" kind="HitBreakPoint" projectName="533Assignment2" starttimestamp="1645391703843" timestamp="54407" type="Run" />
+  <Command __id="35" _type="RunCommand" className="/533Assignment2/src/comp533/SumMain.java" date="Sun Feb 20 16:15:58 EST 2022" kind="HitBreakPoint" projectName="533Assignment2" starttimestamp="1645391703843" timestamp="54408" type="Run" />
+  <Command __id="36" _type="ConsoleOutput" date="Sun Feb 20 16:15:58 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="54713" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:class comp533.model.SumModel:new mapper:Int Summing Mapper
+Thread[main,5,main]:Controller:Please enter the number of threads
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="38" _type="PauseCommand" date="Sun Feb 20 16:16:04 EST 2022" range="5s-10s" starttimestamp="1645391703843" timestamp="60265">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[5552]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ConsoleInput]]></next>
+  </Command>
+  <Command __id="37" _type="ConsoleInput" date="Sun Feb 20 16:16:04 EST 2022" starttimestamp="1645391703843" timestamp="60265" type="Exception">
+    <outputString><![CDATA[3
+]]></outputString>
+  </Command>
+  <Command __id="39" _type="ConsoleOutput" date="Sun Feb 20 16:16:04 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="60343" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner Created:comp533.joiner.TokenCounterJoiner@1e127982:3
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[main,5,main]:"), Diff(DELETE,"class "), Diff(EQUAL,"comp533."), Diff(DELETE,"model.SumModel:new mapper:Int Summing Mapper¶Thread[main,5,main]:Controller:Please enter the number of threads"), Diff(INSERT,"joiner.TokenCounterJoiner@1e127982:Joiner Created:comp533.joiner.TokenCounterJoiner@1e127982:3"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="40" _type="ConsoleOutput" date="Sun Feb 20 16:16:04 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="60426" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Created:comp533.barrier.TokenCounterBarrier@3c0f93f1:3
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[main,5,main]:comp533."), Diff(DELETE,"join"), Diff(INSERT,"barri"), Diff(EQUAL,"er.TokenCounter"), Diff(DELETE,"Joiner@1e127982:Join"), Diff(INSERT,"Barrier@3c0f93f1:Barri"), Diff(EQUAL,"er Created:comp533."), Diff(DELETE,"join"), Diff(INSERT,"barri"), Diff(EQUAL,"er.TokenCounter"), Diff(DELETE,"Joiner@1e127982"), Diff(INSERT,"Barrier@3c0f93f1"), Diff(EQUAL,":3¶")]]]></diff>
+  </Command>
+  <Command __id="41" _type="ConsoleOutput" date="Sun Feb 20 16:16:04 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="60530" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:Controller:Please enter quit or a line of tokens to be processed separated by spaces
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[main,5,main]:"), Diff(DELETE,"comp533.barrier.Token"), Diff(EQUAL,"Co"), Diff(DELETE,"u"), Diff(EQUAL,"nt"), Diff(DELETE,"erBarrier@3c0f93f1:Barrier Created:comp533.barrier.TokenCounterBarrier@3c0f93f1:3"), Diff(INSERT,"roller:Please enter quit or a line of tokens to be processed separated by spaces"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="43" _type="PauseCommand" date="Sun Feb 20 16:16:05 EST 2022" range="1s-2s" starttimestamp="1645391703843" timestamp="61779">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1248]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ConsoleInput]]></next>
+  </Command>
+  <Command __id="42" _type="ConsoleInput" date="Sun Feb 20 16:16:05 EST 2022" starttimestamp="1645391703843" timestamp="61778" type="Exception">
+    <outputString><![CDATA[1 2
+]]></outputString>
+  </Command>
+  <Command __id="44" _type="ConsoleOutput" date="Sun Feb 20 16:16:05 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="61884" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:View:java.beans.PropertyChangeEvent[propertyName=InputString; oldValue=null; newValue=1 2; propagationId=null; source=Model]
+???????
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[main,5,main]:"), Diff(DELETE,"Controller:Please enter quit or a line of tokens to be processed se"), Diff(INSERT,"View:java.beans.PropertyChangeEvent[propertyName=InputString; oldValue=null; newValue=1 2; pro"), Diff(EQUAL,"pa"), Diff(DELETE,"r"), Diff(INSERT,"g"), Diff(EQUAL,"at"), Diff(DELETE,"ed by spaces"), Diff(INSERT,"ionId=null; source=Model]¶???????"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="45" _type="ConsoleOutput" date="Sun Feb 20 16:16:05 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="61989" type="ConsoleOutput">
+    <outputString><![CDATA[))))))))))))))))))))
+[[], [], []]
+Thread[main,5,main]:Slave:notify
+Thread[Slave0,5,main]:Slave:dequeue:[]
+Thread[Slave1,5,main]:Slave:dequeue:[]
+Thread[Slave2,5,main]:Slave:dequeue:[]
+Thread[main,5,main]:Slave:notify
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Thread[main,5,main]:View:java.beans.PropertyChangeEvent[propertyName=InputString; oldValue=null; newValue=1 2; propagationId=null; source=Model]¶???????"), Diff(INSERT,"))))))))))))))))))))¶[[], [], []]¶Thread[main,5,main]:Slave:notify¶Thread[Slave0,5,main]:Slave:dequeue:[]¶Thread[Slave1,5,main]:Slave:dequeue:[]¶Thread[Slave2,5,main]:Slave:dequeue:[]¶Thread[main,5,main]:Slave:notify"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="46" _type="ConsoleOutput" date="Sun Feb 20 16:16:05 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62135" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:Slave:notify
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"))))))))))))))))))))¶[[], [], []]¶Thread[main,5,main]:Slave:notify¶Thread[Slave0,5,main]:Slave:dequeue:[]¶Thread[Slave1,5,main]:Slave:dequeue:[]¶Thread[Slave2,5,main]:Slave:dequeue:[]¶"), Diff(EQUAL,"Thread[main,5,main]:Slave:notify¶")]]]></diff>
+  </Command>
+  <Command __id="47" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62258" type="ConsoleOutput">
+    <outputString><![CDATA[!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[1, 2]
+Thread[main,5,main]:Int Summing Mapper:Map:1:(Sum,1)
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Thread[main,5,main]:Slave:notify"), Diff(INSERT,"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!¶[1, 2]¶Thread[main,5,main]:Int Summing Mapper:Map:1:(Sum,1)"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="48" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62391" type="ConsoleOutput">
+    <outputString><![CDATA[(Sum,1)
+Thread[main,5,main]:Model:enqueue:(Sum,1)
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!¶[1, 2]¶Thread[main,5,main]:Int Summing Mapper:Map:1"), Diff(INSERT,"(Sum,1)¶Thread[main,5,main]:Model:enqueue"), Diff(EQUAL,":(Sum,1)¶")]]]></diff>
+  </Command>
+  <Command __id="49" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62456" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:Model:enqueue:[(Sum,1)]
+Thread[Slave2,5,main]:Slave:dequeue:(Sum,1)
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"Thread[main,5,main]:Model:enqueue:["), Diff(EQUAL,"(Sum,1)"), Diff(INSERT,"]"), Diff(EQUAL,"¶Thread["), Diff(DELETE,"main"), Diff(INSERT,"Slave2"), Diff(EQUAL,",5,main]:"), Diff(DELETE,"Model:en"), Diff(INSERT,"Slave:de"), Diff(EQUAL,"queue:(Sum,1)¶")]]]></diff>
+  </Command>
+  <Command __id="50" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62542" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:Int Summing Mapper:Map:2:(Sum,2)
+Thread[Slave2,5,main]:Slave:dequeue:[]
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[main,5,main]:"), Diff(DELETE,"Model:enqueue:["), Diff(INSERT,"Int Summing Mapper:Map:2:"), Diff(EQUAL,"(Sum,"), Diff(DELETE,"1)]"), Diff(INSERT,"2)"), Diff(EQUAL,"¶Thread[Slave2,5,main]:Slave:dequeue:"), Diff(DELETE,"(Sum,1)"), Diff(INSERT,"[]"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="51" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62642" type="ConsoleOutput">
+    <outputString><![CDATA[(Sum,2)
+Thread[main,5,main]:Model:enqueue:(Sum,2)
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Thread[main,5,main]:Int Summing Mapper:Map:2:"), Diff(EQUAL,"(Sum,2)¶Thread["), Diff(DELETE,"Slave2"), Diff(INSERT,"main"), Diff(EQUAL,",5,main]:"), Diff(DELETE,"Slave:dequeue:[]"), Diff(INSERT,"Model:enqueue:(Sum,2)"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="52" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62744" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:Model:enqueue:[(Sum,2)]
+Thread[Slave1,5,main]:Slave:dequeue:(Sum,2)
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"Thread[main,5,main]:Model:enqueue:["), Diff(EQUAL,"(Sum,2)"), Diff(INSERT,"]"), Diff(EQUAL,"¶Thread["), Diff(DELETE,"main"), Diff(INSERT,"Slave1"), Diff(EQUAL,",5,main]:"), Diff(DELETE,"Model:en"), Diff(INSERT,"Slave:de"), Diff(EQUAL,"queue:(Sum,2)¶")]]]></diff>
+  </Command>
+  <Command __id="53" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62844" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:Model:enqueue:(null,null)
+Thread[Slave1,5,main]:Slave:dequeue:[]
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[main,5,main]:Model:enqueue:"), Diff(DELETE,"[(Sum,2)]"), Diff(INSERT,"(null,null)"), Diff(EQUAL,"¶Thread[Slave1,5,main]:Slave:dequeue:"), Diff(DELETE,"(Sum,2)"), Diff(INSERT,"[]"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="54" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="62944" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[main,5,main]:Model:enqueue:(null,null)
+****************
+[(Sum,2)]
+Thread[Slave1,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,2)]:{Sum=2}
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[main,5,main]:Model:enqueue:(null,null)¶"), Diff(DELETE,"Thread[Slave1,5,main]:Slave:dequeue:[]"), Diff(INSERT,"****************¶[(Sum,2)]¶Thread[Slave1,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,2)]:{Sum=2}"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="55" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63093" type="ConsoleOutput">
+    <outputString><![CDATA[map
+[(Sum,2)]
+****************
+[(Sum,1)]
+Thread[main,5,main]:Model:enqueue:(null,null)
+Thread[Slave2,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,1)]:{Sum=1}
+Thread[Slave1,5,main]:Slave:Partition Assigned:Sum:2:2:3
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"map¶[(Sum,2)]¶****************¶[(Sum,1)]¶"), Diff(EQUAL,"Thread[main,5,main]:Model:enqueue:(null,null)¶"), Diff(DELETE,"****************¶[(Sum,2)]¶"), Diff(EQUAL,"Thread[Slave"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,",5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,"), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,")]:{Sum="), Diff(DELETE,"2}"), Diff(INSERT,"1}¶Thread[Slave1,5,main]:Slave:Partition Assigned:Sum:2:2:3"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="56" _type="ConsoleOutput" date="Sun Feb 20 16:16:06 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63154" type="ConsoleOutput">
+    <outputString><![CDATA[****************
+Thread[main,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner Wait Start:comp533.joiner.TokenCounterJoiner@1e127982:3:0
+[]
+Thread[Slave0,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}
+map
+[(Sum,1)]
+Thread[Slave2,5,main]:Slave:Partition Assigned:Sum:1:2:3
+Thread[Slave1,5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Wait Start:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:1
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"map¶[(Sum,2)]¶"), Diff(EQUAL,"****************¶"), Diff(DELETE,"[(Sum,1)]¶"), Diff(EQUAL,"Thread[main,5,main]:"), Diff(DELETE,"Model:enqueue:(null,null)"), Diff(INSERT,"comp533.joiner.TokenCounterJoiner@1e127982:Joiner Wait Start:comp533.joiner.TokenCounterJoiner@1e127982:3:0¶[]"), Diff(EQUAL,"¶Thread[Slave"), Diff(DELETE,"2"), Diff(INSERT,"0"), Diff(EQUAL,",5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:["), Diff(INSERT,"]:{}¶map¶["), Diff(EQUAL,"(Sum,1)]"), Diff(DELETE,":{Sum=1}"), Diff(EQUAL,"¶Thread[Slave"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,",5,main]:Slave:Partition Assigned:Sum:"), Diff(DELETE,"2:2:3"), Diff(INSERT,"1:2:3¶Thread[Slave1,5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Wait Start:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:1"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="57" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63256" type="ConsoleOutput">
+    <outputString><![CDATA[map
+[]
+Thread[main,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:wait
+Thread[Slave2,5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Wait Start:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:2
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"****************"), Diff(INSERT,"map¶[]"), Diff(EQUAL,"¶Thread[main,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:"), Diff(DELETE,"Joiner Wait Start:comp533.joiner.TokenCounterJoiner@1e127982:3:0¶[]¶Thread[Slave0,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}¶map¶[(Sum,1)]¶Thread[Slave2,5,main]:Slave:Partition Assigned:Sum:1:2:3¶Thread[Slave1"), Diff(INSERT,"wait¶Thread[Slave2"), Diff(EQUAL,",5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Wait Start:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="58" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63353" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[Slave0,5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Release All:3:3:0
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"map¶[]¶Thread[main,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:wait¶"), Diff(EQUAL,"Thread[Slave"), Diff(DELETE,"2"), Diff(INSERT,"0"), Diff(EQUAL,",5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier "), Diff(DELETE,"Wait Start:comp533.barrier.TokenCounterBarrier@3c0f93f1"), Diff(INSERT,"Release All:3"), Diff(EQUAL,":3:"), Diff(DELETE,"2"), Diff(INSERT,"0"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="59" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63463" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[Slave1,5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Wait End:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:0
+Thread[Slave0,5,main]:Slave:Partition After Barrier:0:[[], [], [(Sum,2), (Sum,1)]]
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[Slave"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,",5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier "), Diff(DELETE,"Release All:3:3:0"), Diff(INSERT,"Wait End:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:0¶Thread[Slave0,5,main]:Slave:Partition After Barrier:0:[[], [], [(Sum,2), (Sum,1)]]"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="60" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63605" type="ConsoleOutput">
+    <outputString><![CDATA[****************
+[]
+Thread[Slave1,5,main]:Slave:Partition After Barrier:1:[[], [], [(Sum,2), (Sum,1)]]
+Thread[Slave2,5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Wait End:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:0
+Thread[Slave0,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Thread[Slave1"), Diff(INSERT,"****************¶[]¶Thread[Slave1,5,main]:Slave:Partition After Barrier:1:[[], [], [(Sum,2), (Sum,1)]]¶Thread[Slave2"), Diff(EQUAL,",5,main]:comp533.barrier.TokenCounterBarrier@3c0f93f1:Barrier Wait End:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:0¶Thread[Slave0,5,main]:"), Diff(DELETE,"Slave:Partition After Barrier:0:[[], [], [(Sum,2), (Sum,1)]]"), Diff(INSERT,"comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="61" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63663" type="ConsoleOutput">
+    <outputString><![CDATA[map
+[]
+****************
+[]
+Thread[Slave2,5,main]:Slave:Partition After Barrier:2:[[], [], [(Sum,2), (Sum,1)]]
+****************
+[]
+Thread[Slave0,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}
+Thread[Slave1,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"map¶[]¶"), Diff(EQUAL,"****************¶[]¶Thread[Slave"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,",5,main]:Slave:Partition After Barrier:"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,":[[], [], [(Sum,2), (Sum,1)]]¶"), Diff(INSERT,"****************¶[]¶"), Diff(EQUAL,"Thread[Slave"), Diff(DELETE,"2"), Diff(INSERT,"0"), Diff(EQUAL,",5,main]:comp533."), Diff(DELETE,"barri"), Diff(INSERT,"reduc"), Diff(EQUAL,"er.TokenCounter"), Diff(DELETE,"Barrier@3c0f93f1:Barrier Wait End:comp533.barrier.TokenCounterBarrier@3c0f93f1:3:0"), Diff(INSERT,"Reducer@6aefa837:reduce:[]:{}"), Diff(EQUAL,"¶Thread[Slave"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,",5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}¶")]]]></diff>
+  </Command>
+  <Command __id="62" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63754" type="ConsoleOutput">
+    <outputString><![CDATA[map
+[]
+****************
+[]
+map
+[]
+****************
+[(Sum,2), (Sum,1)]
+****************
+[]
+Thread[Slave0,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,2), (Sum,1)]:{Sum=3}
+Thread[Slave1,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}
+Thread[Slave2,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"map¶[]¶****************¶[]¶"), Diff(INSERT,"map¶[]¶****************¶[(Sum,2), (Sum,1)]¶****************¶[]¶"), Diff(EQUAL,"Thread[Slave"), Diff(DELETE,"2"), Diff(INSERT,"0"), Diff(EQUAL,",5,main]:"), Diff(DELETE,"Slave:Partition After Barrier:2:[[], [], [(Sum,2), (Sum,1)]]¶****************¶[]"), Diff(INSERT,"comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,2), (Sum,1)]:{Sum=3}"), Diff(EQUAL,"¶Thread[Slave"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,",5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}¶Thread[Slave"), Diff(DELETE,"1"), Diff(INSERT,"2"), Diff(EQUAL,",5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}¶")]]]></diff>
+  </Command>
+  <Command __id="63" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63861" type="ConsoleOutput">
+    <outputString><![CDATA[map
+[(Sum,2), (Sum,1)]
+map
+[]
+****************
+[]
+map
+[]
+****************
+Thread[Slave2,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[]:{}
+Thread[Slave0,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner Finished:comp533.joiner.TokenCounterJoiner@1e127982:3:1
+[(Sum,2), (Sum,1)]
+Thread[Slave1,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,2), (Sum,1)]:{Sum=3}
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"map¶[(Sum,2), (Sum,1)]¶"), Diff(EQUAL,"map¶[]¶****************¶[]¶map¶[]¶****************¶"), Diff(DELETE,"[(Sum,2), (Sum,1)]¶****************¶[]¶"), Diff(EQUAL,"Thread[Slave"), Diff(DELETE,"0"), Diff(INSERT,"2"), Diff(EQUAL,",5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:["), Diff(DELETE,"(Sum,2), (Sum,1)]:{Sum=3"), Diff(INSERT,"]:{"), Diff(EQUAL,"}¶Thread[Slave"), Diff(DELETE,"1"), Diff(INSERT,"0"), Diff(EQUAL,",5,main]:comp533."), Diff(DELETE,"reduc"), Diff(INSERT,"join"), Diff(EQUAL,"er.TokenCounter"), Diff(DELETE,"Reducer@6aefa837:reduce:[]:{}"), Diff(INSERT,"Joiner@1e127982:Joiner Finished:comp533.joiner.TokenCounterJoiner@1e127982:3:1¶[(Sum,2), (Sum,1)]"), Diff(EQUAL,"¶Thread[Slave"), Diff(DELETE,"2"), Diff(INSERT,"1"), Diff(EQUAL,",5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:["), Diff(DELETE,"]:{"), Diff(INSERT,"(Sum,2), (Sum,1)]:{Sum=3"), Diff(EQUAL,"}¶")]]]></diff>
+  </Command>
+  <Command __id="64" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="63965" type="ConsoleOutput">
+    <outputString><![CDATA[map
+[]
+Thread[Slave0,5,main]:Slave:Added to Final Map:{}:{}
+****************
+[(Sum,2), (Sum,1)]
+Thread[Slave2,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,2), (Sum,1)]:{Sum=3}
+map
+[(Sum,2), (Sum,1)]
+Thread[Slave1,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner Finished:comp533.joiner.TokenCounterJoiner@1e127982:3:2
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"map¶["), Diff(DELETE,"(Sum,2), (Sum,1)]¶map¶[]¶****************¶[]¶map¶[]¶****************"), Diff(INSERT,"]¶Thread[Slave0,5,main]:Slave:Added to Final Map:{}:{}¶****************¶[(Sum,2), (Sum,1)]"), Diff(EQUAL,"¶Thread[Slave2,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:["), Diff(DELETE,"]:{}"), Diff(INSERT,"(Sum,2), (Sum,1)]:{Sum=3}¶map¶[(Sum,2), (Sum,1)]"), Diff(EQUAL,"¶Thread[Slave"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,",5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner Finished:comp533.joiner.TokenCounterJoiner@1e127982:3:"), Diff(DELETE,"1¶[(Sum,2), (Sum,1)]¶Thread[Slave1,5,main]:comp533.reducer.TokenCounterReducer@6aefa837:reduce:[(Sum,2), (Sum,1)]:{Sum=3}"), Diff(INSERT,"2"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="65" _type="ConsoleOutput" date="Sun Feb 20 16:16:07 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="64101" type="ConsoleOutput">
+    <outputString><![CDATA[map
+Thread[Slave0,5,main]:Slave:wait
+[(Sum,2), (Sum,1)]
+Thread[Slave2,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner Finished:comp533.joiner.TokenCounterJoiner@1e127982:3:3
+Thread[Slave1,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:notify
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"map¶"), Diff(DELETE,"[]¶"), Diff(EQUAL,"Thread[Slave0,5,main]:Slave:"), Diff(DELETE,"Added to Final Map:{}:{}¶****************"), Diff(INSERT,"wait"), Diff(EQUAL,"¶[(Sum,2), (Sum,1)]¶Thread[Slave2,5,main]:comp533."), Diff(DELETE,"reduc"), Diff(INSERT,"join"), Diff(EQUAL,"er.TokenCounter"), Diff(DELETE,"Reducer@6aefa837:reduce:[(Sum,2), (Sum,1)]:{Sum=3}¶map¶[(Sum,2), (Sum,1)]¶Thread[Slave1,5,main]"), Diff(INSERT,"Joiner@1e127982:Joiner Finished"), Diff(EQUAL,":comp533.joiner.TokenCounterJoiner@1e127982:"), Diff(DELETE,"Joiner Finished"), Diff(INSERT,"3:3¶Thread[Slave1,5,main]"), Diff(EQUAL,":comp533.joiner.TokenCounterJoiner@1e127982:"), Diff(DELETE,"3:2"), Diff(INSERT,"notify"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="66" _type="ConsoleOutput" date="Sun Feb 20 16:16:08 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="64208" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[Slave1,5,main]:Slave:Added to Final Map:{}:{}
+Thread[main,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner Wait End:comp533.joiner.TokenCounterJoiner@1e127982:3:3
+Thread[Slave1,5,main]:Slave:wait
+$$$$$$$######
+Thread[Slave2,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:notify
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"map¶"), Diff(EQUAL,"Thread[Slave"), Diff(DELETE,"0"), Diff(INSERT,"1"), Diff(EQUAL,",5,main]:Slave:"), Diff(DELETE,"wait¶[(Sum,2), (Sum,1)]"), Diff(INSERT,"Added to Final Map:{}:{}"), Diff(EQUAL,"¶Thread["), Diff(DELETE,"Slave2"), Diff(INSERT,"main"), Diff(EQUAL,",5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner "), Diff(DELETE,"Finishe"), Diff(INSERT,"Wait En"), Diff(EQUAL,"d:comp533.joiner.TokenCounterJoiner@1e127982:3:3¶Thread[Slave1,5,main]:"), Diff(INSERT,"Slave:wait¶$$$$$$$######¶Thread[Slave2,5,main]:"), Diff(EQUAL,"comp533.joiner.TokenCounterJoiner@1e127982:notify¶")]]]></diff>
+  </Command>
+  <Command __id="67" _type="ConsoleOutput" date="Sun Feb 20 16:16:08 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="64264" type="ConsoleOutput">
+    <outputString><![CDATA[[[], [], [(Sum,2), (Sum,1)]]
+{Sum=2}
+{Sum=3}
+Thread[main,5,main]:View:java.beans.PropertyChangeEvent[propertyName=Result; oldValue={}; newValue={Sum=3}; propagationId=null; source=Model]
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Thread[Slave1,5,main]:Slave:Added to Final Map:{}:{}¶Thread[main,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:Joiner Wait End:comp533.joiner.TokenCounterJoiner@1e127982:3:3¶Thread[Slave1,5,main]:Slave:wait¶$$$$$$$######¶Thread[Slave2,5,main]:comp533.joiner.TokenCounterJoiner@1e127982:notify"), Diff(INSERT,"[[], [], [(Sum,2), (Sum,1)]]¶{Sum=2}¶{Sum=3}¶Thread[main,5,main]:View:java.beans.PropertyChangeEvent[propertyName=Result; oldValue={}; newValue={Sum=3}; propagationId=null; source=Model]"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="68" _type="ConsoleOutput" date="Sun Feb 20 16:16:08 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="64358" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[Slave2,5,main]:Slave:Added to Final Map:{}:{Sum=3}
+Thread[main,5,main]:Controller:Please enter quit or a line of tokens to be processed separated by spaces
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"[[], [], [(Sum,2), (Sum,1)]]¶{Sum=2}¶{Sum=3}¶Thread[main,5,main]:View:java.beans.PropertyChangeEvent[propertyName=Result; oldValue={}; newValue={Sum=3}; pro"), Diff(INSERT,"Thread[Slave2,5,main]:Slave:Added to Final Map:{}:{Sum=3}¶Thread[main,5,main]:Controller:Please enter quit or a line of tokens to be processed se"), Diff(EQUAL,"pa"), Diff(DELETE,"g"), Diff(INSERT,"r"), Diff(EQUAL,"at"), Diff(DELETE,"ionId=null; source=Model]"), Diff(INSERT,"ed by spaces"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="69" _type="ConsoleOutput" date="Sun Feb 20 16:16:08 EST 2022" overflow="false" starttimestamp="1645391703843" timestamp="64461" type="ConsoleOutput">
+    <outputString><![CDATA[Thread[Slave2,5,main]:Slave:wait
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Thread[Slave2,5,main]:Slave:"), Diff(DELETE,"Added to Final Map:{}:{Sum=3}¶Thread[main,5,main]:Controller:Please enter quit or a line of tokens to be processed separated by spaces"), Diff(INSERT,"wait"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="74" _type="PauseCommand" date="Sun Feb 20 16:20:03 EST 2022" range="2m-5m" starttimestamp="1645391703843" timestamp="299421">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[225406]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="73" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299421" />
+  <Command __id="75" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299428" />
+  <Command __id="76" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299429" />
+  <Command __id="77" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299437" />
+  <Command __id="78" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299438" />
+  <Command __id="79" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299447" />
+  <Command __id="80" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299448" />
+  <Command __id="81" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299452" />
+  <Command __id="82" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299452" />
+  <Command __id="83" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299456" />
+  <Command __id="84" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299456" />
+  <Command __id="85" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299460" />
+  <Command __id="86" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299461" />
+  <Command __id="87" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299467" />
+  <Command __id="88" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299467" />
+  <Command __id="89" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299471" />
+  <Command __id="90" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299472" />
+  <Command __id="91" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299474" />
+  <Command __id="92" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299475" />
+  <Command __id="93" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299490" />
+  <Command __id="94" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299490" />
+  <Command __id="95" _type="EclipseCommand" commandID="" date="Sun Feb 20 16:20:03 EST 2022" starttimestamp="1645391703843" timestamp="299494" />
+  <Command __id="97" _type="PauseCommand" date="Sun Feb 20 16:26:30 EST 2022" range="5m-10m" starttimestamp="1645391703843" timestamp="686964">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[387470]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="96" _type="ShellCommand" date="Sun Feb 20 16:26:30 EST 2022" starttimestamp="1645391703843" timestamp="686964" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="98" _type="ShellCommand" date="Sun Feb 20 16:26:30 EST 2022" starttimestamp="1645391703843" timestamp="687022" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="99" _type="ShellCommand" date="Sun Feb 20 16:26:31 EST 2022" starttimestamp="1645391703843" timestamp="687652" type="ECLIPSE_MINIMIZED" />
+  <Command __id="100" _type="ShellCommand" date="Sun Feb 20 16:26:31 EST 2022" starttimestamp="1645391703843" timestamp="687667" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="102" _type="PauseCommand" date="Sun Feb 20 17:15:03 EST 2022" range="30m-1h" starttimestamp="1645391703843" timestamp="3600087">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2912420]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[BalloonCommand]]></next>
+  </Command>
+  <Command __id="101" _type="BalloonCommand" date="Sun Feb 20 17:15:03 EST 2022" message="*******************************************
+Worked 0 minutes(fixed)/1 minutes(context based) from
+Sun Feb 20 16:15:04 EST 2022 to Sun Feb 20 16:26:31 EST 2022
+Edited 0 Projects: 
+Edited 0 Files: 
+Number of insert: 0
+Number of delete: 0
+" starttimestamp="1645391703843" timestamp="3600087">
+    <fineGrainedWorkTime><![CDATA[1]]></fineGrainedWorkTime>
+    <insert><![CDATA[0]]></insert>
+    <startTime><![CDATA[1645391704850]]></startTime>
+    <endTime><![CDATA[1645392391510]]></endTime>
+    <workTime><![CDATA[0]]></workTime>
+    <delete><![CDATA[0]]></delete>
+  </Command>
+  <Command __id="104" _type="PauseCommand" date="Sun Feb 20 19:24:22 EST 2022" range=">1h" starttimestamp="1645391703843" timestamp="11358543">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[BalloonCommand]]></prev>
+    <pause><![CDATA[7758456]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="103" _type="ShellCommand" date="Sun Feb 20 19:24:22 EST 2022" starttimestamp="1645391703843" timestamp="11358543" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="105" _type="ShellCommand" date="Sun Feb 20 19:24:22 EST 2022" starttimestamp="1645391703843" timestamp="11358610" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="107" _type="PauseCommand" date="Sun Feb 20 19:24:23 EST 2022" range="1s-2s" starttimestamp="1645391703843" timestamp="11359707">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1097]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="106" _type="ShellCommand" date="Sun Feb 20 19:24:23 EST 2022" starttimestamp="1645391703843" timestamp="11359707" type="ECLIPSE_LOST_FOCUS" />
+</Events>

@@ -1,0 +1,84 @@
+<Events startTimestamp="1646671908469" logVersion="1.0.0.202108012048">
+  <Command __id="41" _type="ProgramExecutionEvent" className="/533Assignment3/src/comp533/server/TokenCounterServer.java" date="Mon Mar 07 11:51:59 EST 2022" kind="HitBreakPoint" projectName="533Assignment3" starttimestamp="1646671908469" timestamp="11401" type="Run" />
+  <Command __id="42" _type="ShellCommand" date="Mon Mar 07 11:51:59 EST 2022" starttimestamp="1646671908469" timestamp="11444" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="43" _type="ExceptionCommand" date="Mon Mar 07 11:52:00 EST 2022" starttimestamp="1646671908469" timestamp="11611" type="Exception">
+    <exceptionString><![CDATA[Exception in thread "main" java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+Caused by: java.lang.RuntimeException: Class java/lang/UnknownError could not be instrumented.
+	at org.jacoco.agent.rt.internal_c13123e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:140)
+	at org.jacoco.agent.rt.internal_c13123e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:101)
+	at org.jacoco.agent.rt.internal_c13123e.PreMain.createRuntime(PreMain.java:55)
+	at org.jacoco.agent.rt.internal_c13123e.PreMain.premain(PreMain.java:47)
+	... 6 more
+Caused by: java.lang.NoSuchFieldException: $jacocoAccess
+	at java.base/java.lang.Class.getField(Class.java:1999)
+	at org.jacoco.agent.rt.internal_c13123e.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:138)
+	... 9 more
+FATAL ERROR in native method: processing of -javaagent failed
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="45" _type="PauseCommand" date="Mon Mar 07 11:52:01 EST 2022" range="1s-2s" starttimestamp="1646671908469" timestamp="12671">
+    <prevType><![CDATA[Exception]]></prevType>
+    <prev><![CDATA[ExceptionCommand]]></prev>
+    <pause><![CDATA[1060]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="48" _type="RunCommand" className="/533Assignment3/src/comp533/RunSpring22Assignment3Tests.java" date="Mon Mar 07 11:52:05 EST 2022" kind="HitBreakPoint" projectName="533Assignment3" starttimestamp="1646671908469" timestamp="16579" type="Run" />
+  <Command __id="49" _type="ShellCommand" date="Mon Mar 07 11:52:05 EST 2022" starttimestamp="1646671908469" timestamp="17006" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="50" _type="ShellCommand" date="Mon Mar 07 11:52:05 EST 2022" starttimestamp="1646671908469" timestamp="17081" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="52" _type="PauseCommand" date="Mon Mar 07 11:52:08 EST 2022" range="2s-5s" starttimestamp="1646671908469" timestamp="20240">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3159]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="55" _type="ProgramExecutionEvent" className="/533Assignment3/src/comp533/RunSpring22Assignment3Tests.java" date="Mon Mar 07 11:52:25 EST 2022" kind="HitBreakPoint" projectName="533Assignment3" starttimestamp="1646671908469" timestamp="37417" type="Run" />
+  <Command __id="57" _type="PauseCommand" date="Mon Mar 07 11:52:27 EST 2022" range="1s-2s" starttimestamp="1646671908469" timestamp="38739">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ProgramExecutionEvent]]></prev>
+    <pause><![CDATA[1322]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="56" _type="ShellCommand" date="Mon Mar 07 11:52:27 EST 2022" starttimestamp="1646671908469" timestamp="38739" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="58" _type="ShellCommand" date="Mon Mar 07 11:52:27 EST 2022" starttimestamp="1646671908469" timestamp="38812" type="ECLIPSE_MINIMIZED" />
+  <Command __id="84" _type="EclipseCommand" commandID="" date="Mon Mar 07 11:56:50 EST 2022" starttimestamp="1646671908469" timestamp="301807" />
+  <Command __id="86" _type="PauseCommand" date="Mon Mar 07 12:26:57 EST 2022" range="30m-1h" starttimestamp="1646671908469" timestamp="2109191">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1807384]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="85" _type="ShellCommand" date="Mon Mar 07 12:26:57 EST 2022" starttimestamp="1646671908469" timestamp="2109191" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="88" _type="PauseCommand" date="Mon Mar 07 12:37:33 EST 2022" range="10m-20m" starttimestamp="1646671908469" timestamp="2745464">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[636273]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="87" _type="ShellCommand" date="Mon Mar 07 12:37:33 EST 2022" starttimestamp="1646671908469" timestamp="2745464" type="ECLIPSE_MINIMIZED" />
+  <Command __id="90" _type="PauseCommand" date="Mon Mar 07 12:42:23 EST 2022" range="2m-5m" starttimestamp="1646671908469" timestamp="3034900">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[289436]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="89" _type="ShellCommand" date="Mon Mar 07 12:42:23 EST 2022" starttimestamp="1646671908469" timestamp="3034900" type="ECLIPSE_MAXIMIZED" />
+  <Command __id="92" _type="PauseCommand" date="Mon Mar 07 13:44:31 EST 2022" range=">1h" starttimestamp="1646671908469" timestamp="6763289">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3728389]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>

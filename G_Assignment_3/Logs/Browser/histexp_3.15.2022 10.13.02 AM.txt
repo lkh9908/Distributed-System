@@ -1,0 +1,51 @@
+3/15/2022 10:35:53 AM	UNC-COMP533-Assignments/A3/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src
+3/15/2022 10:35:53 AM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/15/2022 10:35:51 AM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/TokenCounter.java
+3/15/2022 10:35:56 AM	UNC-COMP533-Assignments/MyMapReduceConfiguration.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/MyMapReduceConfiguration.java
+3/15/2022 11:30:19 AM	pdewan	https://github.com/pdewan
+3/15/2022 11:30:34 AM	Search · user:pdewan AMapReduceTracer	https://github.com/search?q=user%3Apdewan+AMapReduceTracer&type=code
+3/15/2022 11:30:55 AM	Comp533LocalChecks/src/gradingTools/comp533s19/assignment0 at 27986f824561768655c8bcc0ce78168995a7e729 · pdewan/Comp533LocalChecks	https://github.com/pdewan/Comp533LocalChecks/tree/27986f824561768655c8bcc0ce78168995a7e729/src/gradingTools/comp533s19/assignment0
+3/15/2022 11:30:58 AM	Comp533LocalChecks/AMapReduceTracer.java at 27986f824561768655c8bcc0ce78168995a7e729 · pdewan/Comp533LocalChecks	https://github.com/pdewan/Comp533LocalChecks/blob/27986f824561768655c8bcc0ce78168995a7e729/src/gradingTools/comp533s19/assignment0/AMapReduceTracer.java
+3/15/2022 11:29:49 AM	tracergradingTools.comp533s19.assignment0.AMapReduceTracer - Google ??	https://www.google.com/search?q=tracergradingTools.comp533s19.assignment0.AMapReduceTracer&rlz=1C1FQRR_enJP961__961&oq=tracergradingTools.comp533s19.assignment0.AMapReduceTracer&aqs=chrome..69i57.40993j0j4&sourceid=chrome&ie=UTF-8
+3/15/2022 11:29:52 AM	gradingTools.comp533s19.assignment0.AMapReduceTracer - Google ??	https://www.google.com/search?q=gradingTools.comp533s19.assignment0.AMapReduceTracer&rlz=1C1FQRR_enJP961__961&sxsrf=APq-WBtTqEXMQSbRK4Ls9gb2pLz4H87xgA%3A1647358188980&ei=7LAwYvqwO5Gs0PEP8YGYqAg&ved=0ahUKEwj61q-9t8j2AhURFjQIHfEABoUQ4dUDCA4&uact=5&oq=gradingTools.comp533s19.assignment0.AMapReduceTracer&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFKBAhGGABQ3QdY3QdguAloA3AAeACAAQCIAQCSAQCYAQCgAQKgAQHAAQE&sclient=gws-wiz
+3/15/2022 11:30:16 AM	pdewan/Grader: Grading framework for Java Programs	https://github.com/pdewan/Grader
+3/15/2022 11:30:24 AM	Search · user:pdewan gradingTools.comp533s19.assignment0.AMapReduceTracer	https://github.com/users/pdewan/search?q=gradingTools.comp533s19.assignment0.AMapReduceTracer
+3/15/2022 11:30:25 AM	Search · user:pdewan gradingTools.comp533s19.assignment0.AMapReduceTracer	https://github.com/search?q=user%3Apdewan+gradingTools.comp533s19.assignment0.AMapReduceTracer
+3/15/2022 11:30:26 AM	Search · user:pdewan gradingTools.comp533s19.assignment0.AMapReduceTracer	https://github.com/search?q=user%3Apdewan+gradingTools.comp533s19.assignment0.AMapReduceTracer&type=repositories
+3/15/2022 11:30:28 AM	Search · user:pdewan gradingTools.comp533s19.assignment0.AMapReduceTracer	https://github.com/search?q=user%3Apdewan+gradingTools.comp533s19.assignment0.AMapReduceTracer&type=code
+3/15/2022 11:30:27 AM	Search · user:pdewan gradingTools.comp533s19.assignment0.AMapReduceTracer	https://github.com/search?q=user%3Apdewan+gradingTools.comp533s19.assignment0.AMapReduceTracer&type=issues
+3/15/2022 11:30:54 AM	Comp533LocalChecks/AStandAloneTokenCountPartition1ReduceChecker.java at 27986f824561768655c8bcc0ce78168995a7e729 · pdewan/Comp533LocalChecks	https://github.com/pdewan/Comp533LocalChecks/blob/27986f824561768655c8bcc0ce78168995a7e729/src/gradingTools/comp533s19/assignment0/testcases/counts/standalone/partition_reduce/AStandAloneTokenCountPartition1ReduceChecker.java
+3/15/2022 11:30:54 AM	Comp533LocalChecks/src/gradingTools/comp533s19 at 27986f824561768655c8bcc0ce78168995a7e729 · pdewan/Comp533LocalChecks	https://github.com/pdewan/Comp533LocalChecks/tree/27986f824561768655c8bcc0ce78168995a7e729/src/gradingTools/comp533s19
+3/15/2022 11:53:44 AM	peek() java - Google ??	https://www.google.com/search?q=peek()+java&rlz=1C1FQRR_enJP961__961&oq=peek()&aqs=chrome.1.69i57j0i512l6j0i30l3.5898j0j7&sourceid=chrome&ie=UTF-8
+3/15/2022 11:53:46 AM	Stack peek() Method in Java - GeeksforGeeks	https://www.geeksforgeeks.org/stack-peek-method-in-java/
+3/15/2022 12:27:52 PM	java rmi two servers - Google ??	https://www.google.com/search?q=java+rmi+two+servers&rlz=1C1FQRR_enJP961__961&oq=java+rmi+two+servers&aqs=chrome..69i57.5615j0j4&sourceid=chrome&ie=UTF-8
+3/15/2022 12:27:55 PM	java rmi two clients - Google ??	https://www.google.com/search?q=java+rmi+two+clients&rlz=1C1FQRR_enJP961__961&sxsrf=APq-WBtJlpkNamf0MooVKldgVGZachZTUQ%3A1647361671712&ei=h74wYo2LK_W10PEPs5aQ6AM&ved=0ahUKEwjN6oi6xMj2AhX1GjQIHTMLBD0Q4dUDCA4&uact=5&oq=java+rmi+two+clients&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOgcIABCwAxAeOgYIABAIEB46BwghEAoQoAFKBAhBGAFKBAhGGABQuQNYxglg0wpoAnAAeACAAXOIAYAFkgEDMS41mAEAoAEByAEBwAEB&sclient=gws-wiz
+3/15/2022 12:27:56 PM	Java RMI: how can two clients communicate with their references - Stack Overflow	https://stackoverflow.com/questions/44577537/java-rmi-how-can-two-clients-communicate-with-their-references
+3/15/2022 12:29:13 PM	(3) Part 1 of 3: Simple Java RMI Tutorial - YouTube	https://www.youtube.com/watch?v=ILeAeFZOkMI
+3/15/2022 12:29:07 PM	(3) java rmi - YouTube	https://www.youtube.com/results?search_query=java+rmi
+3/15/2022 12:53:26 PM	(3) Part 2 of 3: Simple Java RMI Tutorial - YouTube	https://www.youtube.com/watch?v=OjXTkgW0wDQ
+3/15/2022 12:57:05 PM	(3) Part 3 of 3: Simple Java RMI Tutorial - YouTube	https://www.youtube.com/watch?v=vkw275ptI3E
+3/15/2022 13:35:02 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/15/2022 13:35:04 PM	Commits · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/commits?author=aaditkamat
+3/15/2022 13:35:25 PM	aaditkamat/UNC-COMP533-Assignments: Contains my solutions for the COMP533 Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments
+3/15/2022 13:35:01 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient
+3/15/2022 13:34:52 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=code
+3/15/2022 13:35:17 PM	Search · user:aaditkamat registerClient	https://github.com/users/aaditkamat/search?q=registerClient
+3/15/2022 13:34:59 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=discussions
+3/15/2022 13:34:58 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=registrypackages
+3/15/2022 13:34:58 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=wikis
+3/15/2022 13:35:26 PM	UNC-COMP533-Assignments/A3 at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/tree/master/A3
+3/15/2022 13:35:27 PM	UNC-COMP533-Assignments/A3/src at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/tree/master/A3/src
+3/15/2022 13:35:29 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/15/2022 13:35:01 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=code
+3/15/2022 13:35:00 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=commits
+3/15/2022 13:35:00 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=issues
+3/15/2022 13:34:52 PM	Search · user:cnell7 registerClient	https://github.com/users/cnell7/search?q=registerClient&type=code
+3/15/2022 13:35:12 PM	Search · registerClient	https://github.com/aaditkamat/UNC-COMP533-Assignments/search?q=registerClient
+3/15/2022 13:35:31 PM	UNC-COMP533-Assignments/A3/src/comp533/client at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/tree/master/A3/src/comp533/client
+3/15/2022 13:35:32 PM	UNC-COMP533-Assignments/TokenCounterClient.java at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/blob/master/A3/src/comp533/client/TokenCounterClient.java
+3/15/2022 13:58:32 PM	UNC-COMP533-Assignments/A3 at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/tree/master/A3
+3/15/2022 13:58:33 PM	UNC-COMP533-Assignments/A3/src at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/tree/master/A3/src
+3/15/2022 13:58:28 PM	UNC-COMP533-Assignments/A3/src/comp533/client at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/tree/master/A3/src/comp533/client
+3/15/2022 13:58:31 PM	UNC-COMP533-Assignments/A3.iml at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/blob/master/A3/A3.iml
+3/15/2022 13:58:34 PM	UNC-COMP533-Assignments/MyMapReduceConfiguration.java at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/blob/master/A3/src/MyMapReduceConfiguration.java

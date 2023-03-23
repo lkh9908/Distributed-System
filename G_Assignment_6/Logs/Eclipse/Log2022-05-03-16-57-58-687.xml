@@ -1,0 +1,204 @@
+<Events startTimestamp="1651611478687" logVersion="1.0.0.202108012048">
+  <Command __id="41" _type="EclipseCommand" commandID="" date="Tue May 03 16:57:58 EDT 2022" starttimestamp="1651611478687" timestamp="196" />
+  <Command __id="43" _type="PauseCommand" date="Tue May 03 16:58:00 EDT 2022" range="1s-2s" starttimestamp="1651611478687" timestamp="1456">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1256]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="44" _type="MoveCaretCommand" caretOffset="199" date="Tue May 03 16:58:00 EDT 2022" docOffset="345" starttimestamp="1651611478687" timestamp="2058" />
+  <Command __id="46" _type="PauseCommand" date="Tue May 03 16:58:03 EDT 2022" range="2s-5s" starttimestamp="1651611478687" timestamp="5034">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2976]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="45" _type="MoveCaretCommand" caretOffset="166" date="Tue May 03 16:58:03 EDT 2022" docOffset="312" starttimestamp="1651611478687" timestamp="5034" />
+  <Command __id="48" _type="PauseCommand" date="Tue May 03 16:58:07 EDT 2022" range="2s-5s" starttimestamp="1651611478687" timestamp="8531">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3496]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="47" _type="MoveCaretCommand" caretOffset="445" date="Tue May 03 16:58:07 EDT 2022" docOffset="591" starttimestamp="1651611478687" timestamp="8530" />
+  <Command __id="50" _type="PauseCommand" date="Tue May 03 16:58:09 EDT 2022" range="2s-5s" starttimestamp="1651611478687" timestamp="11224">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2694]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="49" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Tue May 03 16:58:09 EDT 2022" starttimestamp="1651611478687" timestamp="11224" />
+  <Command __id="51" _type="ShellCommand" date="Tue May 03 16:58:09 EDT 2022" starttimestamp="1651611478687" timestamp="11312" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="72" _type="PauseCommand" date="Tue May 03 17:02:08 EDT 2022" range="30s-1m" starttimestamp="1651611478687" timestamp="249664">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[38175]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="71" _type="ShellCommand" date="Tue May 03 17:02:08 EDT 2022" starttimestamp="1651611478687" timestamp="249664" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="73" _type="ProgramExecutionEvent" className="/533Ass6/src/checks/Checks.java" date="Tue May 03 17:02:08 EDT 2022" kind="HitBreakPoint" projectName="533Ass6" starttimestamp="1651611478687" timestamp="249810" type="Run" />
+  <Command __id="74" _type="ProgramExecutionEvent" className="/533Ass6/src/checks/Checks.java" date="Tue May 03 17:02:08 EDT 2022" kind="HitBreakPoint" projectName="533Ass6" starttimestamp="1651611478687" timestamp="249810" type="Run" />
+  <Command __id="76" _type="PauseCommand" date="Tue May 03 17:02:15 EDT 2022" range="5s-10s" starttimestamp="1651611478687" timestamp="257295">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ProgramExecutionEvent]]></prev>
+    <pause><![CDATA[7485]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="77" _type="MoveCaretCommand" caretOffset="445" date="Tue May 03 17:02:16 EDT 2022" docOffset="591" starttimestamp="1651611478687" timestamp="257403" />
+  <Command __id="79" _type="PauseCommand" date="Tue May 03 17:02:18 EDT 2022" range="2s-5s" starttimestamp="1651611478687" timestamp="260226">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2823]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="78" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Tue May 03 17:02:18 EDT 2022" starttimestamp="1651611478687" timestamp="260226" />
+  <Command __id="80" _type="ShellCommand" date="Tue May 03 17:02:19 EDT 2022" starttimestamp="1651611478687" timestamp="260473" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="81" _type="ShellCommand" date="Tue May 03 17:02:19 EDT 2022" starttimestamp="1651611478687" timestamp="261221" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="82" _type="ProgramExecutionEvent" className="/533Assignment060/src/checks/Checks.java" date="Tue May 03 17:02:20 EDT 2022" kind="HitBreakPoint" projectName="533Assignment060" starttimestamp="1651611478687" timestamp="261318" type="Run" />
+  <Command __id="83" _type="RunCommand" className="/533Assignment060/src/checks/Checks.java" date="Tue May 03 17:02:20 EDT 2022" kind="HitBreakPoint" projectName="533Assignment060" starttimestamp="1651611478687" timestamp="261318" type="Run" />
+  <Command __id="85" _type="PauseCommand" date="Tue May 03 17:02:22 EDT 2022" range="2s-5s" starttimestamp="1651611478687" timestamp="263967">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[2649]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="84" _type="ShellCommand" date="Tue May 03 17:02:22 EDT 2022" starttimestamp="1651611478687" timestamp="263967" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="87" _type="PauseCommand" date="Tue May 03 17:02:28 EDT 2022" range="5s-10s" starttimestamp="1651611478687" timestamp="270273">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6306]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="86" _type="ConsoleOutput" date="Tue May 03 17:02:28 EDT 2022" overflow="false" starttimestamp="1651611478687" timestamp="270273" type="ConsoleOutput">
+    <outputString><![CDATA[E*** Tags:[Registry]not found
+GIPCRMINIOStaticArguments did not pass completely:Couldn't run code:Tags:[Registry]not found:%0
+
+Test execution time (ms):5037
+GIPCRMINIOOneClientConnection did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*%0.0
+
+Test execution time (ms):2
+GIPCRMINIOOneClientReadWriteNonAtomic did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*
+RMI and GIPC are not checked because NIO failed%0.0
+
+Test execution time (ms):3
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"E*** Tags:[Registry]not found¶GIPCRMINIOStaticArguments did not pass completely:Couldn't run code:Tags:[Registry]not found:%0¶¶Test execution time (ms):5037¶GIPCRMINIOOneClientConnection did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*%0.0¶¶Test execution time (ms):2¶"), Diff(EQUAL,"GIPCRMINIOOneClientReadWriteNonAtomic did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*¶RMI and GIPC are not checked because NIO failed%0.0¶¶Test execution time (ms):"), Diff(DELETE,"58551"), Diff(INSERT,"3"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="89" _type="PauseCommand" date="Tue May 03 17:02:30 EDT 2022" range="1s-2s" starttimestamp="1651611478687" timestamp="271964">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1691]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="88" _type="ConsoleOutput" date="Tue May 03 17:02:30 EDT 2022" overflow="false" starttimestamp="1651611478687" timestamp="271964" type="ConsoleOutput">
+    <outputString><![CDATA[Re-running test gradingTools.comp533s20.assignment6.testcases.GIPCRMINIOStaticArguments@5774b827 . Results may change.
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"E*** Tags:[Registry]not found¶GIPCRMINIOStaticArguments did not pass completely:Couldn't run code:Tags:[Registry]not found:%0¶¶Test execution time (ms):5037¶GIPCRMINIOOneClientConnection did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*%0.0¶¶Test execution time (ms):2¶GIPCRMINIOOneClientReadWriteNonAtomic did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*¶RMI and GIPC are not checked because NIO failed%0.0¶¶Test execution time (ms):3"), Diff(INSERT,"Re-running test gradingTools.comp533s20.assignment6.testcases.GIPCRMINIOStaticArguments@5774b827 . Results may change."), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="118" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299561" />
+  <Command __id="119" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299562" />
+  <Command __id="120" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299565" />
+  <Command __id="121" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299565" />
+  <Command __id="122" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299570" />
+  <Command __id="123" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299571" />
+  <Command __id="124" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299577" />
+  <Command __id="125" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299578" />
+  <Command __id="126" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299582" />
+  <Command __id="127" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299582" />
+  <Command __id="128" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299584" />
+  <Command __id="129" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299585" />
+  <Command __id="130" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299590" />
+  <Command __id="131" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299590" />
+  <Command __id="132" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299595" />
+  <Command __id="133" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299595" />
+  <Command __id="134" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299621" />
+  <Command __id="135" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299622" />
+  <Command __id="136" _type="EclipseCommand" commandID="" date="Tue May 03 17:02:58 EDT 2022" starttimestamp="1651611478687" timestamp="299627" />
+  <Command __id="140" _type="PauseCommand" date="Tue May 03 17:03:07 EDT 2022" range="5s-10s" starttimestamp="1651611478687" timestamp="308592">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6939]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="139" _type="EclipseCommand" commandID="" date="Tue May 03 17:03:07 EDT 2022" starttimestamp="1651611478687" timestamp="308592" />
+  <Command __id="141" _type="EclipseCommand" commandID="" date="Tue May 03 17:03:07 EDT 2022" starttimestamp="1651611478687" timestamp="309003" />
+  <Command __id="143" _type="PauseCommand" date="Tue May 03 17:03:09 EDT 2022" range="1s-2s" starttimestamp="1651611478687" timestamp="310345">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1342]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="142" _type="ShellCommand" date="Tue May 03 17:03:09 EDT 2022" starttimestamp="1651611478687" timestamp="310345" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="145" _type="PauseCommand" date="Tue May 03 17:03:14 EDT 2022" range="5s-10s" starttimestamp="1651611478687" timestamp="316249">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[5904]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="144" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Tue May 03 17:03:14 EDT 2022" starttimestamp="1651611478687" timestamp="316249" />
+  <Command __id="146" _type="ProgramExecutionEvent" className="/533Assignment060/src/checks/Checks.java" date="Tue May 03 17:03:15 EDT 2022" kind="HitBreakPoint" projectName="533Assignment060" starttimestamp="1651611478687" timestamp="316545" type="Run" />
+  <Command __id="147" _type="RunCommand" className="/533Assignment060/src/checks/Checks.java" date="Tue May 03 17:03:15 EDT 2022" kind="HitBreakPoint" projectName="533Assignment060" starttimestamp="1651611478687" timestamp="316545" type="Run" />
+  <Command __id="149" _type="PauseCommand" date="Tue May 03 17:03:17 EDT 2022" range="2s-5s" starttimestamp="1651611478687" timestamp="319080">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[2534]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="148" _type="ShellCommand" date="Tue May 03 17:03:17 EDT 2022" starttimestamp="1651611478687" timestamp="319079" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="151" _type="PauseCommand" date="Tue May 03 17:04:29 EDT 2022" range="1m-2m" starttimestamp="1651611478687" timestamp="390846">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[71767]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="150" _type="ConsoleOutput" date="Tue May 03 17:04:29 EDT 2022" overflow="false" starttimestamp="1651611478687" timestamp="390846" type="ConsoleOutput">
+    <outputString><![CDATA[GIPCRMINIOStaticArguments did not pass completely:Error in server (args as 'nio-port registry-host registry-port gipc-port'): Couldn't find server NIO connection info in traces.%0.9090909090909091
+
+Test execution time (ms):63615
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Re-running test gradingTools.comp533s20.assignment6.testcases.GIPCRMINIOStaticArguments@5774b827 . Results may change."), Diff(INSERT,"GIPCRMINIOStaticArguments did not pass completely:Error in server (args as 'nio-port registry-host registry-port gipc-port'): Couldn't find server NIO connection info in traces.%0.9090909090909091¶¶Test execution time (ms):63615"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="153" _type="PauseCommand" date="Tue May 03 17:05:28 EDT 2022" range="30s-1m" starttimestamp="1651611478687" timestamp="449356">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[58510]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="152" _type="ConsoleOutput" date="Tue May 03 17:05:28 EDT 2022" overflow="false" starttimestamp="1651611478687" timestamp="449356" type="ConsoleOutput">
+    <outputString><![CDATA[GIPCRMINIOOneClientConnection did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*%0.0
+
+Test execution time (ms):58551
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"GIPCRMINIO"), Diff(DELETE,"StaticArguments"), Diff(INSERT,"OneClientConnection"), Diff(EQUAL," did not pass completely:"), Diff(DELETE,"Error i"), Diff(INSERT,"I"), Diff(EQUAL,"n "), Diff(DELETE,"s"), Diff(INSERT,"S"), Diff(EQUAL,"erver "), Diff(DELETE,"(args as 'nio-port registry-host registry-port gipc-port'): Couldn't find server NIO connection info in traces.%0.9090909090909091"), Diff(INSERT,"enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*%0.0"), Diff(EQUAL,"¶¶Test execution time (ms):"), Diff(DELETE,"63615"), Diff(INSERT,"58551"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="155" _type="PauseCommand" date="Tue May 03 17:06:26 EDT 2022" range="30s-1m" starttimestamp="1651611478687" timestamp="507912">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[58556]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="154" _type="ConsoleOutput" date="Tue May 03 17:06:26 EDT 2022" overflow="false" starttimestamp="1651611478687" timestamp="507912" type="ConsoleOutput">
+    <outputString><![CDATA[GIPCRMINIOOneClientReadWriteNonAtomic did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*
+RMI and GIPC are not checked because NIO failed%0.0
+
+Test execution time (ms):58555
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"GIPCRMINIOOneClient"), Diff(DELETE,"Connection"), Diff(INSERT,"ReadWriteNonAtomic"), Diff(EQUAL," did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*"), Diff(INSERT,"¶RMI and GIPC are not checked because NIO failed"), Diff(EQUAL,"%0.0¶¶Test execution time (ms):5855"), Diff(DELETE,"1"), Diff(INSERT,"5"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>

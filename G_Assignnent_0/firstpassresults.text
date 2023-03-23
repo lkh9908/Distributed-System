@@ -1,0 +1,7 @@
+Starting audit...
+[INFO] C:\Users\KaihaoLiu\eclipse-workspace\533Assignment0\.\src\greeting\Hello.java:4:33: Final parameter args defined. Good! [FinalParameterDefined]
+[INFO] C:\Users\KaihaoLiu\eclipse-workspace\533Assignment0\.\src\greeting\RunSpring22Assignment0Tests.java:8:33: Named Constant MAX_PRINTED_TRACES defined. Good! [ConstantDefined]
+[INFO] C:\Users\KaihaoLiu\eclipse-workspace\533Assignment0\.\src\greeting\RunSpring22Assignment0Tests.java:9:33: Named Constant MAX_TRACES defined. Good! [ConstantDefined]
+[INFO] C:\Users\KaihaoLiu\eclipse-workspace\533Assignment0\.\src\greeting\RunSpring22Assignment0Tests.java:10:33: Named Constant TIME_OUT defined. Good! [ConstantDefined]
+[INFO] C:\Users\KaihaoLiu\eclipse-workspace\533Assignment0\.\src\greeting\RunSpring22Assignment0Tests.java:13:33: Final parameter args defined. Good! [FinalParameterDefined]
+Audit done.

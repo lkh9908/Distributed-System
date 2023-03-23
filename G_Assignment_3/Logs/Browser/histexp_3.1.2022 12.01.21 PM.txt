@@ -1,0 +1,271 @@
+3/1/2022 12:05:12 PM	Assignments - Google ????	https://drive.google.com/drive/folders/14bJKIkxmF-1OjeBLhW7bPJKULjSxNv9j
+3/1/2022 12:12:13 PM	UNC-Chapel Hill Single Sign-On	https://sakai.unc.edu/portal/site/~kaihao
+3/1/2022 12:13:26 PM	assignments20 - Google ????	https://drive.google.com/drive/folders/1Uu8rLL9_fROVDEDYFx-JPVmhKoi4vEDB
+3/1/2022 12:13:27 PM	assignments - Google ????	https://drive.google.com/drive/folders/1zhOBSVDk69YmFLITvQxeVM1ns3tRpnyt
+3/1/2022 12:13:21 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 12:12:13 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZJbb4IwGIb%2FCum9lJMYGyFhejETtxlhu9jNUsvHaAYt61d2%2BPdDccYli0nv%2Bh76PukCedt0LOttrXbw3gNa56ttFLLjRUJ6o5jmKJEp3gIyK1ie3W1Y4HqsM9pqoRviZIhgrNRqqRX2LZgczIcU8LjbJKS2tkNGKfI3Lt1eCRfKnua13O91A7Z2ETU9hAZ0%2B5AXxFkNr5CKH%2FIu3KjPXll2dCivZAMn4w5KaUBYmucPxFmvEvISV%2FMgFNNqGooonM4jqOI49uNoxsPQm0dikCH2sFZoubIJCbwgmHjhxPMLf8b8YDjPxNmeNt5IVUr1eh3IfhQhuy2K7WQc8wQGj0MGAUkXB6zsWGwuQF%2BP5b90Sfo%2FSzyzXNCLgrGtY%2FdD4nq11Y0U307WNPpzaYBbSIhPaDpa%2Fv6B9Ac%3D&RelayState=ss%3Amem%3A0d921d1126692e900b14d2454869a2fa0535c9c418469ede3459346d736a83ef&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=i3kaYh%2F01YiT3lgXp2u1QPpLcSRr1l0tEYjMEkgW3J5quksGujIAlnlIZD50A6VNb%2F729ter1eUvJ3PWrFF1lnm7LfOkMSeHucCHKZ4jzhxxe6EFWLpE26g8Yv5581%2B0GF5NMBdOWKpeEtn6fh%2BSfY5eiXordQvX%2BTn26ReVCVjuKc6T9Cu7y3wB5dzxTwsyM%2BUGgDzhagBhzfERN1SJkNR6ghZR0a45as7FZTqYcups68KzF3qN5oo7AU4P4zrrGIaULl4X%2F8dQky2W5TNM9bTmEbPB9idE2XkIuCalW7p9mFXESFgX9pw%2BGcZQQfknclWOgF06msfIw%2BhZdFTISA%3D%3D
+3/1/2022 12:13:24 PM	assignments19 - Google ????	https://drive.google.com/drive/folders/1Z1hWYUPG9AllX4NTUvW_h3UvSCxSkLo6
+3/1/2022 12:20:27 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1
+3/1/2022 12:20:46 PM	UNC-COMP533-Assignments/A3 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3
+3/1/2022 12:20:49 PM	UNC-COMP533-Assignments/A3/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src
+3/1/2022 12:20:28 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 12:18:35 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 12:16:51 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+3/1/2022 12:17:31 PM	UNC-COMP533-Assignments/RemoteTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/RemoteTokenCounter.java
+3/1/2022 12:18:42 PM	UNC-COMP533-Assignments/A3/src/comp533/client at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/client
+3/1/2022 12:20:32 PM	UNC-COMP533-Assignments/MyMapReduceConfiguration.csv at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/MyMapReduceConfiguration.csv
+3/1/2022 12:20:51 PM	UNC-COMP533-Assignments/MyMapReduceConfiguration.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/MyMapReduceConfiguration.java
+3/1/2022 12:26:10 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 12:28:58 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 12:29:01 PM	UNC-COMP533-Assignments/A3/src/comp533/controller at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/controller
+3/1/2022 12:29:04 PM	UNC-COMP533-Assignments/TokenCounterController.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/controller/TokenCounterController.java
+3/1/2022 12:28:56 PM	UNC-COMP533-Assignments/A3/src/comp533/server at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/server
+3/1/2022 12:26:31 PM	UNC-COMP533-Assignments/TokenCounterServer.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/server/TokenCounterServer.java
+3/1/2022 12:33:40 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 12:32:01 PM	UNC-COMP533-Assignments/A3/src/comp533/controller at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/controller
+3/1/2022 12:33:39 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 12:32:06 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+3/1/2022 12:33:20 PM	UNC-COMP533-Assignments/TokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/TokenCounter.java
+3/1/2022 12:33:30 PM	UNC-COMP533-Assignments/RemoteTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/RemoteTokenCounter.java
+3/1/2022 12:40:50 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/site/~kaihao
+3/1/2022 12:40:53 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Overview	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3
+3/1/2022 12:40:54 PM		https://sakai.unc.edu/portal/tool/d4e2a194-f337-4548-beeb-17f0668455bc/synMainLite?time=1
+3/1/2022 12:41:07 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d
+3/1/2022 12:40:55 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Assignments	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/fd3941ba-2868-4eeb-b847-8122030cbd52
+3/1/2022 12:40:59 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Assignments	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/fd3941ba-2868-4eeb-b847-8122030cbd52?panel=Main
+3/1/2022 12:40:55 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Course Reserves	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/page/a635038d-56ad-465c-a153-fc5d6c49b25e
+3/1/2022 12:38:21 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 12:38:02 PM	UNC-COMP533-Assignments/A3/src/comp533/barrier at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/barrier
+3/1/2022 12:38:08 PM	UNC-COMP533-Assignments/A3/src/comp533/controller at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/controller
+3/1/2022 12:38:59 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 12:38:34 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+3/1/2022 12:39:00 PM	UNC-COMP533-Assignments/TokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/TokenCounter.java
+3/1/2022 12:38:50 PM	UNC-COMP533-Assignments/RemoteTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/RemoteTokenCounter.java
+3/1/2022 12:40:50 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?execution=e2s1
+3/1/2022 12:38:05 PM	UNC-COMP533-Assignments/A3/src/comp533/client at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/client
+3/1/2022 12:40:48 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZLJTsMwFEV%2FJfK%2BdaZCsZpIoV1QqUDUBBZskOM8iIVjBz%2BH4e9Jm1IVCXX97uB75AXyVnUs612jt%2FDeAzrvq1Ua2f6QkN5qZjhKZJq3gMwJVmS3GxZOfdZZ44wwingZIlgnjV4ajX0LtgD7IQU8bDcJaZzrkFGK%2FI3Laa%2FFFOqeFo2sKqPANVNEQ3ehIc3vi5J4q%2BEVUvNd3okbzdEr644O5S9SwcG4hVpaEI4WxT3x1quEPEdhfDGLRBzMOI8BoppHQRCJiFf%2BfLhdDTLEHtYaHdcuIaEfhhM%2FmvhBGVyy2Gfx%2FIl4%2BWHjtdS11K%2FngVSjCNlNWeaTccwjWNwPGQQkXeywsn2xPQF9Ppb%2F0iXp%2FyzxyHJBTwrGto7dDYnrVW6UFN9eppT5XFrgDhISEJqOlr9%2FIP0B&RelayState=ss%3Amem%3A8d07c4487b1d3552085bd58d9cd07a902437137eaf391e9282659a508d6f038b&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=pz5ahYLMH8TpXD%2B6saLDAL7WSj0o8Aq%2FroWXkSFxDk2lUhduu6U2NUukBk4KOdW2ua9xaJn9GzRBf4GZOTFof9SfvIMl51Dpp%2Ft%2FyU%2Bxvm0NTymuJtQBL%2FqEOCGxgLXvEj%2BzzrmPZTG7GIXq8mJIeAsOYXTaRvkv37ctXWrLkRKKp%2BIdhWSgOos6XMPpU2l8Bv7qlC1Q1h9lGOzH1C8rCuQybyMhPK0r5eIWVdJLqdJCZe50jONXhY7mcZHJMt3qI8yl%2BvnFIcPofv7ziBXUL5kSVrayrT3S9xQFDvVj3MHOnyRTmL2PCIBN2gUnMp7hha4eJ1hDyE0fzf2JG%2BM%2Fhg%3D%3D
+3/1/2022 12:40:59 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Assignments	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/fd3941ba-2868-4eeb-b847-8122030cbd52?assignmentReference=/assignment/a/8a5d6466-0389-4b28-a1b6-df761872a3c3/8f63eef6-c67b-4ed8-806a-1dc5c763ce6e&sakai_action=doView_submission
+3/1/2022 12:48:13 PM	COMP 533 (21 unread)	https://piazza.com/class/kxx594eo8fl3y2
+3/1/2022 12:49:57 PM	cnell7/UNC-COMP533-Assignments: Contains my solutions for the COMP533 Assignments	https://github.com/cnell7/UNC-COMP533-Assignments
+3/1/2022 12:49:56 PM	UNC-COMP533-Assignments/A2/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2/src
+3/1/2022 12:49:55 PM	UNC-COMP533-Assignments/A2/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2/src/comp533
+3/1/2022 12:49:53 PM	UNC-COMP533-Assignments/TokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A2/src/comp533/TokenCounter.java
+3/1/2022 12:49:45 PM	UNC-COMP533-Assignments/TokenCounterMVC.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A2/src/comp533/TokenCounterMVC.java
+3/1/2022 12:49:39 PM	UNC-COMP533-Assignments/A2/src/main at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2/src/main
+3/1/2022 12:49:59 PM	UNC-COMP533-Assignments/A3 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3
+3/1/2022 12:50:01 PM	UNC-COMP533-Assignments/A3/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src
+3/1/2022 12:50:54 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 12:50:57 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 12:50:58 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+3/1/2022 12:50:48 PM	UNC-COMP533-Assignments/A3/src/comp533/server at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/server
+3/1/2022 12:49:15 PM	UNC-COMP533-Assignments/MyMapReduceConfiguration.csv at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/MyMapReduceConfiguration.csv
+3/1/2022 12:50:38 PM	UNC-COMP533-Assignments/TokenCounterServer.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/server/TokenCounterServer.java
+3/1/2022 12:48:16 PM	COMP 533 (20 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=89
+3/1/2022 12:48:19 PM	COMP 533 (19 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=88
+3/1/2022 12:48:20 PM	COMP 533 (18 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=86
+3/1/2022 12:48:21 PM	COMP 533 (17 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=85
+3/1/2022 12:48:22 PM	COMP 533 (16 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=84
+3/1/2022 12:48:23 PM	COMP 533 (15 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=82
+3/1/2022 12:48:28 PM	COMP 533 (9 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=81
+3/1/2022 12:48:28 PM	COMP 533 (9 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=80
+3/1/2022 12:48:25 PM	COMP 533 (12 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=77
+3/1/2022 12:48:26 PM	COMP 533 (11 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=76
+3/1/2022 12:48:26 PM	COMP 533 (10 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=75
+3/1/2022 12:48:27 PM	COMP 533 (9 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=74
+3/1/2022 12:49:27 PM	UNC-COMP533-Assignments/A3/src/main at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/main
+3/1/2022 12:52:10 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 12:54:25 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 12:55:33 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+3/1/2022 12:54:01 PM	UNC-COMP533-Assignments/TokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/TokenCounter.java
+3/1/2022 12:52:10 PM	UNC-COMP533-Assignments/A3/src/comp533/server at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/server
+3/1/2022 12:51:51 PM	UNC-COMP533-Assignments/IntegerSummerServer.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/server/IntegerSummerServer.java
+3/1/2022 13:00:00 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 13:00:04 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 13:00:00 PM	UNC-COMP533-Assignments/A3/src/comp533/slave at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/slave
+3/1/2022 12:59:25 PM	UNC-COMP533-Assignments/TokenCounterSlave.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/slave/TokenCounterSlave.java
+3/1/2022 13:00:07 PM	UNC-COMP533-Assignments/RemoteTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/RemoteTokenCounter.java
+3/1/2022 13:04:51 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Overview	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1
+3/1/2022 13:04:52 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Assignments	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/6fdb19b7-0a65-4d5a-a320-8cc3c858c33a
+3/1/2022 13:04:53 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2
+3/1/2022 13:04:59 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2/jsf/index/mainIndex
+3/1/2022 13:04:49 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/deliverAssessment
+3/1/2022 13:05:00 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2/jsf/delivery/beginTakingAssessment
+3/1/2022 13:01:38 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 13:01:38 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 13:01:39 PM	UNC-COMP533-Assignments/A3/src/comp533/slave at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/slave
+3/1/2022 13:01:40 PM	UNC-COMP533-Assignments/TokenCounterSlave.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/slave/TokenCounterSlave.java
+3/1/2022 13:13:41 PM	cnell7/UNC-COMP533-Assignments: Contains my solutions for the COMP533 Assignments	https://github.com/cnell7/UNC-COMP533-Assignments
+3/1/2022 13:11:31 PM	Part 1 of 3: Simple Java RMI Tutorial - YouTube	https://www.youtube.com/watch?v=ILeAeFZOkMI
+3/1/2022 13:13:14 PM	UNC-COMP533-Assignments/.gitignore at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/.gitignore
+3/1/2022 13:13:40 PM	cnell7 (Christian Nell)	https://github.com/cnell7
+3/1/2022 13:13:27 PM	46611006 (460×460)	https://avatars.githubusercontent.com/u/46611006?v=4
+3/1/2022 13:13:33 PM	cnell7/Distributed-Systems-COMP533	https://github.com/cnell7/Distributed-Systems-COMP533
+3/1/2022 13:14:09 PM	Commits · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/commits?author=aaditkamat
+3/1/2022 13:15:33 PM	aaditkamat/UNC-COMP533-Assignments: Contains my solutions for the COMP533 Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments
+3/1/2022 13:14:26 PM	aaditkamat (Aadit Kamat)	https://github.com/aaditkamat
+3/1/2022 13:14:51 PM	aaditkamat (Aadit Kamat) / February 2022	https://github.com/aaditkamat?tab=overview&from=2022-02-01&to=2022-02-28
+3/1/2022 13:14:52 PM	aaditkamat (Aadit Kamat) / Repositories	https://github.com/aaditkamat?tab=repositories
+3/1/2022 13:15:07 PM	aaditkamat (Aadit Kamat) / Repositories	https://github.com/aaditkamat?after=Y3Vyc29yOnYyOpK5MjAyMS0xMC0xNFQxODo1NDo0MS0wNDowMM4Y4JPp&tab=repositories
+3/1/2022 13:15:21 PM	aaditkamat (Aadit Kamat) / Repositories	https://github.com/aaditkamat?after=Y3Vyc29yOnYyOpK5MjAyMC0xMC0wM1QwMzoxMjoyOC0wNDowMM4R7dHn&tab=repositories
+3/1/2022 13:18:03 PM	cfowlie/COMP533: COMP 533 Class Repo	https://github.com/cfowlie/COMP533
+3/1/2022 13:18:06 PM	comp533 unc assignment 2 github - Google ??	https://www.google.com/search?q=comp533+unc+assignment+2+github&rlz=1C1FQRR_enJP961__961&oq=comp533&aqs=chrome.1.69i57j69i59l3j0i10i19j69i60l3.5834j1j7&sourceid=chrome&ie=UTF-8
+3/1/2022 13:18:38 PM	Part 2 of 3: Simple Java RMI Tutorial - YouTube	https://www.youtube.com/watch?v=OjXTkgW0wDQ
+3/1/2022 13:24:22 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 13:24:24 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 13:24:28 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+3/1/2022 13:21:44 PM	Part 3 of 3: Simple Java RMI Tutorial - YouTube	https://www.youtube.com/watch?v=vkw275ptI3E
+3/1/2022 13:25:14 PM	java - Cannot be cast to class because they are in unnamed module of loader 'app' - Stack Overflow	https://stackoverflow.com/questions/54536895/cannot-be-cast-to-class-because-they-are-in-unnamed-module-of-loader-app
+3/1/2022 13:30:48 PM	UNC-COMP533-Assignments/A3 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3
+3/1/2022 13:30:50 PM	UNC-COMP533-Assignments/A3/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src
+3/1/2022 13:30:45 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 13:30:34 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 13:30:51 PM	UNC-COMP533-Assignments/MyMapReduceConfiguration.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/MyMapReduceConfiguration.java
+3/1/2022 14:24:22 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2/jsf/delivery/deliverAssessment
+3/1/2022 14:29:53 PM	UNC-COMP533-Assignments/A3/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src
+3/1/2022 14:29:54 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 14:30:04 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 14:30:05 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+3/1/2022 14:30:02 PM	UNC-COMP533-Assignments/RemoteTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/RemoteTokenCounter.java
+3/1/2022 14:41:59 PM	Search · user:pdewan AMapReduceTracer	https://github.com/search?q=user%3Apdewan+AMapReduceTracer
+3/1/2022 14:41:59 PM	Search · user:pdewan AMapReduceTracer	https://github.com/search?q=user%3Apdewan+AMapReduceTracer&type=code
+3/1/2022 14:42:15 PM	Search · user:pdewan AMapReduceTracer	https://github.com/search?p=2&q=user%3Apdewan+AMapReduceTracer&type=Code
+3/1/2022 14:42:37 PM	Comp533LocalChecks/AStandAloneTokenCountBarrierChecker.java at 27986f824561768655c8bcc0ce78168995a7e729 · pdewan/Comp533LocalChecks	https://github.com/pdewan/Comp533LocalChecks/blob/27986f824561768655c8bcc0ce78168995a7e729/src/gradingTools/comp533s19/assignment0/testcases/counts/standalone/barrier/AStandAloneTokenCountBarrierChecker.java
+3/1/2022 14:42:37 PM	Comp533LocalChecks/src/gradingTools/comp533s19/assignment0 at 27986f824561768655c8bcc0ce78168995a7e729 · pdewan/Comp533LocalChecks	https://github.com/pdewan/Comp533LocalChecks/tree/27986f824561768655c8bcc0ce78168995a7e729/src/gradingTools/comp533s19/assignment0
+3/1/2022 14:42:39 PM	Comp533LocalChecks/AMapReduceTracer.java at 27986f824561768655c8bcc0ce78168995a7e729 · pdewan/Comp533LocalChecks	https://github.com/pdewan/Comp533LocalChecks/blob/27986f824561768655c8bcc0ce78168995a7e729/src/gradingTools/comp533s19/assignment0/AMapReduceTracer.java
+3/1/2022 14:48:36 PM	static method in main class java - Google ??	https://www.google.com/search?q=static+method+in+main+class+java&rlz=1C1FQRR_enJP961__961&oq=static+method+in+main&aqs=chrome.1.69i57j0i19j0i19i30j0i5i19i30l7.4566j1j7&sourceid=chrome&ie=UTF-8
+3/1/2022 14:48:37 PM	Why the main () method in Java is always static?	https://www.tutorialspoint.com/why-the-main-method-in-java-is-always-static
+3/1/2022 14:54:16 PM	static method in main class java - Google ??	https://www.google.com/search?q=static+method+in+main+class+java&rlz=1C1FQRR_enJP961__961&oq=static+method+in+main&aqs=chrome.1.69i57j0i19j0i19i30j0i5i19i30l7.4566j1j7&sourceid=chrome&ie=UTF-8
+3/1/2022 14:54:22 PM	static private method in main class java - Google ??	https://www.google.com/search?q=static+private+method+in+main+class+java&rlz=1C1FQRR_enJP961__961&sxsrf=APq-WBvTt7_k8vaRu1vug6jb_e46ZamT6A%3A1646164114971&ei=kngeYv_XOrO40PEPv5aw8A4&ved=0ahUKEwj_6MGa16X2AhUzHDQIHT8LDO4Q4dUDCA4&uact=5&oq=static+private+method+in+main+class+java&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgjECc6BggAEAgQHjoECCEQCkoECEEYAEoECEYYAFDrBFjJEWCEFmgBcAF4AIABdogB0gaSAQMyLjaYAQCgAQHIAQrAAQE&sclient=gws-wiz
+3/1/2022 14:54:25 PM	Can we have a private method or private static method in an interface in Java 9?	https://www.tutorialspoint.com/can-we-have-a-private-method-or-private-static-method-in-an-interface-in-java-9
+3/1/2022 15:03:16 PM	rmi - Illegal remote method in java - Stack Overflow	https://stackoverflow.com/questions/4650161/illegal-remote-method-in-java
+3/1/2022 15:11:03 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+3/1/2022 15:11:00 PM	UNC-COMP533-Assignments/A3/src/comp533/controller at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/controller
+3/1/2022 15:10:19 PM	UNC-COMP533-Assignments/TokenCounterController.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/controller/TokenCounterController.java
+3/1/2022 15:10:13 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+3/1/2022 15:10:02 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+3/1/2022 15:11:08 PM	UNC-COMP533-Assignments/A3/src/comp533/server at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/server
+3/1/2022 15:11:09 PM	UNC-COMP533-Assignments/TokenCounterServer.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/server/TokenCounterServer.java
+3/1/2022 15:06:27 PM	connection error while invoking method — oracle-tech	https://community.oracle.com/tech/developers/discussion/1178513/connection-error-while-invoking-method
+3/1/2022 15:09:32 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient
+3/1/2022 15:09:43 PM	Search · user:cnell7 registerClient	https://github.com/users/cnell7/search?q=registerClient
+3/1/2022 15:09:59 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient
+3/1/2022 15:09:59 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=repositories
+3/1/2022 15:09:58 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=code
+3/1/2022 15:09:58 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=commits
+3/1/2022 15:09:58 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=issues
+3/1/2022 15:09:57 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=discussions
+3/1/2022 15:09:55 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=registrypackages
+3/1/2022 15:09:53 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=marketplace
+3/1/2022 15:09:53 PM	Search · user:cnell7 registerClient	https://github.com/search?q=user%3Acnell7+registerClient&type=topics
+3/1/2022 15:11:59 PM	UNC-COMP533-Assignments/TokenCounterServer.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/server/TokenCounterServer.java
+3/1/2022 15:12:11 PM	aaditkamat/UNC-COMP533-Assignments: Contains my solutions for the COMP533 Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments
+3/1/2022 15:11:58 PM	aaditkamat (Aadit Kamat)	https://github.com/aaditkamat
+3/1/2022 15:12:04 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient
+3/1/2022 15:11:41 PM	Search · user:cnell7 registerClient	https://github.com/users/cnell7/search?q=registerClient
+3/1/2022 15:11:30 PM	Search · registerClient	https://github.com/search?q=registerClient
+3/1/2022 15:11:50 PM	Search · user:aaditkamat registerClient	https://github.com/users/aaditkamat/search?q=registerClient
+3/1/2022 15:11:57 PM	Search · user:aaditkamat registerClient	https://github.com/search?q=user%3Aaaditkamat+registerClient
+3/1/2022 15:11:57 PM	Search · user:aaditkamat registerClient	https://github.com/search?q=user%3Aaaditkamat+registerClient&type=code
+3/1/2022 15:11:57 PM	Search · user:aaditkamat registerClient	https://github.com/search?q=user%3Aaaditkamat+registerClient&type=commits
+3/1/2022 15:11:56 PM	Search · user:aaditkamat registerClient	https://github.com/search?q=user%3Aaaditkamat+registerClient&type=issues
+3/1/2022 15:11:54 PM	Search · user:aaditkamat registerClient	https://github.com/search?q=user%3Aaaditkamat+registerClient&type=discussions
+3/1/2022 15:12:04 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=discussions
+3/1/2022 15:12:05 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=registrypackages
+3/1/2022 15:12:05 PM	Search · registerClient	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=registerClient&type=wikis
+3/1/2022 15:12:11 PM	UNC-COMP533-Assignments/A3 at master · aaditkamat/UNC-COMP533-Assignments	https://github.com/aaditkamat/UNC-COMP533-Assignments/tree/master/A3
+3/1/2022 15:20:19 PM	Lectures - Google ????	https://drive.google.com/drive/folders/14bIoaPQLNDP9Oxv1-LtgKhevNiICuqPr
+3/1/2022 15:18:36 PM	Part 3 of 3: Simple Java RMI Tutorial - YouTube	https://www.youtube.com/watch?v=vkw275ptI3E
+3/1/2022 15:20:59 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit?usp=drive_web&ouid=114322433157976347098&rtpof=true
+3/1/2022 15:20:59 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit?rtpof=true
+3/1/2022 15:21:01 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit
+3/1/2022 15:21:01 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p1
+3/1/2022 15:21:02 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p2
+3/1/2022 15:21:02 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p3
+3/1/2022 15:21:03 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p5
+3/1/2022 15:21:06 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p6
+3/1/2022 15:21:07 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p7
+3/1/2022 15:21:08 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p8
+3/1/2022 15:21:09 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p9
+3/1/2022 15:21:10 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p12
+3/1/2022 15:21:10 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p15
+3/1/2022 15:21:11 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p18
+3/1/2022 15:21:12 PM	T10-RemoteAssignment-2-IPC.pptx - Google ???	https://docs.google.com/presentation/d/1k1aJYmZ-bC0n2B7A3h_wYy58MYg6t_e-/edit#slide=id.p22
+3/1/2022 15:29:51 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/ng/course/63
+3/1/2022 15:35:44 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/site/~kaihao
+3/1/2022 15:35:48 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1
+3/1/2022 15:35:51 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2/jsf/index/mainIndex
+3/1/2022 15:31:36 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/ng/course/63
+3/1/2022 15:35:53 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2/jsf/delivery/beginTakingAssessment
+3/1/2022 15:35:45 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/site/~kaihao#
+3/1/2022 15:31:37 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7396/queue#/staff/course/63/event/7396
+3/1/2022 15:31:37 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7396/queue#/staff/course/63/event/7396?_k=hkwjtu
+3/1/2022 15:39:58 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Gradebook	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1
+3/1/2022 15:37:41 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Assignments	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/6fdb19b7-0a65-4d5a-a320-8cc3c858c33a
+3/1/2022 15:40:09 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3
+3/1/2022 15:39:56 PM	Sakai @ UNC-Chapel Hill : COMP431.001.SP22 : Announcements	https://sakai.unc.edu/portal/site/b1714593-3c6e-4e18-8293-be32478ef213
+3/1/2022 15:40:09 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d
+3/1/2022 15:40:11 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/index/mainIndex
+3/1/2022 15:40:13 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/beginTakingAssessment
+3/1/2022 15:39:26 PM		https://idcs-b9d99f99ccc84342b77c130f617b6067.identity.oraclecloud.com/oauth2/v1/authorize?client_id=e5ac1f8f99f34a82bc4712e98b107e6e&response_type=code&redirect_uri=https://ereg.ets.org/oauth/callback&domain=&&state=https%3A%2F%2Fereg.ets.org%2Fereg%2Fhome%3F_p%3DGRI&scope=etsWG_EREG_test_taker_extetsWG_EREG_test_taker_ext%20openid
+3/1/2022 15:37:37 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2
+3/1/2022 15:37:34 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2/jsf/delivery/deliverAssessment
+3/1/2022 15:37:36 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/tool/bccd2ab9-dce1-42ad-8c74-b96c5250f0b2/jsf/delivery/confirmSubmit
+3/1/2022 15:37:37 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/page/2f7412fd-2aa0-43b6-8582-0568f0804025
+3/1/2022 15:37:39 PM	Sakai @ UNC-Chapel Hill : COMP533.001.SP22 : Panopto	https://sakai.unc.edu/portal/site/85a5fe43-6f9a-4650-b9b0-ad54401fbda1/page/0a0206df-0864-470c-8eab-0ac377ca2272
+3/1/2022 15:43:37 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Resources	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/e2505cde-3191-49de-885b-f0bcc61fdab1
+3/1/2022 15:45:33 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Panopto	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/page/c08137cd-521f-4391-a98b-739ae694026c
+3/1/2022 15:43:22 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Gradebook	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/46a1761a-8c37-4afb-b315-5fef181b5e56
+3/1/2022 15:43:13 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d
+3/1/2022 15:43:17 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/index/mainIndex
+3/1/2022 15:45:26 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/ng/course/63
+3/1/2022 15:43:02 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Resources	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/e2505cde-3191-49de-885b-f0bcc61fdab1#
+3/1/2022 15:43:02 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Resources	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/e2505cde-3191-49de-885b-f0bcc61fdab1?panel=Main
+3/1/2022 15:42:59 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/deliverAssessment
+3/1/2022 15:43:39 PM	lesson4.pdf	https://sakai.unc.edu/access/content/group/8a5d6466-0389-4b28-a1b6-df761872a3c3/Slides/lesson4.pdf
+3/1/2022 15:45:28 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7396/queue#/staff/course/63/event/7396
+3/1/2022 15:43:06 PM	lesson5.pdf	https://sakai.unc.edu/access/content/group/8a5d6466-0389-4b28-a1b6-df761872a3c3/Slides/lesson5.pdf
+3/1/2022 15:45:28 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7396/queue#/staff/course/63/event/7396?_k=wvwo8s
+3/1/2022 15:52:29 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d
+3/1/2022 15:52:31 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/index/mainIndex
+3/1/2022 15:52:40 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/beginTakingAssessment
+3/1/2022 16:04:36 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7396/queue#/staff/course/63/event/7396?_k=wvwo8s
+3/1/2022 16:20:30 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7396/queue#/staff/course/63/event/7396?_k=wvwo8s
+3/1/2022 17:03:04 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Resources	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/e2505cde-3191-49de-885b-f0bcc61fdab1
+3/1/2022 17:03:12 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Panopto	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/page/c08137cd-521f-4391-a98b-739ae694026c
+3/1/2022 17:02:58 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/deliverAssessment
+3/1/2022 17:02:54 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/confirmSubmit
+3/1/2022 17:03:07 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Poll Everywhere	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/page/9b4cbcd1-1820-4f64-afdc-da28ac4f5309?sakai.popup=yes
+3/1/2022 17:03:08 PM	Log In | Poll Everywhere	https://sakai.unc.edu/access/basiclti/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/content:58369
+3/1/2022 17:18:57 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d
+3/1/2022 17:18:59 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/index/mainIndex
+3/1/2022 17:19:01 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/beginTakingAssessment
+3/1/2022 17:18:54 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Assignments	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/fd3941ba-2868-4eeb-b847-8122030cbd52
+3/1/2022 17:28:00 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/deliverAssessment
+3/1/2022 17:37:06 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/deliverAssessment
+3/1/2022 19:50:21 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/deliverAssessment
+3/1/2022 19:53:30 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Panopto	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/page/c08137cd-521f-4391-a98b-739ae694026c
+3/1/2022 19:52:07 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Assignments	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/fd3941ba-2868-4eeb-b847-8122030cbd52
+3/1/2022 19:52:06 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/deliverAssessment
+3/1/2022 20:01:19 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Resources	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/e2505cde-3191-49de-885b-f0bcc61fdab1
+3/1/2022 20:03:20 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Panopto	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/page/c08137cd-521f-4391-a98b-739ae694026c
+3/1/2022 20:01:22 PM	lesson5.pdf	https://sakai.unc.edu/access/content/group/8a5d6466-0389-4b28-a1b6-df761872a3c3/Slides/lesson5.pdf
+3/1/2022 20:23:14 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d
+3/1/2022 20:23:24 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/index/mainIndex
+3/1/2022 20:23:25 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/beginTakingAssessment
+3/1/2022 20:35:50 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Gradebook	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/46a1761a-8c37-4afb-b315-5fef181b5e56
+3/1/2022 20:36:02 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d
+3/1/2022 20:35:41 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/deliverAssessment
+3/1/2022 20:35:43 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/tool/09ed0739-f321-4a8e-ac7a-656d8cfe250d/jsf/delivery/confirmSubmit
+3/1/2022 20:35:44 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Tests & Quizzes	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3/page/6ca5e31f-82b6-4604-b025-400015623784
+3/2/2022 12:24:39 PM	Sakai @ UNC-Chapel Hill : Home : Overview	https://sakai.unc.edu/portal/site/~kaihao
+3/2/2022 12:24:38 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1
+3/2/2022 12:24:42 PM	Sakai @ UNC-Chapel Hill : ASTR101.001.SP22 : Overview	https://sakai.unc.edu/portal/site/8a5d6466-0389-4b28-a1b6-df761872a3c3
+3/2/2022 12:24:43 PM		https://sakai.unc.edu/portal/tool/d4e2a194-f337-4548-beeb-17f0668455bc/synMainLite?time=1
+3/2/2022 12:24:37 PM	UNC-Chapel Hill Single Sign-On	https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZJda4MwFIb%2FiuS%2BRm2xa6iCay9W6Fapbhe7GVGPMywmLifu49%2FP1q50MAqBXOT9OOchS%2BSt7FjS20bt4b0HtM5XKxWy40NEeqOY5iiQKd4CMluyLLnfssD1WGe01aWWxEkQwVih1Uor7FswGZgPUcLjfhuRxtoOGaXI37hwe1W6UPU0a0RRaAm2cRE1PYQGNN1lOXHWwxRC8UPehRv12Suqjg7ltZBwMu6hEgZKS7NsR5zNOiIv9azyQx%2FqWTHcQXgzL7w6XAxnUZVzny8GGWIPG4WWKxuRwAuCiTedeEHuz1kwY9PwmTjpacdboSqhXq8DKUYRsrs8TyfjMk9g8LjIICDx8oCVHYvNBejrsfyXLon%2FZ4lnlkt6UTC2dexhSNysUy1F%2Be0kUurPlQFuISI%2BofFo%2BfsH4h8%3D&RelayState=ss%3Amem%3A8bdfb89de3e573597a12b2ac84339367c969e9b17f60f814c9d6cec60a854dbf&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=fWhhyMmR14zxGjQ7LZA10Kol5jKaVnyhO%2F0nxRlLoZZyoIvzhemvaRHEcaDVcbLZjQkO5s7TEHVP%2FS%2BkNv0zWizpqbOJoMEyDl7WW8bGQpfM6nJ%2FhZVwp%2Bgq69NLlr84xAsMLW5eiRfAk00cQTzi2E6oN4L5UZIEPD0hMb3L7ovA74Nt7IHOfHbzOTFaZPxcYiyOtD5IS2FEu9JLFXC55TSb5JSupA65xvPekHuZDdFKbf%2F%2FHwRnVGk4WlCd%2BSBL%2BYpHbl%2FveNFBmozr5H520BROE1SDKV2yTrTOA0fjM5zVIjcnof%2FWVgvQ5sCm633bXkgW8%2BjMr7YE3rhdGez%2FGg%3D%3D
+3/2/2022 13:11:16 PM	COMP 550 Spring 2022	https://comp550.cs.unc.edu/
+3/2/2022 13:09:39 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/ng/course/63
+3/2/2022 13:09:41 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7398/queue#/staff/course/63/event/7398
+3/2/2022 13:09:42 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7398/queue#/staff/course/63/event/7398?_k=3oen3n
+3/2/2022 13:11:15 PM		https://sso.unc.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=fZJdb4IwFIb%2FCum9lMJQ1ggJ04uZuGmE7WI3C5TjaAIt6yn7%2BPdDcc7deN3347xPOseibTqe9rZWO3jvAa3z1TYK%2BfEhJr1RXBcokauiBeRW8Cx9WHPf9XhntNVCN8RJEcFYqdVCK%2BxbMBmYDyngabeOSW1th5xSodsuDD1XoNsr4ULV06yWZakbsLWLqOkh2afbTZYTZzmcIlVxCP2LGERnr6w6Olywlw2cjDuopAFhaZZtiLNaxuRVMD%2FYz6LyhpUs2BdQTb2ZH8AsrKIomt6Ggwyxh5VCWygbE9%2Fz%2FYkXTDw%2FZxFnjLPwhTjb09A7qSqp3q5TKUcR8vs8307GMc9g8DhkEJBkfmDLj8Xmgvb12OIXMUmuAMUz0Dm9aBkrO%2F44xK6WW91I8e2kTaM%2FFwYKCzFhhCaj5f9vSH4A&RelayState=ss%3Amem%3A8e61ac7b6aa07b39d0b95366c9ce20ba339fffd833c1f1dc4a3ba8a34f402f05&SigAlg=http%3A%2F%2Fwww.w3.org%2F2001%2F04%2Fxmldsig-more%23rsa-sha256&Signature=a%2BTbIKmSN4XWz74LCRj6RzJrTnBbJGLtuQDM050cCZ%2BOl2z5%2B98SJXKeb6rBUvxtYK2EAQIY1RKzy90sGohtUfLspsBGUOSaMuYtJ08TJgnPI7oPGXb3orsW6ThNX6o0wh3iZCQI%2BcmzK93Yr8Eb6Yk6ixysBk1WilyP%2BjcN1m45ywO0bLh89tqoYdcgClOgqZqMJVqzU3OjOEMTiGOvBRKi2i2jw%2BraSkv6ka2DxUqa5xjG4O0FiIzZpvcrIrsq8LoHmN0Pq2H9xxqeTn4RREsGcDbIa3YLOKHoBrFnmLSREbkwIppvLKGSfw%2Ba71%2BoD6H6KZOLGwnN8T3Z83VSbVUQOKchNbBKu3smv4PhkzqCnR%2BGcjQuGR42UsKi8oPkKwUrzOykA9IWXOn6gtV8T3Haf6t2fvkMLjIwExQr3t2kC6PUoF2X4gXoQ1Xff2Ytdc5fM%2FLckuThB9GzMV%2Bv709Lez6M29r9eOxIi5heDBHOJtto9fNVdQbCl%2BoGNYRf
+3/2/2022 13:11:38 PM	03 Homework Chapter 9 and Chapter 15	https://comp550.cs.unc.edu/homeworks/homework-03-select
+3/2/2022 18:10:00 PM	COMP 550 - Algorithms & Analysis - Course.Care	https://course.care/course/63/event/7398/queue#/staff/course/63/event/7398?_k=3oen3n

@@ -1,0 +1,34 @@
+	<module name="ClassDefined">
+		<property name="severity" value="info"/>
+		<property name="expectedTypes" value="
+			@GreetingMain,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@GreetingMain"/>
+		<property name="expectedSignatures" value="
+			main:String[]->.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@GreetingMain"/>
+		<property name="expectedSignatures" value="
+			main:String[]->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@GreetingMain"/>
+		<property name="expectedCalls" value="
+			java.io.PrintStream!println:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@GreetingMain"/>
+		<property name="expectedCalls" value="
+			java.io.PrintStream!println:*->.*,
+		"/>
+	</module>

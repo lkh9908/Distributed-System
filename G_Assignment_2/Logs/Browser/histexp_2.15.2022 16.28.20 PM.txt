@@ -1,0 +1,56 @@
+2/15/2022 16:37:33 PM	Welcome	https://comp523.cs.unc.edu/
+2/15/2022 16:38:08 PM		https://www.cs.unc.edu/~dewan/533/current/index.html
+2/15/2022 16:37:53 PM	comp533 unc assignment 2 - Google ??	https://www.google.com/search?q=comp533+unc+assignment+2&rlz=1C1FQRR_enJP961__961&sxsrf=APq-WBu32wV-aU3TfvtAm2W3huTavIRcGQ%3A1644961045002&ei=FB0MYtLNPJm4qtsPoZK8gAE&ved=0ahUKEwjSp4a21YL2AhUZnGoFHSEJDxAQ4dUDCA4&uact=5&oq=comp533+unc+assignment+2&gs_lcp=Cgdnd3Mtd2l6EAMyBwghEAoQoAEyBwghEAoQoAE6BAgjECc6BQghEKABSgQIQRgBSgQIRhgAUM8iWORIYNJKaAVwAHgAgAHPAYgB6w6SAQY0LjExLjGYAQCgAQHAAQE&sclient=gws-wiz
+2/15/2022 16:38:01 PM	1-Introduction -S17.pdf	http://www.cs.unc.edu/~dewan/734/current/lectures/1-Introduction%20-S17.pdf
+2/15/2022 16:40:38 PM	cnell7/UNC-COMP533-Assignments: Contains my solutions for the COMP533 Assignments	https://github.com/cnell7/UNC-COMP533-Assignments
+2/15/2022 16:40:38 PM	UNC-COMP533-Assignments/A2/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2/src/comp533
+2/15/2022 16:38:25 PM		https://www.cs.unc.edu/~dewan/533/current/index.html
+2/15/2022 16:38:21 PM	Java RMI: Part 1 - YouTube	http://www.youtube.com/watch?v=AMLH32EWdf4&list=PLH5XTBxCO2hwqSGO7vuV8Ewy4J-79jDaW&index=6
+2/15/2022 16:38:23 PM	Java RMI: Part 1 - YouTube	https://www.youtube.com/watch?v=AMLH32EWdf4&list=PLH5XTBxCO2hwqSGO7vuV8Ewy4J-79jDaW&index=7
+2/15/2022 16:38:57 PM	comp533 unc assignment 2 - Google ??	https://www.google.com/search?q=comp533+unc+assignment+2&rlz=1C1FQRR_enJP961__961&sxsrf=APq-WBv7YnExZc0OKhQl3Jc3h4eBjb2FUA:1644961072167&ei=MB0MYq6hCeGlqtsPnKKziAQ&start=10&sa=N&ved=2ahUKEwiu-f_C1YL2AhXhkmoFHRzRDEEQ8tMDegQIARA-&biw=767&bih=704&dpr=1.25
+2/15/2022 16:40:39 PM	UNC-COMP533-Assignments/A3 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3
+2/15/2022 16:40:41 PM	UNC-COMP533-Assignments/A3/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src
+2/15/2022 16:43:03 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+2/15/2022 16:42:30 PM	UNC-COMP533-Assignments/A3/src/comp533/joiner at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/joiner
+2/15/2022 16:41:00 PM	UNC-COMP533-Assignments/TokenCounterJoiner.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/joiner/TokenCounterJoiner.java
+2/15/2022 16:42:25 PM	UNC-COMP533-Assignments/Joiner.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/joiner/Joiner.java
+2/15/2022 16:43:02 PM	UNC-COMP533-Assignments/A3/src/comp533/barrier at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/barrier
+2/15/2022 16:42:35 PM	UNC-COMP533-Assignments/TokenCounterBarrier.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/barrier/TokenCounterBarrier.java
+2/15/2022 16:43:05 PM	UNC-COMP533-Assignments/A3/src/comp533/controller at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/controller
+2/15/2022 16:43:07 PM	UNC-COMP533-Assignments/TokenCounterController.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/controller/TokenCounterController.java
+2/15/2022 16:46:46 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+2/15/2022 16:44:02 PM	UNC-COMP533-Assignments/A3/src/comp533/joiner at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/joiner
+2/15/2022 16:43:59 PM	UNC-COMP533-Assignments/A3/src/comp533/controller at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/controller
+2/15/2022 16:44:04 PM	UNC-COMP533-Assignments/A3/src/comp533/keyvalue at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/keyvalue
+2/15/2022 16:44:23 PM	UNC-COMP533-Assignments/A3/src/comp533/mapper at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mapper
+2/15/2022 16:44:09 PM	UNC-COMP533-Assignments/TokenCounterMapper.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mapper/TokenCounterMapper.java
+2/15/2022 16:45:01 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+2/15/2022 16:44:30 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+2/15/2022 16:44:39 PM	UNC-COMP533-Assignments/TokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/TokenCounter.java
+2/15/2022 16:45:56 PM	UNC-COMP533-Assignments/A3/src/comp533/partitioner at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/partitioner
+2/15/2022 16:45:05 PM	UNC-COMP533-Assignments/TokenCounterPartitioner.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/partitioner/TokenCounterPartitioner.java
+2/15/2022 16:46:40 PM	UNC-COMP533-Assignments/A3/src/comp533/reducer at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/reducer
+2/15/2022 16:46:07 PM	UNC-COMP533-Assignments/TokenCounterReducer.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/reducer/TokenCounterReducer.java
+2/15/2022 16:46:43 PM	UNC-COMP533-Assignments/A3/src/comp533/server at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/server
+2/15/2022 16:46:49 PM	UNC-COMP533-Assignments/A3/src/comp533/slave at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/slave
+2/15/2022 16:52:06 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+2/15/2022 16:52:35 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+2/15/2022 16:52:38 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+2/15/2022 16:52:17 PM	UNC-COMP533-Assignments/TokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/TokenCounter.java
+2/15/2022 16:52:06 PM	UNC-COMP533-Assignments/A3/src/comp533/slave at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/slave
+2/15/2022 16:49:57 PM	UNC-COMP533-Assignments/TokenCounterSlave.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/slave/TokenCounterSlave.java
+2/15/2022 17:12:13 PM	UNC-COMP533-Assignments/A3/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+2/15/2022 17:12:11 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+2/15/2022 21:08:56 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533
+2/15/2022 21:09:01 PM	UNC-COMP533-Assignments/A3/src/comp533/mvc at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A3/src/comp533/mvc
+2/15/2022 21:09:26 PM	UNC-COMP533-Assignments/DistributedTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/DistributedTokenCounter.java
+2/15/2022 21:08:59 PM	UNC-COMP533-Assignments/RemoteTokenCounter.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A3/src/comp533/mvc/RemoteTokenCounter.java
+2/15/2022 21:09:25 PM	Search · partial	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=partial
+2/15/2022 21:09:23 PM	Search · partialReduce	https://github.com/cnell7/UNC-COMP533-Assignments/search?q=partialReduce
+2/15/2022 21:33:54 PM	Map put() Method in Java with Examples - GeeksforGeeks	https://www.geeksforgeeks.org/map-put-method-in-java-with-examples/
+2/15/2022 21:41:10 PM	Map.prototype.get() - JavaScript | MDN	https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map/get
+2/15/2022 21:41:14 PM	Map get() method in Java with Examples - GeeksforGeeks	https://www.geeksforgeeks.org/map-get-method-in-java-with-examples/
+2/15/2022 21:47:10 PM	print everything in array java - Google ??	https://www.google.com/search?q=print+everything+in+array+java&rlz=1C1FQRR_enJP961__961&oq=print+everything+in+array&aqs=chrome.2.0i19j69i57j0i19l2j0i19i30j0i5i19i30.6855j0j4&sourceid=chrome&ie=UTF-8
+2/15/2022 21:47:10 PM	What's the simplest way to print a Java array? - Stack Overflow	https://stackoverflow.com/questions/409784/whats-the-simplest-way-to-print-a-java-array
+2/15/2022 22:03:07 PM	list.clear java - Google ??	https://www.google.com/search?q=list.clear+java&rlz=1C1FQRR_enJP961__961&sxsrf=APq-WBv3WHHg6uNw7XoO5PQ1OuV9qnVJZw%3A1644980579610&ei=Y2kMYvbYJOeZlwTY_rqIDQ&ved=0ahUKEwi2lvCYnoP2AhXnzIUKHVi_DtEQ4dUDCA4&uact=5&oq=list.clear+java&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEMsBMgQIABAeMgQIABAeMgYIABAFEB4yCAgAEAUQChAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjoHCAAQRxCwAzoFCAAQgARKBAhBGABKBAhGGABQ5ANYqwxghA1oAXABeACAAZUBiAHWA5IBAzEuM5gBAKABAcgBCsABAQ&sclient=gws-wiz
+2/15/2022 22:03:08 PM	List clear() method in Java with Examples - GeeksforGeeks	https://www.geeksforgeeks.org/list-clear-method-in-java-with-examples/

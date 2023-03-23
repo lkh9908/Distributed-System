@@ -1,0 +1,19 @@
+<Events startTimestamp="1644947536441" logVersion="1.0.0.202108012048">
+  <Command __id="4474" _type="PauseCommand" date="Tue Feb 15 15:41:19 EST 2022" range="2s-5s" starttimestamp="1644947536441" timestamp="10142786">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ExportCommand]]></prev>
+    <pause><![CDATA[4722]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[ProgramExecutionEvent]]></next>
+  </Command>
+  <Command __id="4473" _type="ProgramExecutionEvent" className="/533Assignment2/src/comp533/RunSpring22Assignment2Tests.java" date="Tue Feb 15 15:41:19 EST 2022" kind="HitBreakPoint" projectName="533Assignment2" starttimestamp="1644947536441" timestamp="10142786" type="Run" />
+  <Command __id="4475" _type="ProgramExecutionEvent" className="/533Assignment2/src/comp533/RunSpring22Assignment2Tests.java" date="Tue Feb 15 15:41:19 EST 2022" kind="HitBreakPoint" projectName="533Assignment2" starttimestamp="1644947536441" timestamp="10142786" type="Run" />
+  <Command __id="4477" _type="PauseCommand" date="Tue Feb 15 15:41:28 EST 2022" range="5s-10s" starttimestamp="1644947536441" timestamp="10152219">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ProgramExecutionEvent]]></prev>
+    <pause><![CDATA[9433]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="4476" _type="ShellCommand" date="Tue Feb 15 15:41:28 EST 2022" starttimestamp="1644947536441" timestamp="10152219" type="ECLIPSE_LOST_FOCUS" />
+</Events>

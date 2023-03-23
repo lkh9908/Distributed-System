@@ -1,0 +1,1159 @@
+	<module name="ClassDefined">
+		<property name="severity" value="info"/>
+		<property name="expectedTypes" value="
+			@ReducerClass,
+			@ModelClass,
+			@SlaveClass,
+			@MapperFactory,
+			@ViewClass,
+			@ReducerFactory,
+			@TokenCountingMapperClass,
+			@StandAloneTokenCounter,
+			@PartitionerFactory,
+			@JoinerClass,
+			@KeyValueClass,
+			@ControllerClass,
+			@IntSummingMapperClass,
+			@IntSummingMapperClass+@TokenCountingMapperClass,
+			@StandAloneIntegerSummer,
+			@BarrierClass,
+			@PartitionerClass,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="expectedProperties" value="
+			Partitioner:@PartitionerClass,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="expectedProperties" value="
+			Partitioner:@PartitionerClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="expectedProperties" value="
+			Partitioner:@PartitionerClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="expectedProperties" value="
+			Partitioner:@PartitionerClass,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="instantiations" value="
+			comp533.partitioner.TokenCounterPartitioner,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="instantiations" value="
+			comp533.partitioner.TokenCounterPartitioner,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="expectedProperties" value="
+			Mapper:@TokenCountingMapperClass,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="expectedProperties" value="
+			Mapper:@TokenCountingMapperClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="expectedProperties" value="
+			Mapper:@TokenCountingMapperClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="expectedProperties" value="
+			Mapper:@TokenCountingMapperClass,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="instantiations" value="
+			comp533.mapper.Mapper,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="instantiations" value="
+			comp533.mapper.Mapper,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedCalls" value="
+			@ModelClass!interruptThreads:->void,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass!setInputString:String;@ViewClass->void,
+			@ControllerClass!getUserInput:@ModelClass;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass!setNumThreads:int;@ViewClass->void,
+			@ControllerClass!setNumThreads:int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedCalls" value="
+			@ModelClass!interruptThreads:->void,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass!setInputString:String;@ViewClass->void,
+			@ControllerClass!getUserInput:@ModelClass;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass!setNumThreads:int;@ViewClass->void,
+			@ControllerClass!setNumThreads:int->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*QUIT.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			printNotification:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			printNotification:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!tracePropertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!tracePropertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*VIEW.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			finished:->void,
+			join:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			finished:->void,
+			join:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerWaitEnd:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerRelease:Object;int;int->void,
+			util.trace.Tracer!error:String->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerWaitStart:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerFinishedTask:Object;int;int->void,
+			java.lang.Object!wait:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerWaitEnd:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerRelease:Object;int;int->void,
+			util.trace.Tracer!error:String->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerWaitStart:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerFinishedTask:Object;int;int->void,
+			java.lang.Object!wait:->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*JOINER.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			map:String->@KeyValueClass,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			map:String->@KeyValueClass,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Integer!parseInt:String->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceMap:Object;Object->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Integer!parseInt:String->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceMap:Object;Object->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*INT_SUMMING_MAPPER.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedInterfaces" value="
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedInterfaces" value="
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedSignatures" value="
+			signalQuit:->void,
+			splitBoundedBuffer:->java.util.List,
+			run:->void,
+			toString:->String,
+			notifySlave:->void,
+			reduceList:@ReducerClass->java.util.Map,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedSignatures" value="
+			signalQuit:->void,
+			splitBoundedBuffer:->java.util.List,
+			run:->void,
+			toString:->String,
+			notifySlave:->void,
+			reduceList:@ReducerClass->java.util.Map,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedCalls" value="
+			@ReducerFactory!getReducer:->@ReducerClass,
+			@KeyValueClass!getValue:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			@KeyValueClass!getKey:*->.*,
+			java.lang.Character!isLetter:*->.*,
+			@ModelClass!getResult:->java.util.Map,
+			@BarrierClass!barrier:->void,
+			java.util.List!add:Object->boolean,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			java.lang.Character!toLowerCase:*->.*,
+			java.util.List!size:->int,
+			java.util.Arrays!toString:*->.*,
+			@ModelClass!getReductionQueueList:->java.util.List,
+			java.util.List!get:int->Object,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceAddedToMap:Object;Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceDequeueRequest:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedWait:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!tracePartitionAssigned:Object;Object;int;int->void,
+			util.trace.Tracer!error:String->void,
+			@ModelClass!getBarrier:->@BarrierClass,
+			@ModelClass!getJoiner:->@JoinerClass,
+			@ModelClass!getKeyValueQueue:->java.util.concurrent.BlockingQueue,
+			java.lang.Math!ceil:double->double,
+			java.io.PrintStream!println:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceDequeue:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceSplitAfterBarrier:int;Object->void,
+			java.util.Map!entrySet:->.*,
+			java.lang.Math!floor:double->double,
+			@ReducerClass!reduce:java.util.List->java.util.Map,
+			@JoinerClass!finished:->void,
+			java.util.concurrent.BlockingQueue!take:->Object,
+			@PartitionerFactory!getPartitioner:->@PartitionerClass,
+			@PartitionerClass!getPartition:String;Integer;int->int,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedCalls" value="
+			@ReducerFactory!getReducer:->@ReducerClass,
+			@KeyValueClass!getValue:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			@KeyValueClass!getKey:*->.*,
+			java.lang.Character!isLetter:*->.*,
+			@ModelClass!getResult:->java.util.Map,
+			@BarrierClass!barrier:->void,
+			java.util.List!add:Object->boolean,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			java.lang.Character!toLowerCase:*->.*,
+			java.util.List!size:->int,
+			java.util.Arrays!toString:*->.*,
+			@ModelClass!getReductionQueueList:->java.util.List,
+			java.util.List!get:int->Object,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceAddedToMap:Object;Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceDequeueRequest:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedWait:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!tracePartitionAssigned:Object;Object;int;int->void,
+			util.trace.Tracer!error:String->void,
+			@ModelClass!getBarrier:->@BarrierClass,
+			@ModelClass!getJoiner:->@JoinerClass,
+			@ModelClass!getKeyValueQueue:->java.util.concurrent.BlockingQueue,
+			java.lang.Math!ceil:double->double,
+			java.io.PrintStream!println:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceDequeue:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceSplitAfterBarrier:int;Object->void,
+			java.util.Map!entrySet:->.*,
+			java.lang.Math!floor:double->double,
+			@ReducerClass!reduce:java.util.List->java.util.Map,
+			@JoinerClass!finished:->void,
+			java.util.concurrent.BlockingQueue!take:->Object,
+			@PartitionerFactory!getPartitioner:->@PartitionerClass,
+			@PartitionerClass!getPartition:String;Integer;int->int,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@SlaveClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*SLAVE.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedSignatures" value="
+			barrier:->void,
+			toString:->String,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedSignatures" value="
+			barrier:->void,
+			toString:->String,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Object!notifyAll:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierWaitEnd:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierWaitStart:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierReleaseAll:Object;int;int->void,
+			util.trace.Tracer!error:String->void,
+			java.lang.Object!wait:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Object!notifyAll:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierWaitEnd:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierWaitStart:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierReleaseAll:Object;int;int->void,
+			util.trace.Tracer!error:String->void,
+			java.lang.Object!wait:->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*BARRIER.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerClass"/>
+		<property name="expectedSignatures" value="
+			reduce:java.util.List->java.util.Map,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerClass"/>
+		<property name="expectedSignatures" value="
+			reduce:java.util.List->java.util.Map,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerClass"/>
+		<property name="expectedCalls" value="
+			java.util.Map!put:Object;Object->Object,
+			java.io.PrintStream!println:*->.*,
+			@KeyValueClass!getValue:*->.*,
+			java.util.Map!containsKey:Object->boolean,
+			@KeyValueClass!getKey:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceReduce:Object;Object->void,
+			java.util.Map!get:Object->Object,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerClass"/>
+		<property name="expectedCalls" value="
+			java.util.Map!put:Object;Object->Object,
+			java.io.PrintStream!println:*->.*,
+			@KeyValueClass!getValue:*->.*,
+			java.util.Map!containsKey:Object->boolean,
+			@KeyValueClass!getKey:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceReduce:Object;Object->void,
+			java.util.Map!get:Object->Object,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedProperties" value="
+			NumThreads:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedProperties" value="
+			NumThreads:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			getUserInput:@ModelClass;@ViewClass->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			getUserInput:@ModelClass;@ViewClass->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedCalls" value="
+			@ModelClass!interruptThreads:->void,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass!setInputString:String;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass!setNumThreads:int;@ViewClass->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedCalls" value="
+			@ModelClass!interruptThreads:->void,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass!setInputString:String;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass!setNumThreads:int;@ViewClass->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedReferences" value="
+			getUserInput:@ModelClass;@ViewClass->void#.*QUIT.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*CONTROLLER.*,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="expectedProperties" value="
+			Reducer:@ReducerClass,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="expectedProperties" value="
+			Reducer:@ReducerClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="expectedProperties" value="
+			Reducer:@ReducerClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="expectedProperties" value="
+			Reducer:@ReducerClass,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="instantiations" value="
+			comp533.reducer.Reducer,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="instantiations" value="
+			comp533.reducer.Reducer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			getPartition:String;Integer;int->int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			getPartition:String;Integer;int->int,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Character!toLowerCase:*->.*,
+			java.lang.Character!isLetter:*->.*,
+			java.lang.Math!floor:double->double,
+			java.lang.Math!ceil:double->double,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Character!toLowerCase:*->.*,
+			java.lang.Character!isLetter:*->.*,
+			java.lang.Math!floor:double->double,
+			java.lang.Math!ceil:double->double,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*PARTITIONER.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedProperties" value="
+			ReductionQueueListForTest:java.util.List,
+			NumThreads:int,
+			Joiner:@JoinerClass,
+			KeyValueQueueForTest:java.util.concurrent.BlockingQueue,
+			KeyValueQueue:java.util.concurrent.BlockingQueue,
+			ReductionQueueList:java.util.List,
+			InputString:String,
+			Barrier:@BarrierClass,
+			Result:java.util.Map,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedProperties" value="
+			ReductionQueueListForTest:java.util.List,
+			NumThreads:int,
+			Joiner:@JoinerClass,
+			KeyValueQueueForTest:java.util.concurrent.BlockingQueue,
+			KeyValueQueue:java.util.concurrent.BlockingQueue,
+			ReductionQueueList:java.util.List,
+			InputString:String,
+			Barrier:@BarrierClass,
+			Result:java.util.Map,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedProperties" value="
+			NumThreads:int,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedProperties" value="
+			NumThreads:int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedSignatures" value="
+			endEnqueue:->void,
+			toString:->String,
+			terminate:->void,
+			clearReductionQueues:->void,
+			unblockSlaveThreads:->void,
+			setInputString:String;@ViewClass->void,
+			setNumThreads:int;@ViewClass->void,
+			updateInputString:String;@ViewClass->void,
+			interruptThreads:->void,
+			updateThreads:->void,
+			startThreads:->void,
+			produceBoundedBuffer:@KeyValueClass->void,
+			updateResult:@ViewClass->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			initializeStructures:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedSignatures" value="
+			endEnqueue:->void,
+			toString:->String,
+			terminate:->void,
+			clearReductionQueues:->void,
+			unblockSlaveThreads:->void,
+			setInputString:String;@ViewClass->void,
+			setNumThreads:int;@ViewClass->void,
+			updateInputString:String;@ViewClass->void,
+			interruptThreads:->void,
+			updateThreads:->void,
+			startThreads:->void,
+			produceBoundedBuffer:@KeyValueClass->void,
+			updateResult:@ViewClass->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			initializeStructures:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedCalls" value="
+			java.util.concurrent.ConcurrentLinkedQueue!clear:->void,
+			@ViewClass!printNotification:java.beans.PropertyChangeEvent->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerCreated:Object;int->void,
+			@KeyValueClass!getValue:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			java.util.Map!containsKey:Object->boolean,
+			@KeyValueClass!getKey:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceEnqueue:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceEnqueueRequest:Object->void,
+			java.util.List!add:Object->boolean,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			java.util.concurrent.BlockingQueue!put:Object->void,
+			@IntSummingMapperClass+@TokenCountingMapperClass!map:String->@KeyValueClass,
+			java.util.Map!get:Object->Object,
+			@SlaveClass!notifySlave:->void,
+			java.util.List!get:int->Object,
+			java.util.Map!put:Object;Object->Object,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceAddedToMap:Object;Object->void,
+			util.trace.Tracer!error:String->void,
+			java.beans.PropertyChangeSupport!firePropertyChange:java.beans.PropertyChangeEvent->void,
+			java.lang.Thread!getState:->State,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			@SlaveClass!signalQuit:->void,
+			java.lang.Thread!start:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierCreated:Object;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!tracePropertyChange:java.beans.PropertyChangeEvent->void,
+			@JoinerClass!join:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedCalls" value="
+			java.util.concurrent.ConcurrentLinkedQueue!clear:->void,
+			@ViewClass!printNotification:java.beans.PropertyChangeEvent->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerCreated:Object;int->void,
+			@KeyValueClass!getValue:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			java.util.Map!containsKey:Object->boolean,
+			@KeyValueClass!getKey:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceEnqueue:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceEnqueueRequest:Object->void,
+			java.util.List!add:Object->boolean,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			java.util.concurrent.BlockingQueue!put:Object->void,
+			@IntSummingMapperClass+@TokenCountingMapperClass!map:String->@KeyValueClass,
+			java.util.Map!get:Object->Object,
+			@SlaveClass!notifySlave:->void,
+			java.util.List!get:int->Object,
+			java.util.Map!put:Object;Object->Object,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceAddedToMap:Object;Object->void,
+			util.trace.Tracer!error:String->void,
+			java.beans.PropertyChangeSupport!firePropertyChange:java.beans.PropertyChangeEvent->void,
+			java.lang.Thread!getState:->State,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			@SlaveClass!signalQuit:->void,
+			java.lang.Thread!start:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierCreated:Object;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!tracePropertyChange:java.beans.PropertyChangeEvent->void,
+			@JoinerClass!join:->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			initializeStructures:->void#.*BUFFER_SIZE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			startThreads:->void#.*NEW.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			updateResult:@ViewClass->void#.*NEW.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			updateResult:@ViewClass->void#.*BUFFER_SIZE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			setInputString:String;@ViewClass->void#.*NEW.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			setInputString:String;@ViewClass->void#.*BUFFER_SIZE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*MODEL.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="instantiations" value="
+			java.beans.PropertyChangeSupport,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="instantiations" value="
+			java.beans.PropertyChangeSupport,
+		"/>
+	</module>
+	<module name="ClassIsGeneric">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@KeyValueClass"/>
+	</module>
+	<module name="ClassIsGeneric">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@KeyValueClass"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@KeyValueClass"/>
+		<property name="expectedProperties" value="
+			Value:TypeParam1,
+			Key:TypeParam0,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@KeyValueClass"/>
+		<property name="expectedProperties" value="
+			Value:TypeParam1,
+			Key:TypeParam0,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@KeyValueClass"/>
+		<property name="expectedProperties" value="
+			Value:TypeParam1,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@KeyValueClass"/>
+		<property name="expectedProperties" value="
+			Value:TypeParam1,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@KeyValueClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@KeyValueClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedCalls" value="
+			@ModelClass!interruptThreads:->void,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass!setInputString:String;@ViewClass->void,
+			@ControllerClass!getUserInput:@ModelClass;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass!setNumThreads:int;@ViewClass->void,
+			@ControllerClass!setNumThreads:int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedCalls" value="
+			@ModelClass!interruptThreads:->void,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass!setInputString:String;@ViewClass->void,
+			@ControllerClass!getUserInput:@ModelClass;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass!setNumThreads:int;@ViewClass->void,
+			@ControllerClass!setNumThreads:int->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*QUIT.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@TokenCountingMapperClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@TokenCountingMapperClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@TokenCountingMapperClass"/>
+		<property name="expectedSignatures" value="
+			map:String->@KeyValueClass,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@TokenCountingMapperClass"/>
+		<property name="expectedSignatures" value="
+			map:String->@KeyValueClass,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@TokenCountingMapperClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceMap:Object;Object->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@TokenCountingMapperClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceMap:Object;Object->void,
+		"/>
+	</module>

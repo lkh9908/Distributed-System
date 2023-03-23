@@ -1,0 +1,2 @@
+3/15/2022 22:51:31 PM	java rmi everything server no client - Google ??	https://www.google.com/search?q=java+rmi+everything+server+no+client&rlz=1C1FQRR_enJP961__961&oq=java+rmi+everything+server+no+client&aqs=chrome..69i57j33i160l2.14406j0j4&sourceid=chrome&ie=UTF-8
+3/15/2022 22:51:52 PM	Java RMI server to client communication not working - Stack Overflow	https://stackoverflow.com/questions/44912840/java-rmi-server-to-client-communication-not-working

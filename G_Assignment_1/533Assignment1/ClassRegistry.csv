@@ -1,0 +1,16 @@
+comp533.controller.TokenCounterController,ControllerClass
+comp533.mapper.SumMapper,IntSummingMapperClass
+comp533.mapper.MapperInterface,IntSummingMapperClass
+comp533.keyValue.KeyValue,KeyValueClass
+comp533.keyValue.KeyValueInterface,KeyValueClass
+comp533.mapper.MapperFactory,MapperFactory
+comp533.model.TokenCounterModel,ModelClass
+comp533.model.ModelInterface,ModelClass
+comp533.reducer.Reducer,ReducerClass
+comp533.reducer.ReducerInterface,ReducerClass
+comp533.reducer.ReducerFactory,ReducerFactory
+comp533.SumMain,StandAloneIntegerSummer
+comp533.MvcTokenCounter,StandAloneTokenCounter
+comp533.mapper.Mapper,TokenCountingMapperClass
+comp533.mapper.MapperInterface,TokenCountingMapperClass
+comp533.view.TokenCounterView,ViewClass

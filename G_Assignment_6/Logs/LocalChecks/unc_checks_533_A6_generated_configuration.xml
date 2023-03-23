@@ -1,0 +1,2028 @@
+	<module name="ClassDefined">
+		<property name="severity" value="info"/>
+		<property name="expectedTypes" value="
+			@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO,
+			@DistributedTags.NIO+@DistributedTags.READ_THREAD_INTERFACE,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC,
+			@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO,
+			@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI,
+			@DistributedTags.REGISTRY+@DistributedTags.RMI,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.SERVER+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO,
+			@DistributedTags.NIO+@DistributedTags.CLIENT_READ_THREAD,
+			@DistributedTags.NIO+@DistributedTags.SERVER_READ_THREAD,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC,
+			@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO,
+			@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO,
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.SERVER_READ_THREAD"/>
+		<property name="expectedInterfaces" value="
+			utilRead.ReadThreadInterface,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.SERVER_READ_THREAD"/>
+		<property name="expectedInterfaces" value="
+			utilRead.ReadThreadInterface,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.SERVER_READ_THREAD"/>
+		<property name="expectedSignatures" value="
+			run:->.*,
+			notifyThread:->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.SERVER_READ_THREAD"/>
+		<property name="expectedSignatures" value="
+			run:->.*,
+			notifyThread:->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.SERVER_READ_THREAD"/>
+		<property name="expectedCalls" value="
+			java.util.List!equals:*->.*,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.nio.ByteBuffer!array:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.net.InetAddress!equals:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.lang.Object!wait:->void,
+			java.nio.ByteBuffer!equals:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			inputport.nio.manager.NIOManager!write:java.nio.channels.SocketChannel;java.nio.ByteBuffer;inputport.nio.manager.listeners.SocketChannelWriteListener[]->void,
+			java.io.PrintStream!println:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!parseInt:String->int,
+			java.util.concurrent.ArrayBlockingQueue!take:->Object,
+			java.lang.Object!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			java.lang.Object!notify:->void,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.MiscAssignmentUtils!deepDuplicate:java.nio.ByteBuffer->ByteBuffer,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.SERVER_READ_THREAD"/>
+		<property name="expectedCalls" value="
+			java.util.List!equals:*->.*,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.nio.ByteBuffer!array:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.net.InetAddress!equals:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.lang.Object!wait:->void,
+			java.nio.ByteBuffer!equals:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			inputport.nio.manager.NIOManager!write:java.nio.channels.SocketChannel;java.nio.ByteBuffer;inputport.nio.manager.listeners.SocketChannelWriteListener[]->void,
+			java.io.PrintStream!println:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!parseInt:String->int,
+			java.util.concurrent.ArrayBlockingQueue!take:->Object,
+			java.lang.Object!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			java.lang.Object!notify:->void,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.MiscAssignmentUtils!deepDuplicate:java.nio.ByteBuffer->ByteBuffer,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!start:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!start:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			util.trace.trickOrTreat.LocalCommandObserved!newCase:Object;String->LocalCommandObserved,
+			java.util.List!equals:*->.*,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.net.InetAddress!equals:*->.*,
+			java.nio.ByteBuffer!equals:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			java.beans.PropertyChangeEvent!getPropertyName:->String,
+			java.beans.PropertyChangeEvent!getNewValue:->Object,
+			java.net.InetSocketAddress!equals:*->.*,
+			java.lang.Enum!equals:*->.*,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			util.trace.trickOrTreat.LocalCommandObserved!newCase:Object;String->LocalCommandObserved,
+			java.util.List!equals:*->.*,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.net.InetAddress!equals:*->.*,
+			java.nio.ByteBuffer!equals:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			java.beans.PropertyChangeEvent!getPropertyName:->String,
+			java.beans.PropertyChangeEvent!getNewValue:->Object,
+			java.net.InetSocketAddress!equals:*->.*,
+			java.lang.Enum!equals:*->.*,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.REGISTRY+@DistributedTags.RMI"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.REGISTRY+@DistributedTags.RMI"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.REGISTRY+@DistributedTags.RMI"/>
+		<property name="expectedCalls" value="
+			assignments.util.mainArgs.RegistryArgsProcessor!getRegistryPort:String[]->int,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			java.util.Scanner!nextLine:->String,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.REGISTRY+@DistributedTags.RMI"/>
+		<property name="expectedCalls" value="
+			assignments.util.mainArgs.RegistryArgsProcessor!getRegistryPort:String[]->int,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			java.util.Scanner!nextLine:->String,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			quit:int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			quit:int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			java.lang.System!exit:int->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			java.lang.System!exit:int->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			fakeMethodThree:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI;int->void,
+			registerClientRMI:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			processArgs:String[]->void,
+			fakeMethodFour:String;boolean->void,
+			broadcastIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int;boolean->void,
+			createGIPCRegistry:->void,
+			start:String[]->void,
+			fakeMethod:String;String->void,
+			fakeMethodFive:String;util.interactiveMethodInvocation.IPCMechanism->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int->void,
+			fakeMethodTwo:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClient:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClientGIPC:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			fakeMethodThree:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI;int->void,
+			registerClientRMI:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			processArgs:String[]->void,
+			fakeMethodFour:String;boolean->void,
+			broadcastIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int;boolean->void,
+			createGIPCRegistry:->void,
+			start:String[]->void,
+			fakeMethod:String;String->void,
+			fakeMethodFive:String;util.interactiveMethodInvocation.IPCMechanism->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int->void,
+			fakeMethodTwo:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClient:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClientGIPC:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!quit:int->void,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:*->.*,
+			inputport.rpc.GIPCLocateRegistry!createRegistry:int->GIPCRegistry,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryHost:String[]->String,
+			inputport.rpc.GIPCRegistry!addConnectionListener:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getGIPCServerPort:String[]->int,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!trace:boolean->void,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			java.util.List!size:->int,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!inCoupler:String;int->void,
+			java.nio.ByteBuffer!equals:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			inputport.rpc.GIPCRegistry!getInputPort:->.*,
+			java.io.PrintStream!println:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getNIOServerPort:String[]->int,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!inCoupler:String;int->void,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!quit:int->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			util.trace.port.consensus.ProposalMade!newCase:*->.*,
+			inputport.rpc.GIPCRegistry!rebind:String;Object->void,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			java.util.List!isEmpty:->boolean,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryPort:String[]->int,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			util.trace.port.PortTraceUtility!setTracing:->void,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			util.trace.port.rpc.gipc.GIPCRegistryCreated!newCase:Object;int->GIPCRegistryCreated,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!quit:int->void,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:*->.*,
+			inputport.rpc.GIPCLocateRegistry!createRegistry:int->GIPCRegistry,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryHost:String[]->String,
+			inputport.rpc.GIPCRegistry!addConnectionListener:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getGIPCServerPort:String[]->int,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!trace:boolean->void,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			java.util.List!size:->int,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!inCoupler:String;int->void,
+			java.nio.ByteBuffer!equals:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			inputport.rpc.GIPCRegistry!getInputPort:->.*,
+			java.io.PrintStream!println:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getNIOServerPort:String[]->int,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!inCoupler:String;int->void,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!quit:int->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			util.trace.port.consensus.ProposalMade!newCase:*->.*,
+			inputport.rpc.GIPCRegistry!rebind:String;Object->void,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			java.util.List!isEmpty:->boolean,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryPort:String[]->int,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			util.trace.port.PortTraceUtility!setTracing:->void,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			util.trace.port.rpc.gipc.GIPCRegistryCreated!newCase:Object;int->GIPCRegistryCreated,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="instantiations" value="
+			java.util.ArrayList,
+			java.util.ArrayList,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="instantiations" value="
+			java.util.ArrayList,
+			java.util.ArrayList,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedInterfaces" value="
+			inputport.nio.manager.listeners.SocketChannelAcceptListener,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			inputport.nio.manager.listeners.SocketChannelWriteListener,
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedInterfaces" value="
+			inputport.nio.manager.listeners.SocketChannelAcceptListener,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			inputport.nio.manager.listeners.SocketChannelWriteListener,
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value="
+			SocketChannel:java.nio.channels.SocketChannel,
+			BoundedBuffer:java.util.concurrent.ArrayBlockingQueue,
+			SocketList:java.util.List,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value="
+			SocketChannel:java.nio.channels.SocketChannel,
+			BoundedBuffer:java.util.concurrent.ArrayBlockingQueue,
+			SocketList:java.util.List,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			written:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			fakeMethodThree:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI;int->void,
+			registerClientRMI:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			setFactories:->void,
+			processArgs:String[]->void,
+			fakeMethodFour:String;boolean->void,
+			broadcastIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int;boolean->void,
+			createGIPCRegistry:->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			start:String[]->void,
+			fakeMethod:String;String->void,
+			fakeMethodFive:String;util.interactiveMethodInvocation.IPCMechanism->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int->void,
+			socketChannelAccepted:java.nio.channels.ServerSocketChannel;java.nio.channels.SocketChannel->void,
+			fakeMethodTwo:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClient:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClientGIPC:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			written:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			fakeMethodThree:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI;int->void,
+			registerClientRMI:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			setFactories:->void,
+			processArgs:String[]->void,
+			fakeMethodFour:String;boolean->void,
+			broadcastIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int;boolean->void,
+			createGIPCRegistry:->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			start:String[]->void,
+			fakeMethod:String;String->void,
+			fakeMethodFive:String;util.interactiveMethodInvocation.IPCMechanism->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int->void,
+			socketChannelAccepted:java.nio.channels.ServerSocketChannel;java.nio.channels.SocketChannel->void,
+			fakeMethodTwo:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClient:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClientGIPC:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!quit:int->void,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:*->.*,
+			inputport.rpc.GIPCLocateRegistry!createRegistry:int->GIPCRegistry,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryHost:String[]->String,
+			inputport.rpc.GIPCRegistry!addConnectionListener:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			inputport.nio.manager.NIOManagerFactory!getSingleton:->NIOManager,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getGIPCServerPort:String[]->int,
+			java.nio.Buffer!position:->int,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			util.trace.port.nio.SocketChannelBound!newCase:Object;java.nio.channels.spi.AbstractSelectableChannel;java.net.InetSocketAddress->SocketChannelBound,
+			java.net.InetSocketAddress!equals:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!trace:boolean->void,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			java.util.List!size:->int,
+			java.nio.channels.ServerSocketChannel!socket:->.*,
+			assignments.util.MiscAssignmentUtils!deepDuplicate:java.nio.ByteBuffer->ByteBuffer,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!broadcastIPCMechanism:*->.*,
+			inputport.nio.manager.NIOManager!enableListenableAccepts:java.nio.channels.ServerSocketChannel;Integer;inputport.nio.manager.listeners.SocketChannelAcceptListener[]->void,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.nio.ByteBuffer!equals:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			inputport.nio.manager.NIOManager!write:java.nio.channels.SocketChannel;java.nio.ByteBuffer;inputport.nio.manager.listeners.SocketChannelWriteListener[]->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			inputport.rpc.GIPCRegistry!getInputPort:->.*,
+			java.io.PrintStream!println:*->.*,
+			java.nio.channels.ServerSocketChannel!bind:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getNIOServerPort:String[]->int,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!inCoupler:String;int->void,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:*->.*,
+			java.nio.ByteBuffer!array:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!quit:int->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			java.nio.channels.ServerSocketChannel!open:->ServerSocketChannel,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			util.trace.port.consensus.ProposalMade!newCase:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			inputport.rpc.GIPCRegistry!rebind:String;Object->void,
+			java.lang.Thread!setName:String->void,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			java.util.List!isEmpty:->boolean,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			inputport.nio.manager.NIOManager!addReadListener:java.nio.channels.SocketChannel;inputport.nio.manager.listeners.SocketChannelReadListener->void,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryPort:String[]->int,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			@DistributedTags.NIO+@DistributedTags.READ_THREAD_INTERFACE!notifyThread:->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			java.lang.System!setProperty:String;String->String,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			util.trace.port.PortTraceUtility!setTracing:->void,
+			java.lang.Thread!start:->void,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			inputport.nio.manager.factories.selectors.AcceptCommandFactorySelector!setFactory:inputport.nio.manager.factories.AcceptCommandFactory->void,
+			util.trace.port.rpc.gipc.GIPCRegistryCreated!newCase:Object;int->GIPCRegistryCreated,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!quit:int->void,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:*->.*,
+			inputport.rpc.GIPCLocateRegistry!createRegistry:int->GIPCRegistry,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryHost:String[]->String,
+			inputport.rpc.GIPCRegistry!addConnectionListener:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			inputport.nio.manager.NIOManagerFactory!getSingleton:->NIOManager,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getGIPCServerPort:String[]->int,
+			java.nio.Buffer!position:->int,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			util.trace.port.nio.SocketChannelBound!newCase:Object;java.nio.channels.spi.AbstractSelectableChannel;java.net.InetSocketAddress->SocketChannelBound,
+			java.net.InetSocketAddress!equals:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!trace:boolean->void,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			java.util.List!size:->int,
+			java.nio.channels.ServerSocketChannel!socket:->.*,
+			assignments.util.MiscAssignmentUtils!deepDuplicate:java.nio.ByteBuffer->ByteBuffer,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!broadcastIPCMechanism:*->.*,
+			inputport.nio.manager.NIOManager!enableListenableAccepts:java.nio.channels.ServerSocketChannel;Integer;inputport.nio.manager.listeners.SocketChannelAcceptListener[]->void,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.nio.ByteBuffer!equals:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			inputport.nio.manager.NIOManager!write:java.nio.channels.SocketChannel;java.nio.ByteBuffer;inputport.nio.manager.listeners.SocketChannelWriteListener[]->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			inputport.rpc.GIPCRegistry!getInputPort:->.*,
+			java.io.PrintStream!println:*->.*,
+			java.nio.channels.ServerSocketChannel!bind:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getNIOServerPort:String[]->int,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!inCoupler:String;int->void,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:*->.*,
+			java.nio.ByteBuffer!array:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!quit:int->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			java.nio.channels.ServerSocketChannel!open:->ServerSocketChannel,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			util.trace.port.consensus.ProposalMade!newCase:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			inputport.rpc.GIPCRegistry!rebind:String;Object->void,
+			java.lang.Thread!setName:String->void,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			java.util.List!isEmpty:->boolean,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			inputport.nio.manager.NIOManager!addReadListener:java.nio.channels.SocketChannel;inputport.nio.manager.listeners.SocketChannelReadListener->void,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryPort:String[]->int,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			@DistributedTags.NIO+@DistributedTags.READ_THREAD_INTERFACE!notifyThread:->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			java.lang.System!setProperty:String;String->String,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			util.trace.port.PortTraceUtility!setTracing:->void,
+			java.lang.Thread!start:->void,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			inputport.nio.manager.factories.selectors.AcceptCommandFactorySelector!setFactory:inputport.nio.manager.factories.AcceptCommandFactory->void,
+			util.trace.port.rpc.gipc.GIPCRegistryCreated!newCase:Object;int->GIPCRegistryCreated,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedReferences" value="
+			setFactories:->void#.*OP_READ.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="instantiations" value="
+			java.util.ArrayList,
+			java.util.ArrayList,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="instantiations" value="
+			java.util.ArrayList,
+			java.util.ArrayList,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedInterfaces" value="
+			inputport.nio.manager.listeners.SocketChannelConnectListener,
+			inputport.nio.manager.listeners.SocketChannelWriteListener,
+			inputport.nio.manager.listeners.SocketChannelAcceptListener,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedInterfaces" value="
+			inputport.nio.manager.listeners.SocketChannelConnectListener,
+			inputport.nio.manager.listeners.SocketChannelWriteListener,
+			inputport.nio.manager.listeners.SocketChannelAcceptListener,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value="
+			BoundedBuffer:java.util.concurrent.ArrayBlockingQueue,
+			CommandProcessor:stringProcessors.HalloweenCommandProcessor,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value="
+			BoundedBuffer:java.util.concurrent.ArrayBlockingQueue,
+			CommandProcessor:stringProcessors.HalloweenCommandProcessor,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			written:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			createSimulation:String->stringProcessors.HalloweenCommandProcessor,
+			setFactories:->void,
+			processArgs:String[]->void,
+			localProcessingOnly:boolean->void,
+			broadcastMetaState:boolean->void,
+			connected:java.nio.channels.SocketChannel->void,
+			inCoupler:String;int->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			init:String[]->void,
+			nioInit:String[]->void,
+			quit:int->void,
+			changeIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			simulationCommand:String->void,
+			socketChannelAccepted:java.nio.channels.ServerSocketChannel;java.nio.channels.SocketChannel->void,
+			simulateCommand:String->void,
+			makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			notConnected:java.nio.channels.SocketChannel;Exception->void,
+			getSingleton:->void,
+			atomicBroadcast:boolean->void,
+			argumentProcessor:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			written:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			createSimulation:String->stringProcessors.HalloweenCommandProcessor,
+			setFactories:->void,
+			processArgs:String[]->void,
+			localProcessingOnly:boolean->void,
+			broadcastMetaState:boolean->void,
+			connected:java.nio.channels.SocketChannel->void,
+			inCoupler:String;int->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			init:String[]->void,
+			nioInit:String[]->void,
+			quit:int->void,
+			changeIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			simulationCommand:String->void,
+			socketChannelAccepted:java.nio.channels.ServerSocketChannel;java.nio.channels.SocketChannel->void,
+			simulateCommand:String->void,
+			makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			notConnected:java.nio.channels.SocketChannel;Exception->void,
+			getSingleton:->void,
+			atomicBroadcast:boolean->void,
+			argumentProcessor:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!registerClientRMI:*->.*,
+			inputport.nio.manager.factories.selectors.ConnectCommandFactorySelector!setFactory:inputport.nio.manager.factories.ConnectCommandFactory->void,
+			inputport.nio.manager.NIOManagerFactory!getSingleton:->NIOManager,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getNIOServerPort:String[]->int,
+			java.util.EventObject!toString:*->.*,
+			java.net.InetSocketAddress!toString:*->.*,
+			util.trace.port.rpc.gipc.GIPCObjectLookedUp!newCase:Object;Object;Class;String;inputport.rpc.GIPCRegistry->GIPCObjectLookedUp,
+			java.lang.Thread!toString:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			assignments.util.MiscAssignmentUtils!deepDuplicate:java.nio.ByteBuffer->ByteBuffer,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!broadcastIPCMechanism:*->.*,
+			java.util.Scanner!toString:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			java.nio.channels.SocketChannel!open:->SocketChannel,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!registerClientRMI:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.nio.ByteBuffer!equals:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			inputport.rpc.GIPCRegistry!lookup:Class;String->Object,
+			inputport.nio.manager.NIOManager!write:java.nio.channels.SocketChannel;java.nio.ByteBuffer;inputport.nio.manager.listeners.SocketChannelWriteListener[]->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!registerClientRMI:*->.*,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!registerClientGIPC:*->.*,
+			java.io.PrintStream!println:*->.*,
+			java.nio.ByteBuffer!toString:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getGIPCPort:String[]->int,
+			java.net.InetAddress!getByName:String->InetAddress,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!registerClientGIPC:*->.*,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!broadcastIPCMechanism:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			java.lang.Object!toString:*->.*,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!registerClientRMI:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			java.lang.Enum!toString:*->.*,
+			java.lang.Thread!setName:String->void,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			inputport.nio.manager.NIOManager!connect:java.nio.channels.SocketChannel;java.net.InetAddress;int;Integer;inputport.nio.manager.listeners.SocketChannelConnectListener[]->void,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			java.util.List!isEmpty:->boolean,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			java.lang.Integer!toString:*->.*,
+			inputport.nio.manager.NIOManager!addReadListener:java.nio.channels.SocketChannel;inputport.nio.manager.listeners.SocketChannelReadListener->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			java.nio.ByteBuffer!wrap:.*->ByteBuffer,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!broadcastIPCMechanism:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			@DistributedTags.NIO+@DistributedTags.READ_THREAD_INTERFACE!notifyThread:->void,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			java.net.InetAddress!toString:*->.*,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			java.io.PrintStream!print:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			java.lang.System!setProperty:String;String->String,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!registerClientGIPC:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			inputport.rpc.GIPCLocateRegistry!getRegistry:String;int;String->GIPCRegistry,
+			java.lang.Thread!start:->void,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			java.lang.Enum!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.lang.Integer!equals:*->.*,
+			@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!broadcastIPCMechanism:*->.*,
+			java.util.AbstractList!equals:*->.*,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!registerClientGIPC:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!registerClientRMI:*->.*,
+			inputport.nio.manager.factories.selectors.ConnectCommandFactorySelector!setFactory:inputport.nio.manager.factories.ConnectCommandFactory->void,
+			inputport.nio.manager.NIOManagerFactory!getSingleton:->NIOManager,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getNIOServerPort:String[]->int,
+			java.util.EventObject!toString:*->.*,
+			java.net.InetSocketAddress!toString:*->.*,
+			util.trace.port.rpc.gipc.GIPCObjectLookedUp!newCase:Object;Object;Class;String;inputport.rpc.GIPCRegistry->GIPCObjectLookedUp,
+			java.lang.Thread!toString:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			assignments.util.MiscAssignmentUtils!deepDuplicate:java.nio.ByteBuffer->ByteBuffer,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!broadcastIPCMechanism:*->.*,
+			java.util.Scanner!toString:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			java.nio.channels.SocketChannel!open:->SocketChannel,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!registerClientRMI:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.nio.ByteBuffer!equals:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			inputport.rpc.GIPCRegistry!lookup:Class;String->Object,
+			inputport.nio.manager.NIOManager!write:java.nio.channels.SocketChannel;java.nio.ByteBuffer;inputport.nio.manager.listeners.SocketChannelWriteListener[]->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!registerClientRMI:*->.*,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!registerClientGIPC:*->.*,
+			java.io.PrintStream!println:*->.*,
+			java.nio.ByteBuffer!toString:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getGIPCPort:String[]->int,
+			java.net.InetAddress!getByName:String->InetAddress,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!registerClientGIPC:*->.*,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!broadcastIPCMechanism:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			java.lang.Object!toString:*->.*,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!registerClientRMI:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			java.lang.Enum!toString:*->.*,
+			java.lang.Thread!setName:String->void,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			inputport.nio.manager.NIOManager!connect:java.nio.channels.SocketChannel;java.net.InetAddress;int;Integer;inputport.nio.manager.listeners.SocketChannelConnectListener[]->void,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			java.util.List!isEmpty:->boolean,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			java.lang.Integer!toString:*->.*,
+			inputport.nio.manager.NIOManager!addReadListener:java.nio.channels.SocketChannel;inputport.nio.manager.listeners.SocketChannelReadListener->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			java.nio.ByteBuffer!wrap:.*->ByteBuffer,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!broadcastIPCMechanism:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			@DistributedTags.NIO+@DistributedTags.READ_THREAD_INTERFACE!notifyThread:->void,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			java.net.InetAddress!toString:*->.*,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			java.io.PrintStream!print:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			java.lang.System!setProperty:String;String->String,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!registerClientGIPC:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			inputport.rpc.GIPCLocateRegistry!getRegistry:String;int;String->GIPCRegistry,
+			java.lang.Thread!start:->void,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			java.lang.Enum!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.lang.Integer!equals:*->.*,
+			@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!broadcastIPCMechanism:*->.*,
+			java.util.AbstractList!equals:*->.*,
+			@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!registerClientGIPC:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedReferences" value="
+			nioInit:String[]->void#.*OP_READ.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			java.io.PrintStream!println:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			java.io.PrintStream!println:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			fakeMethodThree:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI;int->void,
+			registerClientRMI:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			processArgs:String[]->void,
+			fakeMethodFour:String;boolean->void,
+			createGIPCRegistry:->void,
+			broadcastIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int;boolean->void,
+			start:String[]->void,
+			fakeMethod:String;String->void,
+			fakeMethodFive:String;util.interactiveMethodInvocation.IPCMechanism->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int->void,
+			registerClient:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			fakeMethodTwo:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClientGIPC:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			fakeMethodThree:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI;int->void,
+			registerClientRMI:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			processArgs:String[]->void,
+			fakeMethodFour:String;boolean->void,
+			createGIPCRegistry:->void,
+			broadcastIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int;boolean->void,
+			start:String[]->void,
+			fakeMethod:String;String->void,
+			fakeMethodFive:String;util.interactiveMethodInvocation.IPCMechanism->void,
+			broadcast:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC;int->void,
+			registerClient:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			fakeMethodTwo:String;@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			registerClientGIPC:@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryHost:String[]->String,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getGIPCServerPort:String[]->int,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!trace:boolean->void,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!inCoupler:String;int->void,
+			java.nio.ByteBuffer!equals:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			java.io.PrintStream!println:*->.*,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!quit:int->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			util.trace.port.consensus.ProposalMade!newCase:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryPort:String[]->int,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			java.lang.System!setProperty:String;String->String,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			util.trace.port.PortTraceUtility!setTracing:->void,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryHost:String[]->String,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getGIPCServerPort:String[]->int,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!trace:boolean->void,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!inCoupler:String;int->void,
+			java.nio.ByteBuffer!equals:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			java.io.PrintStream!println:*->.*,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations!quit:int->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			util.trace.port.consensus.ProposalMade!newCase:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:*->.*,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryPort:String[]->int,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			java.lang.System!setProperty:String;String->String,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			util.trace.port.PortTraceUtility!setTracing:->void,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="instantiations" value="
+			java.util.ArrayList,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="instantiations" value="
+			java.util.ArrayList,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.SERVER+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.SERVER+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.SERVER+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!start:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO+@DistributedTags.SERVER+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!start:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			quit:int->void,
+			createSimulation:String->stringProcessors.HalloweenCommandProcessor,
+			changeIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			simulationCommand:String->void,
+			makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			localProcessingOnly:boolean->void,
+			processArgs:String[]->void,
+			broadcastMetaState:boolean->void,
+			argumentProcessor:String[]->void,
+			inCoupler:String;int->void,
+			init:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			quit:int->void,
+			createSimulation:String->stringProcessors.HalloweenCommandProcessor,
+			changeIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			simulationCommand:String->void,
+			makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			localProcessingOnly:boolean->void,
+			processArgs:String[]->void,
+			broadcastMetaState:boolean->void,
+			argumentProcessor:String[]->void,
+			inCoupler:String;int->void,
+			init:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.util.EventObject!toString:*->.*,
+			java.net.InetSocketAddress!toString:*->.*,
+			util.trace.port.rpc.gipc.GIPCObjectLookedUp!newCase:Object;Object;Class;String;inputport.rpc.GIPCRegistry->GIPCObjectLookedUp,
+			java.lang.Thread!toString:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			java.util.Scanner!toString:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.nio.ByteBuffer!equals:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			inputport.rpc.GIPCRegistry!lookup:Class;String->Object,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			java.nio.ByteBuffer!toString:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getGIPCPort:String[]->int,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!registerClientGIPC:*->.*,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.lang.Object!toString:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!registerClientRMI:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			java.lang.Enum!toString:*->.*,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			java.lang.Integer!toString:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!broadcastIPCMechanism:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			java.net.InetAddress!toString:*->.*,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			java.io.PrintStream!print:*->.*,
+			java.lang.System!setProperty:String;String->String,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			inputport.rpc.GIPCLocateRegistry!getRegistry:String;int;String->GIPCRegistry,
+			java.lang.Enum!equals:*->.*,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:*->.*,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.util.EventObject!toString:*->.*,
+			java.net.InetSocketAddress!toString:*->.*,
+			util.trace.port.rpc.gipc.GIPCObjectLookedUp!newCase:Object;Object;Class;String;inputport.rpc.GIPCRegistry->GIPCObjectLookedUp,
+			java.lang.Thread!toString:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:String;int->Registry,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:*->.*,
+			java.util.Scanner!toString:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.nio.ByteBuffer!equals:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			inputport.rpc.GIPCRegistry!lookup:Class;String->Object,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			java.nio.ByteBuffer!toString:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getGIPCPort:String[]->int,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!registerClientGIPC:*->.*,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.lang.Object!toString:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!registerClientRMI:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			java.lang.Enum!toString:*->.*,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:*->.*,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			java.lang.Integer!toString:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!broadcastIPCMechanism:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			java.net.InetAddress!equals:*->.*,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			java.net.InetAddress!toString:*->.*,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			java.io.PrintStream!print:*->.*,
+			java.lang.System!setProperty:String;String->String,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			inputport.rpc.GIPCLocateRegistry!getRegistry:String;int;String->GIPCRegistry,
+			java.lang.Enum!equals:*->.*,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedInterfaces" value="
+			inputport.nio.manager.listeners.SocketChannelConnectListener,
+			inputport.nio.manager.listeners.SocketChannelWriteListener,
+			inputport.nio.manager.listeners.SocketChannelAcceptListener,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedInterfaces" value="
+			inputport.nio.manager.listeners.SocketChannelConnectListener,
+			inputport.nio.manager.listeners.SocketChannelWriteListener,
+			inputport.nio.manager.listeners.SocketChannelAcceptListener,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			coupledsims.AStandAloneTwoCoupledHalloweenSimulations,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value="
+			BoundedBuffer:java.util.concurrent.ArrayBlockingQueue,
+			CommandProcessor:stringProcessors.HalloweenCommandProcessor,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value="
+			BoundedBuffer:java.util.concurrent.ArrayBlockingQueue,
+			CommandProcessor:stringProcessors.HalloweenCommandProcessor,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			written:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			createSimulation:String->stringProcessors.HalloweenCommandProcessor,
+			setFactories:->void,
+			localProcessingOnly:boolean->void,
+			processArgs:String[]->void,
+			broadcastMetaState:boolean->void,
+			connected:java.nio.channels.SocketChannel->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			inCoupler:String;int->void,
+			init:String[]->void,
+			nioInit:String[]->void,
+			quit:int->void,
+			changeIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			socketChannelAccepted:java.nio.channels.ServerSocketChannel;java.nio.channels.SocketChannel->void,
+			simulationCommand:String->void,
+			simulateCommand:String->void,
+			makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			notConnected:java.nio.channels.SocketChannel;Exception->void,
+			argumentProcessor:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedSignatures" value="
+			written:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			createSimulation:String->stringProcessors.HalloweenCommandProcessor,
+			setFactories:->void,
+			localProcessingOnly:boolean->void,
+			processArgs:String[]->void,
+			broadcastMetaState:boolean->void,
+			connected:java.nio.channels.SocketChannel->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+			inCoupler:String;int->void,
+			init:String[]->void,
+			nioInit:String[]->void,
+			quit:int->void,
+			changeIPCMechanism:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			socketChannelAccepted:java.nio.channels.ServerSocketChannel;java.nio.channels.SocketChannel->void,
+			simulationCommand:String->void,
+			simulateCommand:String->void,
+			makeChangeIpcm:util.interactiveMethodInvocation.IPCMechanism;int->void,
+			notConnected:java.nio.channels.SocketChannel;Exception->void,
+			argumentProcessor:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			inputport.nio.manager.factories.selectors.ConnectCommandFactorySelector!setFactory:inputport.nio.manager.factories.ConnectCommandFactory->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getNIOServerPort:String[]->int,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.util.EventObject!toString:*->.*,
+			java.net.InetSocketAddress!toString:*->.*,
+			java.lang.Thread!toString:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			assignments.util.MiscAssignmentUtils!deepDuplicate:java.nio.ByteBuffer->ByteBuffer,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			java.util.Scanner!toString:*->.*,
+			java.nio.channels.SocketChannel!open:->SocketChannel,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.nio.ByteBuffer!equals:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			inputport.nio.manager.NIOManager!write:java.nio.channels.SocketChannel;java.nio.ByteBuffer;inputport.nio.manager.listeners.SocketChannelWriteListener[]->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			java.nio.ByteBuffer!toString:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getGIPCPort:String[]->int,
+			java.net.InetAddress!getByName:String->InetAddress,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.nio.ByteBuffer!array:*->.*,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.lang.Object!toString:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			util.trace.port.consensus.ProposalMade!newCase:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			java.lang.Enum!toString:*->.*,
+			java.lang.Integer!parseInt:String->int,
+			inputport.nio.manager.NIOManager!connect:java.nio.channels.SocketChannel;java.net.InetAddress;int;Integer;inputport.nio.manager.listeners.SocketChannelConnectListener[]->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			java.lang.Integer!toString:*->.*,
+			inputport.nio.manager.NIOManager!addReadListener:java.nio.channels.SocketChannel;inputport.nio.manager.listeners.SocketChannelReadListener->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			java.nio.ByteBuffer!wrap:.*->ByteBuffer,
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!localProcessingOnly:boolean->void,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!broadcastIPCMechanism:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			@DistributedTags.NIO+@DistributedTags.READ_THREAD_INTERFACE!notifyThread:->void,
+			java.net.InetAddress!equals:*->.*,
+			java.net.InetAddress!toString:*->.*,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			java.io.PrintStream!print:*->.*,
+			java.lang.System!setProperty:String;String->String,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			java.lang.Thread!start:->void,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedCalls" value="
+			inputport.nio.manager.factories.selectors.ConnectCommandFactorySelector!setFactory:inputport.nio.manager.factories.ConnectCommandFactory->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getNIOServerPort:String[]->int,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.util.EventObject!toString:*->.*,
+			java.net.InetSocketAddress!toString:*->.*,
+			java.lang.Thread!toString:*->.*,
+			java.net.InetSocketAddress!equals:*->.*,
+			assignments.util.MiscAssignmentUtils!deepDuplicate:java.nio.ByteBuffer->ByteBuffer,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			java.util.Scanner!toString:*->.*,
+			java.nio.channels.SocketChannel!open:->SocketChannel,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.nio.ByteBuffer!equals:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			inputport.nio.manager.NIOManager!write:java.nio.channels.SocketChannel;java.nio.ByteBuffer;inputport.nio.manager.listeners.SocketChannelWriteListener[]->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getHeadless:String[]->String,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			java.nio.ByteBuffer!toString:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getGIPCPort:String[]->int,
+			java.net.InetAddress!getByName:String->InetAddress,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getClientName:String[]->String,
+			java.nio.ByteBuffer!array:*->.*,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.lang.Object!toString:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			util.trace.bean.BeanTraceUtility!setTracing:->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			util.trace.port.consensus.ProposalMade!newCase:*->.*,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			java.lang.Enum!toString:*->.*,
+			java.lang.Integer!parseInt:String->int,
+			inputport.nio.manager.NIOManager!connect:java.nio.channels.SocketChannel;java.net.InetAddress;int;Integer;inputport.nio.manager.listeners.SocketChannelConnectListener[]->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.trace.port.nio.NIOTraceUtility!setTracing:->void,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:->void,
+			java.lang.Integer!toString:*->.*,
+			inputport.nio.manager.NIOManager!addReadListener:java.nio.channels.SocketChannel;inputport.nio.manager.listeners.SocketChannelReadListener->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			java.nio.ByteBuffer!wrap:.*->ByteBuffer,
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC!localProcessingOnly:boolean->void,
+			@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.RMI!broadcastIPCMechanism:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:->void,
+			@DistributedTags.NIO+@DistributedTags.READ_THREAD_INTERFACE!notifyThread:->void,
+			java.net.InetAddress!equals:*->.*,
+			java.net.InetAddress!toString:*->.*,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			java.io.PrintStream!print:*->.*,
+			java.lang.System!setProperty:String;String->String,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			java.lang.Thread!start:->void,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			java.lang.Enum!equals:*->.*,
+			java.lang.Integer!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedReferences" value="
+			init:String[]->void#.*OP_READ.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedReferences" value="
+			init:String[]->void#.*OP_READ.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedReferences" value="
+			simulationCommand:String->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="expectedReferences" value="
+			simulationCommand:String->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="instantiations" value="
+			java.util.concurrent.ArrayBlockingQueue,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO"/>
+		<property name="instantiations" value="
+			java.util.concurrent.ArrayBlockingQueue,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.CLIENT_READ_THREAD"/>
+		<property name="expectedInterfaces" value="
+			utilRead.ReadThreadInterface,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.CLIENT_READ_THREAD"/>
+		<property name="expectedInterfaces" value="
+			utilRead.ReadThreadInterface,
+			inputport.nio.manager.listeners.SocketChannelReadListener,
+			java.lang.Runnable,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.CLIENT_READ_THREAD"/>
+		<property name="expectedSignatures" value="
+			run:->void,
+			notifyThread:->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.CLIENT_READ_THREAD"/>
+		<property name="expectedSignatures" value="
+			run:->void,
+			notifyThread:->void,
+			socketChannelRead:java.nio.channels.SocketChannel;java.nio.ByteBuffer;int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.CLIENT_READ_THREAD"/>
+		<property name="expectedCalls" value="
+			java.nio.ByteBuffer!array:*->.*,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.lang.Object!wait:->void,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!getCommandProcessor:->stringProcessors.HalloweenCommandProcessor,
+			java.nio.Buffer!position:->int,
+			java.io.PrintStream!println:*->.*,
+			java.lang.Integer!parseInt:String->int,
+			java.util.concurrent.ArrayBlockingQueue!take:->Object,
+			java.lang.Object!notify:->void,
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!getBoundedBuffer:->java.util.concurrent.ArrayBlockingQueue,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.NIO+@DistributedTags.CLIENT_READ_THREAD"/>
+		<property name="expectedCalls" value="
+			java.nio.ByteBuffer!array:*->.*,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			util.trace.port.consensus.ProposedStateSet!newCase:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!add:Object->boolean,
+			java.lang.Object!wait:->void,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:*->.*,
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!getCommandProcessor:->stringProcessors.HalloweenCommandProcessor,
+			java.nio.Buffer!position:->int,
+			java.io.PrintStream!println:*->.*,
+			java.lang.Integer!parseInt:String->int,
+			java.util.concurrent.ArrayBlockingQueue!take:->Object,
+			java.lang.Object!notify:->void,
+			@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.NIO!getBoundedBuffer:->java.util.concurrent.ArrayBlockingQueue,
+		"/>
+	</module>

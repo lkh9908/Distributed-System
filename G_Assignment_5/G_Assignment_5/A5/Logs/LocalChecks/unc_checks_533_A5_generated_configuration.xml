@@ -1,0 +1,1266 @@
+	<module name="ClassDefined">
+		<property name="severity" value="info"/>
+		<property name="expectedTypes" value="
+			@DistributedTags.CLIENT+@DistributedTags.RMI,
+			@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI,
+			@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC,
+			@@DistributedTags.REGISTRY+@DistributedTags.RMI+@DistributedTags.REGISTRY+@DistributedTags.RMI,
+			@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI,
+			@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+			@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC,
+			@DistributedTags.SERVER+@DistributedTags.RMI,
+			@@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			quit:int->.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			quit:int->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			java.lang.System!exit:int->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			java.lang.System!exit:int->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			assignments.util.inputParameters.SimulationParametersListener,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			assignments.util.inputParameters.SimulationParametersListener,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.SERVER+@DistributedTags.RMI,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.SERVER+@DistributedTags.RMI,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedProperties" value="
+			Singleton:@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedProperties" value="
+			Singleton:@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			start:String[]->void,
+			receiveCommandViaGIPC:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			quit:int->void,
+			setTracing:->void,
+			receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			exportServerProxy:int->void,
+			registerGIPCClients:->void,
+			main:String[]->void,
+			registerRMIClients:->void,
+			locateRegistry:int;String->void,
+			receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			start:String[]->void,
+			receiveCommandViaGIPC:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			quit:int->void,
+			setTracing:->void,
+			receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			exportServerProxy:int->void,
+			registerGIPCClients:->void,
+			main:String[]->void,
+			registerRMIClients:->void,
+			locateRegistry:int;String->void,
+			receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:Object;String;int;java.rmi.registry.Registry->RMIRegistryLocated,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:Object;String;Object;inputport.rpc.GIPCRegistry->GIPCObjectRegistered,
+			inputport.rpc.GIPCLocateRegistry!createRegistry:int->GIPCRegistry,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:Object;Object;String;java.rmi.registry.Registry->RMIObjectLookedUp,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:Object;String;float;Object->ProposalLearnedNotificationSent,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			comp533.client.RMIClientInterface.class!getName:*->.*,
+			inputport.rpc.GIPCRegistry!getRPCServerPort:->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:*->.*,
+			comp533.server.GIPCServer.class!getName:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			assignments.util.mainArgs.ServerArgsProcessor!getGIPCServerPort:String[]->int,
+			java.util.List!add:Object->boolean,
+			comp533.client.RMIAndGIPCClient.class!getName:*->.*,
+			inputport.rpc.GIPCRegistry!rebind:String;Object->void,
+			inputport.rpc.GIPCRegistry!getInputPort:->InputPort,
+			util.trace.port.rpc.gipc.GIPCObjectLookedUp!newCase:Object;Object;Class;String;inputport.rpc.GIPCRegistry->GIPCObjectLookedUp,
+			@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!start:String[]->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!NotificationReceiver:String;Object->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:*->.*,
+			inputport.rpc.GIPCRegistry!getRPCClientPort:->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!trace:boolean->void,
+			comp533.server.RMIServerInterface.class!getName:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:Object;String;Object;java.rmi.registry.Registry->RMIObjectRegistered,
+			util.trace.bean.BeanTraceUtility!setTracing:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			inputport.rpc.GIPCRegistry!lookup:Class;String->Object,
+			java.io.PrintStream!println:*->.*,
+			java.lang.Enum!equals:*->.*,
+			inputport.InputPort!addConnectionListener:*->.*,
+			@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!receiveNotificationsViaRMI:String;Object->void,
+			util.trace.port.rpc.gipc.GIPCRegistryCreated!newCase:Object;int->GIPCRegistryCreated,
+			java.util.AbstractList!equals:*->.*,
+			util.trace.port.nio.NIOTraceUtility!setTracing:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:Object;String;.*;Object->RemoteProposeRequestReceived,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:Object;String;int;java.rmi.registry.Registry->RMIRegistryLocated,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:Object;String;Object;inputport.rpc.GIPCRegistry->GIPCObjectRegistered,
+			inputport.rpc.GIPCLocateRegistry!createRegistry:int->GIPCRegistry,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:Object;Object;String;java.rmi.registry.Registry->RMIObjectLookedUp,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:Object;String;float;Object->ProposalLearnedNotificationSent,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			comp533.client.RMIClientInterface.class!getName:*->.*,
+			inputport.rpc.GIPCRegistry!getRPCServerPort:->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:*->.*,
+			comp533.server.GIPCServer.class!getName:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			assignments.util.mainArgs.ServerArgsProcessor!getGIPCServerPort:String[]->int,
+			java.util.List!add:Object->boolean,
+			comp533.client.RMIAndGIPCClient.class!getName:*->.*,
+			inputport.rpc.GIPCRegistry!rebind:String;Object->void,
+			inputport.rpc.GIPCRegistry!getInputPort:->InputPort,
+			util.trace.port.rpc.gipc.GIPCObjectLookedUp!newCase:Object;Object;Class;String;inputport.rpc.GIPCRegistry->GIPCObjectLookedUp,
+			@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!start:String[]->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC!NotificationReceiver:String;Object->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:*->.*,
+			inputport.rpc.GIPCRegistry!getRPCClientPort:->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!trace:boolean->void,
+			comp533.server.RMIServerInterface.class!getName:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:Object;String;Object;java.rmi.registry.Registry->RMIObjectRegistered,
+			util.trace.bean.BeanTraceUtility!setTracing:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			inputport.rpc.GIPCRegistry!lookup:Class;String->Object,
+			java.io.PrintStream!println:*->.*,
+			java.lang.Enum!equals:*->.*,
+			inputport.InputPort!addConnectionListener:*->.*,
+			@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!receiveNotificationsViaRMI:String;Object->void,
+			util.trace.port.rpc.gipc.GIPCRegistryCreated!newCase:Object;int->GIPCRegistryCreated,
+			java.util.AbstractList!equals:*->.*,
+			util.trace.port.nio.NIOTraceUtility!setTracing:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:Object;String;.*;Object->RemoteProposeRequestReceived,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			receiveCommandViaGIPC:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void#.*BROADCAST_MODE.*,
+			receiveCommandViaGIPC:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void#.*BROADCAST_MODE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void#.*IPC_MECHANISM.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void#.*BROADCAST_MODE.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="instantiations" value="
+			comp533.server.RMIAndGIPCServer,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="instantiations" value="
+			comp533.server.RMIAndGIPCServer,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_OBJECT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setBroadcastMetaState:boolean->void,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedInterfaces" value="
+			assignments.util.inputParameters.SimulationParametersListener,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedInterfaces" value="
+			assignments.util.inputParameters.SimulationParametersListener,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedProperties" value="
+			Singleton:@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedProperties" value="
+			Singleton:@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedSignatures" value="
+			start:String[]->void,
+			quit:int->void,
+			setTracing:->void,
+			receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			exportServerProxy:int->void,
+			main:String[]->void,
+			registerRMIClients:->void,
+			locateRegistry:int;String->void,
+			receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedSignatures" value="
+			start:String[]->void,
+			quit:int->void,
+			setTracing:->void,
+			receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			exportServerProxy:int->void,
+			main:String[]->void,
+			registerRMIClients:->void,
+			locateRegistry:int;String->void,
+			receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getServerPort:String[]->int,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:Object;String;int;java.rmi.registry.Registry->RMIRegistryLocated,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:Object;Object;String;java.rmi.registry.Registry->RMIObjectLookedUp,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryHost:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			comp533.client.RMIClientInterface.class!getName:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:Object;String;float;Object->ProposalLearnedNotificationSent,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!start:String[]->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!trace:boolean->void,
+			comp533.server.RMIServerInterface.class!getName:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:Object;String;Object;java.rmi.registry.Registry->RMIObjectRegistered,
+			java.util.ArrayList!equals:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			java.lang.Enum!equals:*->.*,
+			@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!receiveNotificationsViaRMI:String;Object->void,
+			java.util.AbstractList!equals:*->.*,
+			util.trace.port.nio.NIOTraceUtility!setTracing:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:Object;String;.*;Object->RemoteProposeRequestReceived,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getServerPort:String[]->int,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:Object;String;int;java.rmi.registry.Registry->RMIRegistryLocated,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:Object;Object;String;java.rmi.registry.Registry->RMIObjectLookedUp,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryHost:String[]->String,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			comp533.client.RMIClientInterface.class!getName:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationSent!newCase:Object;String;float;Object->ProposalLearnedNotificationSent,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			java.util.List!add:Object->boolean,
+			@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!start:String[]->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:*->.*,
+			assignments.util.mainArgs.ServerArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!trace:boolean->void,
+			comp533.server.RMIServerInterface.class!getName:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:Object;String;Object;java.rmi.registry.Registry->RMIObjectRegistered,
+			java.util.ArrayList!equals:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			java.lang.Enum!equals:*->.*,
+			@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI!receiveNotificationsViaRMI:String;Object->void,
+			java.util.AbstractList!equals:*->.*,
+			util.trace.port.nio.NIOTraceUtility!setTracing:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestReceived!newCase:Object;String;.*;Object->RemoteProposeRequestReceived,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedReferences" value="
+			receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedReferences" value="
+			receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void#.*BROADCAST_MODE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedReferences" value="
+			receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void#.*IPC_MECHANISM.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="expectedReferences" value="
+			receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void#.*BROADCAST_MODE.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="instantiations" value="
+			comp533.server.RMIServer,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.SERVER+@DistributedTags.RMI"/>
+		<property name="instantiations" value="
+			comp533.server.RMIServer,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			java.beans.PropertyChangeEvent!getPropertyName:->String,
+			util.trace.trickOrTreat.LocalCommandObserved!newCase:Object;String->LocalCommandObserved,
+			java.beans.PropertyChangeEvent!getNewValue:->Object,
+			java.util.List!equals:*->.*,
+			java.lang.Enum!equals:*->.*,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.lang.Object!equals:*->.*,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_OUT_COUPLER+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getIPCMechanism:->IPCMechanism,
+			java.beans.PropertyChangeEvent!getPropertyName:->String,
+			util.trace.trickOrTreat.LocalCommandObserved!newCase:Object;String->LocalCommandObserved,
+			java.beans.PropertyChangeEvent!getNewValue:->Object,
+			java.util.List!equals:*->.*,
+			java.lang.Enum!equals:*->.*,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			java.lang.Object!equals:*->.*,
+			stringProcessors.HalloweenCommandProcessor!processCommand:String->void,
+			java.util.AbstractList!equals:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			assignments.util.inputParameters.SimulationParametersListener,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedInterfaces" value="
+			assignments.util.inputParameters.SimulationParametersListener,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.CLIENT+@DistributedTags.RMI,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSuperTypes" value="
+			@DistributedTags.CLIENT+@DistributedTags.RMI,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedProperties" value="
+			Singleton:@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedProperties" value="
+			Singleton:@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedProperties" value="
+			AtomicBroadcast:Boolean,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedProperties" value="
+			AtomicBroadcast:Boolean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			receiveNotificationsViaRMI:String;Object->void,
+			NotificationReceiver:String;Object->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			setTracing:->void,
+			localProcessingOnly:boolean->void,
+			lookupServerProxy:->void,
+			locateRegistry:int;String->void,
+			start:String[]->void,
+			quit:int->void,
+			simulationCommand:String->void,
+			trace:boolean->void,
+			exportClientProxy:->void,
+			experimentInput:->void,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedSignatures" value="
+			receiveNotificationsViaRMI:String;Object->void,
+			NotificationReceiver:String;Object->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			setTracing:->void,
+			localProcessingOnly:boolean->void,
+			lookupServerProxy:->void,
+			locateRegistry:int;String->void,
+			start:String[]->void,
+			quit:int->void,
+			simulationCommand:String->void,
+			trace:boolean->void,
+			exportClientProxy:->void,
+			experimentInput:->void,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:Object;Object;String;java.rmi.registry.Registry->RMIObjectLookedUp,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.lang.System!currentTimeMillis:->long,
+			comp533.client.GIPCClient.class!getName:*->.*,
+			util.trace.port.rpc.gipc.GIPCObjectLookedUp!newCase:Object;Object;Class;String;inputport.rpc.GIPCRegistry->GIPCObjectLookedUp,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!quit:int->void,
+			util.trace.port.PerformanceExperimentEnded!newCase:Object;long;long;long;int->PerformanceExperimentEnded,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isAtomicBroadcast:->Boolean,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:Object;String;Object;java.rmi.registry.Registry->RMIObjectRegistered,
+			util.trace.bean.BeanTraceUtility!setTracing:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			inputport.rpc.GIPCRegistry!lookup:Class;String->Object,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC!receiveCommandViaGIPC:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getGIPCPort:String[]->int,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:Object;String;float;Object->ProposalLearnedNotificationReceived,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:Object;String;int;java.rmi.registry.Registry->RMIRegistryLocated,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:Object;String;Object;inputport.rpc.GIPCRegistry->GIPCObjectRegistered,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:Object;String;int;String->GIPCRegistryLocated,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isTrace:->boolean,
+			comp533.client.RMIClientInterface.class!getName:*->.*,
+			util.trace.port.consensus.ProposedStateSet!newCase:Object;String;float;Object->ProposedStateSet,
+			util.trace.port.PerformanceExperimentStarted!newCase:Object;long;int->PerformanceExperimentStarted,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!trace:boolean->void,
+			comp533.server.GIPCServer.class!getName:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			comp533.client.RMIAndGIPCClient.class!getName:*->.*,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!getSingleton:->@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+			inputport.rpc.GIPCRegistry!rebind:String;Object->void,
+			util.trace.Tracer!showInfo:boolean->void,
+			stringProcessors.HalloweenCommandProcessor!setConnectedToSimulation:boolean->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:Object;String;float;Object->RemoteProposeRequestSent,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			comp533.server.RMIServerInterface.class!getName:*->.*,
+			@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!start:String[]->void,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			inputport.rpc.GIPCLocateRegistry!getRegistry:String;int;String->GIPCRegistry,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC!registerGIPCClients:->void,
+			java.lang.Enum!equals:*->.*,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!localProcessingOnly:boolean->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.util.AbstractList!equals:*->.*,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!setAtomicBroadcast:Boolean->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:Object;Object;String;java.rmi.registry.Registry->RMIObjectLookedUp,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.lang.System!currentTimeMillis:->long,
+			comp533.client.GIPCClient.class!getName:*->.*,
+			util.trace.port.rpc.gipc.GIPCObjectLookedUp!newCase:Object;Object;Class;String;inputport.rpc.GIPCRegistry->GIPCObjectLookedUp,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!quit:int->void,
+			util.trace.port.PerformanceExperimentEnded!newCase:Object;long;long;long;int->PerformanceExperimentEnded,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isAtomicBroadcast:->Boolean,
+			assignments.util.mainArgs.ClientArgsProcessor!getServerHost:String[]->String,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:Object;String;Object;java.rmi.registry.Registry->RMIObjectRegistered,
+			util.trace.bean.BeanTraceUtility!setTracing:*->.*,
+			java.util.ArrayList!equals:*->.*,
+			inputport.rpc.GIPCRegistry!lookup:Class;String->Object,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC!receiveCommandViaGIPC:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.GIPC->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getGIPCPort:String[]->int,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:Object;String;float;Object->ProposalLearnedNotificationReceived,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:Object;String;int;java.rmi.registry.Registry->RMIRegistryLocated,
+			util.trace.port.rpc.gipc.GIPCObjectRegistered!newCase:Object;String;Object;inputport.rpc.GIPCRegistry->GIPCObjectRegistered,
+			java.util.List!equals:*->.*,
+			util.trace.port.rpc.gipc.GIPCRegistryLocated!newCase:Object;String;int;String->GIPCRegistryLocated,
+			java.rmi.server.RemoteObject!equals:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isTrace:->boolean,
+			comp533.client.RMIClientInterface.class!getName:*->.*,
+			util.trace.port.consensus.ProposedStateSet!newCase:Object;String;float;Object->ProposedStateSet,
+			util.trace.port.PerformanceExperimentStarted!newCase:Object;long;int->PerformanceExperimentStarted,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!trace:boolean->void,
+			comp533.server.GIPCServer.class!getName:*->.*,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			comp533.client.RMIAndGIPCClient.class!getName:*->.*,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!getSingleton:->@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+			inputport.rpc.GIPCRegistry!rebind:String;Object->void,
+			util.trace.Tracer!showInfo:boolean->void,
+			stringProcessors.HalloweenCommandProcessor!setConnectedToSimulation:boolean->void,
+			java.lang.Object!equals:*->.*,
+			java.lang.System!exit:int->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:Object;String;float;Object->RemoteProposeRequestSent,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			comp533.server.RMIServerInterface.class!getName:*->.*,
+			@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!start:String[]->void,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			inputport.rpc.GIPCLocateRegistry!getRegistry:String;int;String->GIPCRegistry,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.GIPC!registerGIPCClients:->void,
+			java.lang.Enum!equals:*->.*,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!localProcessingOnly:boolean->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			java.util.AbstractList!equals:*->.*,
+			@DistributedTags.CLIENT+@DistributedTags.RMI!setAtomicBroadcast:Boolean->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			NotificationReceiver:String;Object->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			NotificationReceiver:String;Object->void#.*BROADCAST_MODE.*,
+			NotificationReceiver:String;Object->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			experimentInput:->void#.*RMI.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			experimentInput:->void#.*IPC_MECHANISM.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			simulationCommand:String->void#.*RMI.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			simulationCommand:String->void#.*IPC_MECHANISM.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			simulationCommand:String->void#.*RMI.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="expectedReferences" value="
+			receiveNotificationsViaRMI:String;Object->void#.*BROADCAST_MODE.*,
+			receiveNotificationsViaRMI:String;Object->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="instantiations" value="
+			comp533.client.RMIAndGIPCClient,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC"/>
+		<property name="instantiations" value="
+			comp533.client.RMIAndGIPCClient,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedInterfaces" value="
+			assignments.util.inputParameters.SimulationParametersListener,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedInterfaces" value="
+			assignments.util.inputParameters.SimulationParametersListener,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedSuperTypes" value="
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedProperties" value="
+			Singleton:@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedProperties" value="
+			Singleton:@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedProperties" value="
+			AtomicBroadcast:Boolean,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedProperties" value="
+			AtomicBroadcast:Boolean,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedSignatures" value="
+			receiveNotificationsViaRMI:String;Object->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			setTracing:->void,
+			localProcessingOnly:boolean->void,
+			lookupServerProxy:->void,
+			locateRegistry:int;String->void,
+			start:String[]->void,
+			quit:int->void,
+			simulationCommand:String->void,
+			trace:boolean->void,
+			exportClientProxy:->void,
+			experimentInput:->void,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedSignatures" value="
+			receiveNotificationsViaRMI:String;Object->void,
+			ipcMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			setTracing:->void,
+			localProcessingOnly:boolean->void,
+			lookupServerProxy:->void,
+			locateRegistry:int;String->void,
+			start:String[]->void,
+			quit:int->void,
+			simulationCommand:String->void,
+			trace:boolean->void,
+			exportClientProxy:->void,
+			experimentInput:->void,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:Object;Object;String;java.rmi.registry.Registry->RMIObjectLookedUp,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:*->.*,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			@DistributedTags.SERVER+@DistributedTags.RMI!setTracing:*->.*,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.lang.System!currentTimeMillis:->long,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!quit:int->void,
+			util.trace.port.PerformanceExperimentEnded!newCase:Object;long;long;long;int->PerformanceExperimentEnded,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!setTracing:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isAtomicBroadcast:->Boolean,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!trace:boolean->void,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:Object;String;Object;java.rmi.registry.Registry->RMIObjectRegistered,
+			util.trace.bean.BeanTraceUtility!setTracing:*->.*,
+			@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!setTracing:*->.*,
+			@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC!setTracing:*->.*,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			util.trace.port.PortTraceUtility!setTracing:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:Object;String;float;Object->ProposalLearnedNotificationReceived,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:Object;String;int;java.rmi.registry.Registry->RMIRegistryLocated,
+			trace.grader.basics.GraderBasicsTraceUtility!setTracing:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isTrace:->boolean,
+			comp533.client.RMIClientInterface.class!getName:*->.*,
+			util.trace.port.consensus.ProposedStateSet!newCase:Object;String;float;Object->ProposedStateSet,
+			util.trace.port.PerformanceExperimentStarted!newCase:Object;long;int->PerformanceExperimentStarted,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!registerRMIClients:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			util.trace.Tracer!showInfo:boolean->void,
+			stringProcessors.HalloweenCommandProcessor!setConnectedToSimulation:boolean->void,
+			@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC!setTracing:*->.*,
+			java.lang.System!exit:int->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:Object;String;float;Object->RemoteProposeRequestSent,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!setTracing:*->.*,
+			comp533.server.RMIServerInterface.class!getName:*->.*,
+			@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!start:String[]->void,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			util.trace.port.nio.NIOTraceUtility!setTracing:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.gipc.GIPCRPCTraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIObjectLookedUp!newCase:Object;Object;String;java.rmi.registry.Registry->RMIObjectLookedUp,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			util.trace.factories.FactoryTraceUtility!setTracing:*->.*,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!receiveCommandViaRMI:String;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			@DistributedTags.SERVER+@DistributedTags.RMI!setTracing:*->.*,
+			stringProcessors.HalloweenCommandProcessor!removePropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.lang.System!currentTimeMillis:->long,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!quit:int->void,
+			util.trace.port.PerformanceExperimentEnded!newCase:Object;long;long;long;int->PerformanceExperimentEnded,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!setTracing:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isAtomicBroadcast:->Boolean,
+			util.trace.port.consensus.ConsensusTraceUtility!setTracing:*->.*,
+			util.misc.ThreadSupport!sleep:long->void,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!trace:boolean->void,
+			util.trace.port.rpc.rmi.RMIObjectRegistered!newCase:Object;String;Object;java.rmi.registry.Registry->RMIObjectRegistered,
+			util.trace.bean.BeanTraceUtility!setTracing:*->.*,
+			@@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!setTracing:*->.*,
+			@@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.SERVER+@DistributedTags.RMI+@DistributedTags.GIPC!setTracing:*->.*,
+			stringProcessors.HalloweenCommandProcessor!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.io.PrintStream!println:*->.*,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!receiveIPCMechanismViaRMI:util.interactiveMethodInvocation.IPCMechanism;@@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.CLIENT_REMOTE_INTERFACE+@DistributedTags.RMI->void,
+			util.trace.port.PortTraceUtility!setTracing:*->.*,
+			util.trace.port.consensus.ProposalLearnedNotificationReceived!newCase:Object;String;float;Object->ProposalLearnedNotificationReceived,
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:*->.*,
+			util.trace.port.rpc.rmi.RMIRegistryLocated!newCase:Object;String;int;java.rmi.registry.Registry->RMIRegistryLocated,
+			trace.grader.basics.GraderBasicsTraceUtility!setTracing:*->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isTrace:->boolean,
+			comp533.client.RMIClientInterface.class!getName:*->.*,
+			util.trace.port.consensus.ProposedStateSet!newCase:Object;String;float;Object->ProposedStateSet,
+			util.trace.port.PerformanceExperimentStarted!newCase:Object;long;int->PerformanceExperimentStarted,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			util.trace.misc.ThreadDelayed!enablePrint:->void,
+			@@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI+@DistributedTags.SERVER_REMOTE_INTERFACE+@DistributedTags.RMI!registerRMIClients:->void,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryHost:String[]->String,
+			util.trace.Tracer!showInfo:boolean->void,
+			stringProcessors.HalloweenCommandProcessor!setConnectedToSimulation:boolean->void,
+			@@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT+@DistributedTags.RMI+@DistributedTags.GIPC!setTracing:*->.*,
+			java.lang.System!exit:int->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!processCommands:*->.*,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!addSimulationParameterListener:*->.*,
+			util.trace.port.consensus.RemoteProposeRequestSent!newCase:Object;String;float;Object->RemoteProposeRequestSent,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!isLocalProcessingOnly:->boolean,
+			@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!setTracing:*->.*,
+			comp533.server.RMIServerInterface.class!getName:*->.*,
+			@@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC+@DistributedTags.CLIENT_CONFIGURER+@DistributedTags.RMI+@DistributedTags.GIPC!start:String[]->void,
+			main.BeauAndersonFinalProject!createSimulation:String;int;int;int;int;int;int->HalloweenCommandProcessor,
+			stringProcessors.HalloweenCommandProcessor!setInputString:String->void,
+			util.interactiveMethodInvocation.SimulationParametersControllerFactory!getSingleton:->.*,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!getDelay:->int,
+			assignments.util.mainArgs.ClientArgsProcessor!getRegistryPort:String[]->int,
+			assignments.util.inputParameters.AnAbstractSimulationParametersBean!setIPCMechanism:util.interactiveMethodInvocation.IPCMechanism->void,
+			util.trace.port.nio.NIOTraceUtility!setTracing:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedReferences" value="
+			simulationCommand:String->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedReferences" value="
+			experimentInput:->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedReferences" value="
+			experimentInput:->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="expectedReferences" value="
+			receiveNotificationsViaRMI:String;Object->void#.*BROADCAST_MODE.*,
+			receiveNotificationsViaRMI:String;Object->void#.*COMMAND.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="instantiations" value="
+			comp533.client.RMIClient,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@DistributedTags.CLIENT+@DistributedTags.RMI"/>
+		<property name="instantiations" value="
+			comp533.client.RMIClient,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.REGISTRY+@DistributedTags.RMI+@DistributedTags.REGISTRY+@DistributedTags.RMI"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.REGISTRY+@DistributedTags.RMI+@DistributedTags.REGISTRY+@DistributedTags.RMI"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@@DistributedTags.REGISTRY+@DistributedTags.RMI+@DistributedTags.REGISTRY+@DistributedTags.RMI"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:*->.*,
+			assignments.util.mainArgs.RegistryArgsProcessor!getRegistryPort:String[]->int,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			java.util.Scanner!nextLine:->String,
+			util.trace.port.rpc.rmi.RMIRegistryCreated!newCase:Object;int->RMIRegistryCreated,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@@DistributedTags.REGISTRY+@DistributedTags.RMI+@DistributedTags.REGISTRY+@DistributedTags.RMI"/>
+		<property name="expectedCalls" value="
+			util.trace.port.rpc.rmi.RMITraceUtility!setTracing:*->.*,
+			assignments.util.mainArgs.RegistryArgsProcessor!getRegistryPort:String[]->int,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			java.util.Scanner!nextLine:->String,
+			util.trace.port.rpc.rmi.RMIRegistryCreated!newCase:Object;int->RMIRegistryCreated,
+		"/>
+	</module>

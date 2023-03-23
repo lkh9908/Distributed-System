@@ -1,0 +1,1524 @@
+	<module name="ClassDefined">
+		<property name="severity" value="info"/>
+		<property name="expectedTypes" value="
+			@ReducerClass,
+			@StandAloneFacebookMapReduce,
+			@ServerIntegerSummer,
+			@ModelClass,
+			@SlaveClass,
+			@MapperFactory,
+			@ViewClass,
+			@ReducerFactory,
+			@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface,
+			@StandAloneTokenCounter,
+			@PartitionerFactory,
+			@JoinerClass,
+			@ClientTokenCounter+@RemoteClientObjectClass,
+			@ServerFacebookMapReduce,
+			@ControllerClass,
+			@KeyValueClass,
+			@ModelClass+@RemoteModelInterface,
+			@IntSummingMapperClass,
+			@ServerTokenCounter,
+			@IntSummingMapperClass+@TokenCountingMapperClass,
+			@StandAloneIntegerSummer,
+			@RemoteClientFacebookMapReduce,
+			@BarrierClass,
+			@PartitionerClass,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			map:String->@KeyValueClass,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			map:String->@KeyValueClass,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Integer!parseInt:String->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceMap:Object;Object->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Integer!parseInt:String->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceMap:Object;Object->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@IntSummingMapperClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*INT_SUMMING_MAPPER.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedSignatures" value="
+			intersection:java.util.List;java.util.List->java.util.List,
+			buildKey:String;String->String,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedSignatures" value="
+			intersection:java.util.List;java.util.List->java.util.List,
+			buildKey:String;String->String,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedCalls" value="
+			java.lang.Character!toString:*->.*,
+			java.lang.Object!toString:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!toString:*->.*,
+			java.util.Arrays!copyOfRange:*->.*,
+			java.util.List!contains:Object->boolean,
+			java.util.EventObject!toString:*->.*,
+			java.lang.Thread!toString:*->.*,
+			java.util.Scanner!nextLine:->String,
+			java.util.Map!get:Object->Object,
+			java.util.AbstractMap!toString:*->.*,
+			java.util.Arrays!asList:Object[]->List,
+			java.lang.Integer!toString:*->.*,
+			java.util.Map!put:Object;Object->Object,
+			java.util.Scanner!toString:*->.*,
+			@ViewClass!toString:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@IntSummingMapperClass!toString:*->.*,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			@ControllerClass!toString:*->.*,
+			java.util.List!add:*->.*,
+			@ModelClass!toString:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedCalls" value="
+			java.lang.Character!toString:*->.*,
+			java.lang.Object!toString:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!toString:*->.*,
+			java.util.Arrays!copyOfRange:*->.*,
+			java.util.List!contains:Object->boolean,
+			java.util.EventObject!toString:*->.*,
+			java.lang.Thread!toString:*->.*,
+			java.util.Scanner!nextLine:->String,
+			java.util.Map!get:Object->Object,
+			java.util.AbstractMap!toString:*->.*,
+			java.util.Arrays!asList:Object[]->List,
+			java.lang.Integer!toString:*->.*,
+			java.util.Map!put:Object;Object->Object,
+			java.util.Scanner!toString:*->.*,
+			@ViewClass!toString:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@IntSummingMapperClass!toString:*->.*,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			@ControllerClass!toString:*->.*,
+			java.util.List!add:*->.*,
+			@ModelClass!toString:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*INT_SUMMING_MAPPER.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*VIEW.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="instantiations" value="
+			java.util.Scanner,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneFacebookMapReduce"/>
+		<property name="instantiations" value="
+			java.util.Scanner,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="expectedProperties" value="
+			Partitioner:@PartitionerClass,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="expectedProperties" value="
+			Partitioner:@PartitionerClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="instantiations" value="
+			comp533.partitioner.Partitioner,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerFactory"/>
+		<property name="instantiations" value="
+			comp533.partitioner.Partitioner,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedSignatures" value="
+			quit:->void,
+			reduce:java.util.List->java.util.Map,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedSignatures" value="
+			quit:->void,
+			reduce:java.util.List->java.util.Map,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedCalls" value="
+			@ReducerFactory!getReducer:->@ReducerClass,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			java.lang.Character!toString:*->.*,
+			java.lang.Object!toString:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.util.concurrent.ConcurrentLinkedQueue!toString:*->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceExit:Class->void,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!trace:String->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteResult:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			java.util.EventObject!toString:*->.*,
+			java.lang.Thread!toString:*->.*,
+			java.lang.System!exit:int->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			java.util.AbstractMap!toString:*->.*,
+			java.lang.Integer!toString:*->.*,
+			@ModelClass+@RemoteModelInterface!registerClient:@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedWait:->void,
+			java.util.Scanner!toString:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteList:Object->void,
+			java.lang.Thread!getName:->String,
+			@ViewClass!toString:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@IntSummingMapperClass!toString:*->.*,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			@ReducerClass!reduce:java.util.List->java.util.Map,
+			@ControllerClass!toString:*->.*,
+			@ModelClass!toString:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedCalls" value="
+			@ReducerFactory!getReducer:->@ReducerClass,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			java.lang.Character!toString:*->.*,
+			java.lang.Object!toString:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.util.concurrent.ConcurrentLinkedQueue!toString:*->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceExit:Class->void,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!trace:String->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteResult:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			java.util.EventObject!toString:*->.*,
+			java.lang.Thread!toString:*->.*,
+			java.lang.System!exit:int->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			java.util.AbstractMap!toString:*->.*,
+			java.lang.Integer!toString:*->.*,
+			@ModelClass+@RemoteModelInterface!registerClient:@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedWait:->void,
+			java.util.Scanner!toString:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteList:Object->void,
+			java.lang.Thread!getName:->String,
+			@ViewClass!toString:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@IntSummingMapperClass!toString:*->.*,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			@ReducerClass!reduce:java.util.List->java.util.Map,
+			@ControllerClass!toString:*->.*,
+			@ModelClass!toString:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*VIEW.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ClientTokenCounter+@RemoteClientObjectClass"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*INT_SUMMING_MAPPER.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedInterfaces" value="
+			java.beans.PropertyChangeListener,
+			java.util.EventListener,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedSignatures" value="
+			toString:->String,
+			propertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!tracePropertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!tracePropertyChange:java.beans.PropertyChangeEvent->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ViewClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*VIEW.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedSignatures" value="
+			barrier:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedSignatures" value="
+			barrier:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedCalls" value="
+			java.rmi.RemoteException!getMessage:*->.*,
+			java.lang.Object!notifyAll:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierWaitStart:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierWaitEnd:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierReleaseAll:Object;int;int->void,
+			util.trace.Tracer!error:String->void,
+			java.lang.Object!wait:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@BarrierClass"/>
+		<property name="expectedCalls" value="
+			java.rmi.RemoteException!getMessage:*->.*,
+			java.lang.Object!notifyAll:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierWaitStart:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierWaitEnd:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierReleaseAll:Object;int;int->void,
+			util.trace.Tracer!error:String->void,
+			java.lang.Object!wait:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ServerTokenCounter"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ServerTokenCounter"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ServerTokenCounter"/>
+		<property name="expectedCalls" value="
+			java.rmi.RemoteException!getMessage:*->.*,
+			@ControllerClass!getUserInput:@ModelClass+@RemoteModelInterface->void,
+			java.lang.Thread!getName:->String,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			util.trace.Tracer!error:String->void,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.lang.System!exit:int->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ServerTokenCounter"/>
+		<property name="expectedCalls" value="
+			java.rmi.RemoteException!getMessage:*->.*,
+			@ControllerClass!getUserInput:@ModelClass+@RemoteModelInterface->void,
+			java.lang.Thread!getName:->String,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			util.trace.Tracer!error:String->void,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.lang.System!exit:int->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedCalls" value="
+			java.lang.Thread!getStackTrace:*->.*,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			@ControllerClass!getUserInput:@ModelClass+@RemoteModelInterface->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			@ModelClass+@RemoteModelInterface!interruptThreads:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass+@RemoteModelInterface!setInputString:String;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass+@RemoteModelInterface!setNumThreads:int;@ViewClass->void,
+			@ModelClass+@RemoteModelInterface!callClientQuit:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedCalls" value="
+			java.lang.Thread!getStackTrace:*->.*,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			@ControllerClass!getUserInput:@ModelClass+@RemoteModelInterface->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			@ModelClass+@RemoteModelInterface!interruptThreads:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass+@RemoteModelInterface!setInputString:String;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass+@RemoteModelInterface!setNumThreads:int;@ViewClass->void,
+			@ModelClass+@RemoteModelInterface!callClientQuit:->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneIntegerSummer"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*QUIT.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedInterfaces" value="
+			util.models.PropertyListenerRegisterer,
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedProperties" value="
+			NumThreads:int,
+			Joiner:@JoinerClass,
+			ReductionQueueList:java.util.ArrayList,
+			InputString:String,
+			BoundedBuffer:java.util.concurrent.ArrayBlockingQueue,
+			Barrier:@BarrierClass,
+			Result:java.util.Map,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedProperties" value="
+			NumThreads:int,
+			Joiner:@JoinerClass,
+			ReductionQueueList:java.util.ArrayList,
+			InputString:String,
+			BoundedBuffer:java.util.concurrent.ArrayBlockingQueue,
+			Barrier:@BarrierClass,
+			Result:java.util.Map,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedProperties" value=""/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedSignatures" value="
+			matchSlavesToClients:->void,
+			toString:->String,
+			setNumThreads:int;@ViewClass->void,
+			equals:Object->boolean,
+			interruptThreads:->void,
+			updateThreads:->void,
+			callClientQuit:->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			setInputString:String;@ViewClass->void,
+			registerClient:@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedSignatures" value="
+			matchSlavesToClients:->void,
+			toString:->String,
+			setNumThreads:int;@ViewClass->void,
+			equals:Object->boolean,
+			interruptThreads:->void,
+			updateThreads:->void,
+			callClientQuit:->void,
+			addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			setInputString:String;@ViewClass->void,
+			registerClient:@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedCalls" value="
+			java.util.concurrent.ConcurrentLinkedQueue!clear:->void,
+			java.util.AbstractCollection!isEmpty:*->.*,
+			java.util.ArrayList!add:*->.*,
+			java.lang.Character!toString:*->.*,
+			comp533.main.Stack!pop:*->.*,
+			java.util.ArrayList!isEmpty:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceEnqueue:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRegister:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceEnqueueRequest:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteResult:Object->void,
+			java.util.Map!get:Object->Object,
+			java.util.AbstractList!add:*->.*,
+			@SlaveClass!notifySlave:->void,
+			java.util.Arrays!toString:*->.*,
+			java.util.List!get:int->Object,
+			util.trace.Tracer!error:String->void,
+			java.util.concurrent.ArrayBlockingQueue!add:*->.*,
+			java.lang.Thread!getState:->State,
+			java.util.List!isEmpty:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@SlaveClass!signalQuit:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!isEmpty:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerCreated:Object;int->void,
+			@KeyValueClass!getValue:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			java.util.Map!containsKey:Object->boolean,
+			grader.basics.execution.BasicProjectExecution!toString:*->.*,
+			@KeyValueClass!getKey:*->.*,
+			java.util.AbstractCollection!add:*->.*,
+			java.util.AbstractMap!isEmpty:*->.*,
+			@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface!quit:->void,
+			java.util.HashMap!capacity:->int,
+			@IntSummingMapperClass+@TokenCountingMapperClass!map:String->@KeyValueClass,
+			java.util.Map!isEmpty:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!put:Object->void,
+			java.lang.Integer!toString:*->.*,
+			java.util.AbstractQueue!add:*->.*,
+			java.util.Map!put:Object;Object->Object,
+			java.rmi.RemoteException!getMessage:*->.*,
+			java.lang.Thread!getStackTrace:*->.*,
+			java.util.HashMap!isEmpty:*->.*,
+			@ViewClass!propertyChange:java.beans.PropertyChangeEvent->void,
+			@SlaveClass!setClient:@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface->void,
+			java.beans.PropertyChangeSupport!firePropertyChange:java.beans.PropertyChangeEvent->void,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.lang.Thread!start:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierCreated:Object;int->void,
+			@JoinerClass!join:->void,
+			java.util.List!add:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!add:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedCalls" value="
+			java.util.concurrent.ConcurrentLinkedQueue!clear:->void,
+			java.util.AbstractCollection!isEmpty:*->.*,
+			java.util.ArrayList!add:*->.*,
+			java.lang.Character!toString:*->.*,
+			comp533.main.Stack!pop:*->.*,
+			java.util.ArrayList!isEmpty:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceEnqueue:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRegister:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceEnqueueRequest:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteResult:Object->void,
+			java.util.Map!get:Object->Object,
+			java.util.AbstractList!add:*->.*,
+			@SlaveClass!notifySlave:->void,
+			java.util.Arrays!toString:*->.*,
+			java.util.List!get:int->Object,
+			util.trace.Tracer!error:String->void,
+			java.util.concurrent.ArrayBlockingQueue!add:*->.*,
+			java.lang.Thread!getState:->State,
+			java.util.List!isEmpty:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@SlaveClass!signalQuit:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!isEmpty:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerCreated:Object;int->void,
+			@KeyValueClass!getValue:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			java.util.Map!containsKey:Object->boolean,
+			grader.basics.execution.BasicProjectExecution!toString:*->.*,
+			@KeyValueClass!getKey:*->.*,
+			java.util.AbstractCollection!add:*->.*,
+			java.util.AbstractMap!isEmpty:*->.*,
+			@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface!quit:->void,
+			java.util.HashMap!capacity:->int,
+			@IntSummingMapperClass+@TokenCountingMapperClass!map:String->@KeyValueClass,
+			java.util.Map!isEmpty:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!put:Object->void,
+			java.lang.Integer!toString:*->.*,
+			java.util.AbstractQueue!add:*->.*,
+			java.util.Map!put:Object;Object->Object,
+			java.rmi.RemoteException!getMessage:*->.*,
+			java.lang.Thread!getStackTrace:*->.*,
+			java.util.HashMap!isEmpty:*->.*,
+			@ViewClass!propertyChange:java.beans.PropertyChangeEvent->void,
+			@SlaveClass!setClient:@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface->void,
+			java.beans.PropertyChangeSupport!firePropertyChange:java.beans.PropertyChangeEvent->void,
+			java.beans.PropertyChangeSupport!addPropertyChangeListener:java.beans.PropertyChangeListener->void,
+			java.lang.Thread!start:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceBarrierCreated:Object;int->void,
+			@JoinerClass!join:->void,
+			java.util.List!add:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!add:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			setInputString:String;@ViewClass->void#.*NEW.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			setInputString:String;@ViewClass->void#.*BUFFER_SIZE.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="expectedReferences" value="
+			toString:->String#.*MODEL.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="instantiations" value="
+			java.beans.PropertyChangeSupport,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ModelClass"/>
+		<property name="instantiations" value="
+			java.beans.PropertyChangeSupport,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="expectedProperties" value="
+			Mapper:@IntSummingMapperClass+@TokenCountingMapperClass,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="expectedProperties" value="
+			Mapper:@IntSummingMapperClass+@TokenCountingMapperClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="expectedProperties" value="
+			Mapper:@IntSummingMapperClass+@TokenCountingMapperClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="expectedProperties" value="
+			Mapper:@IntSummingMapperClass+@TokenCountingMapperClass,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="instantiations" value="
+			comp533.mapper.Mapper,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@MapperFactory"/>
+		<property name="instantiations" value="
+			comp533.mapper.Mapper,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ServerIntegerSummer"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ServerIntegerSummer"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ServerIntegerSummer"/>
+		<property name="expectedCalls" value="
+			java.rmi.RemoteException!getMessage:*->.*,
+			@ControllerClass!getUserInput:@ModelClass+@RemoteModelInterface->void,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			util.trace.Tracer!error:String->void,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.lang.System!exit:int->void,
+			comp533.main.RemoteModel.class!getName:*->.*,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ServerIntegerSummer"/>
+		<property name="expectedCalls" value="
+			java.rmi.RemoteException!getMessage:*->.*,
+			@ControllerClass!getUserInput:@ModelClass+@RemoteModelInterface->void,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			util.trace.Tracer!error:String->void,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.lang.System!exit:int->void,
+			comp533.main.RemoteModel.class!getName:*->.*,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedInterfaces">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedInterfaces" value="
+			java.rmi.Remote,
+			java.io.Serializable,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedSignatures" value="
+			quit:->void,
+			reduceNew:java.util.List->java.util.Map,
+			reduce:java.util.List->java.util.Map,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedSignatures" value="
+			quit:->void,
+			reduceNew:java.util.List->java.util.Map,
+			reduce:java.util.List->java.util.Map,
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedCalls" value="
+			@KeyValueClass!getValue:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			java.lang.Character!toString:*->.*,
+			java.lang.Object!toString:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			@KeyValueClass!getKey:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!toString:*->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			java.util.List!contains:Object->boolean,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceExit:Class->void,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!trace:String->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteResult:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			java.util.EventObject!toString:*->.*,
+			java.lang.Thread!toString:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceReduce:Object;Object->void,
+			java.lang.System!exit:int->void,
+			java.util.Map!get:Object->Object,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			java.util.AbstractMap!toString:*->.*,
+			java.lang.Integer!toString:*->.*,
+			@ModelClass+@RemoteModelInterface!registerClient:@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface->void,
+			java.util.Map!put:Object;Object->Object,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedWait:->void,
+			java.util.Scanner!toString:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteList:Object->void,
+			java.lang.Thread!getName:->String,
+			@ViewClass!toString:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@IntSummingMapperClass!toString:*->.*,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			@ControllerClass!toString:*->.*,
+			java.util.List!add:*->.*,
+			@ModelClass!toString:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedCalls" value="
+			@KeyValueClass!getValue:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			java.lang.Character!toString:*->.*,
+			java.lang.Object!toString:*->.*,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			@KeyValueClass!getKey:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!toString:*->.*,
+			java.rmi.registry.LocateRegistry!getRegistry:*->.*,
+			java.util.List!contains:Object->boolean,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceExit:Class->void,
+			java.rmi.registry.Registry!lookup:String->Remote,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!trace:String->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteResult:Object->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			java.util.EventObject!toString:*->.*,
+			java.lang.Thread!toString:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceReduce:Object;Object->void,
+			java.lang.System!exit:int->void,
+			java.util.Map!get:Object->Object,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+			java.util.AbstractMap!toString:*->.*,
+			java.lang.Integer!toString:*->.*,
+			@ModelClass+@RemoteModelInterface!registerClient:@ClientTokenCounter+@RemoteClientFacebookMapReduce+@RemoteClientObjectClass+@RemoteClientObjectInterface->void,
+			java.util.Map!put:Object;Object->Object,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedWait:->void,
+			java.util.Scanner!toString:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceRemoteList:Object->void,
+			java.lang.Thread!getName:->String,
+			@ViewClass!toString:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			java.io.PrintStream!println:*->.*,
+			@IntSummingMapperClass!toString:*->.*,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			@ControllerClass!toString:*->.*,
+			java.util.List!add:*->.*,
+			@ModelClass!toString:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*VIEW.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@RemoteClientFacebookMapReduce"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*INT_SUMMING_MAPPER.*,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedSignatures" value="
+			finished:->void,
+			join:->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedSignatures" value="
+			finished:->void,
+			join:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerWaitEnd:Object;int;int->void,
+			java.rmi.RemoteException!getMessage:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedWait:->void,
+			util.trace.Tracer!error:String->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerWaitStart:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerFinishedTask:Object;int;int->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@JoinerClass"/>
+		<property name="expectedCalls" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedNotify:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerWaitEnd:Object;int;int->void,
+			java.rmi.RemoteException!getMessage:*->.*,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!synchronizedWait:->void,
+			util.trace.Tracer!error:String->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerWaitStart:Object;int;int->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceJoinerFinishedTask:Object;int;int->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ServerFacebookMapReduce"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ServerFacebookMapReduce"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ServerFacebookMapReduce"/>
+		<property name="expectedCalls" value="
+			java.rmi.RemoteException!getMessage:*->.*,
+			@ControllerClass!getUserInput:@ModelClass+@RemoteModelInterface->void,
+			java.lang.Thread!getName:->String,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			util.trace.Tracer!error:String->void,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.lang.System!exit:int->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ServerFacebookMapReduce"/>
+		<property name="expectedCalls" value="
+			java.rmi.RemoteException!getMessage:*->.*,
+			@ControllerClass!getUserInput:@ModelClass+@RemoteModelInterface->void,
+			java.lang.Thread!getName:->String,
+			java.rmi.registry.LocateRegistry!createRegistry:int->Registry,
+			util.trace.Tracer!error:String->void,
+			java.rmi.registry.Registry!rebind:String;java.rmi.Remote->void,
+			java.lang.System!exit:int->void,
+			java.rmi.server.UnicastRemoteObject!exportObject:*->.*,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="expectedProperties" value="
+			Reducer:@ReducerClass,
+		"/>
+	</module>
+	<module name="ExpectedGetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="expectedProperties" value="
+			Reducer:@ReducerClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="expectedProperties" value="
+			Reducer:@ReducerClass,
+		"/>
+	</module>
+	<module name="ExpectedSetters">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="expectedProperties" value="
+			Reducer:@ReducerClass,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="instantiations" value="
+			comp533.reducer.Reducer,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ReducerFactory"/>
+		<property name="instantiations" value="
+			comp533.reducer.Reducer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedSignatures" value="
+			getPartition:String;Integer;int->int,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedSignatures" value="
+			getPartition:String;Integer;int->int,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Character!toLowerCase:*->.*,
+			java.lang.Character!isLetter:*->.*,
+			java.lang.Math!floor:double->double,
+			java.lang.Math!ceil:double->double,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@PartitionerClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Character!toLowerCase:*->.*,
+			java.lang.Character!isLetter:*->.*,
+			java.lang.Math!floor:double->double,
+			java.lang.Math!ceil:double->double,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedSignatures" value="
+			main:String[]->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedCalls" value="
+			java.util.Map!put:Object;Object->Object,
+			java.util.Scanner!toString:*->.*,
+			java.lang.Character!toString:*->.*,
+			java.lang.Object!toString:*->.*,
+			@ViewClass!toString:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!toString:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			java.io.PrintStream!println:*->.*,
+			java.util.EventObject!toString:*->.*,
+			@IntSummingMapperClass!toString:*->.*,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.lang.Thread!toString:*->.*,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			java.util.Scanner!nextLine:->String,
+			java.util.Map!get:Object->Object,
+			@ControllerClass!toString:*->.*,
+			java.util.AbstractMap!toString:*->.*,
+			java.lang.Integer!toString:*->.*,
+			@ModelClass!toString:*->.*,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedCalls" value="
+			java.util.Map!put:Object;Object->Object,
+			java.util.Scanner!toString:*->.*,
+			java.lang.Character!toString:*->.*,
+			java.lang.Object!toString:*->.*,
+			@ViewClass!toString:*->.*,
+			java.util.AbstractCollection!toString:*->.*,
+			java.util.concurrent.ConcurrentLinkedQueue!toString:*->.*,
+			java.rmi.server.RemoteObject!toString:*->.*,
+			java.util.concurrent.ArrayBlockingQueue!toString:*->.*,
+			java.io.PrintStream!println:*->.*,
+			java.util.EventObject!toString:*->.*,
+			@IntSummingMapperClass!toString:*->.*,
+			java.util.Scanner!close:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			java.lang.Thread!toString:*->.*,
+			java.beans.PropertyChangeEvent!toString:*->.*,
+			java.util.Scanner!nextLine:->String,
+			java.util.Map!get:Object->Object,
+			@ControllerClass!toString:*->.*,
+			java.util.AbstractMap!toString:*->.*,
+			java.lang.Integer!toString:*->.*,
+			@ModelClass!toString:*->.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*VIEW.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*MODEL.*,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="expectedReferences" value="
+			main:String[]->void#.*INT_SUMMING_MAPPER.*,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="instantiations" value="
+			java.util.Scanner,
+		"/>
+	</module>
+	<module name="ExpectedClassInstantiations">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@StandAloneTokenCounter"/>
+		<property name="instantiations" value="
+			java.util.Scanner,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSuperTypes">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedSuperTypes" value="
+			gradingTools.comp533s19.assignment0.AMapReduceTracer,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedSignatures" value="
+			getUserInput:@ModelClass+@RemoteModelInterface->void,
+			toString:->String,
+		"/>
+	</module>
+	<module name="ExpectedSignatures">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedSignatures" value="
+			getUserInput:@ModelClass+@RemoteModelInterface->void,
+			toString:->String,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Thread!getStackTrace:*->.*,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			@ModelClass+@RemoteModelInterface!interruptThreads:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass+@RemoteModelInterface!setInputString:String;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass+@RemoteModelInterface!setNumThreads:int;@ViewClass->void,
+			@ModelClass+@RemoteModelInterface!callClientQuit:->void,
+		"/>
+	</module>
+	<module name="MissingMethodCall">
+		<property name="severity" value="info"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedCalls" value="
+			java.lang.Thread!getStackTrace:*->.*,
+			java.util.Scanner!nextInt:->int,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceQuit:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceNumbersPrompt:->void,
+			@ModelClass+@RemoteModelInterface!interruptThreads:->void,
+			gradingTools.comp533s19.assignment0.AMapReduceTracer!traceThreadPrompt:->void,
+			@ModelClass+@RemoteModelInterface!setInputString:String;@ViewClass->void,
+			java.util.Scanner!nextLine:->String,
+			@ModelClass+@RemoteModelInterface!setNumThreads:int;@ViewClass->void,
+			@ModelClass+@RemoteModelInterface!callClientQuit:->void,
+		"/>
+	</module>
+	<module name="MethodAccessesGlobal">
+		<property name="severity" value="warning"/>
+		<property name="includeTypeTags" value="@ControllerClass"/>
+		<property name="expectedReferences" value="
+			getUserInput:@ModelClass+@RemoteModelInterface->void#.*QUIT.*,
+		"/>
+	</module>

@@ -1,0 +1,19 @@
+2/15/2022 08:31:51 AM	cnell7/UNC-COMP533-Assignments: Contains my solutions for the COMP533 Assignments	https://github.com/cnell7/UNC-COMP533-Assignments
+2/15/2022 08:31:52 AM	UNC-COMP533-Assignments/A2/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2/src
+2/15/2022 08:32:00 AM	UNC-COMP533-Assignments/A2/src/comp533 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2/src/comp533
+2/15/2022 08:31:39 AM	Duke | Log In	https://shib.oit.duke.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1
+2/15/2022 08:35:52 AM	COMP 431	https://sites.google.com/cs.unc.edu/comp431
+2/15/2022 08:35:45 AM	COMP 533 (13 unread)	https://piazza.com/class/kxx594eo8fl3y2
+2/15/2022 08:36:28 AM	COMP 533 (13 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=6
+2/15/2022 08:36:23 AM	COMP 533 (13 unread)	https://piazza.com/class/kxx594eo8fl3y2?cid=31
+2/15/2022 08:42:00 AM	cnell7/UNC-COMP533-Assignments: Contains my solutions for the COMP533 Assignments	https://github.com/cnell7/UNC-COMP533-Assignments
+2/15/2022 08:42:19 AM	UNC-COMP533-Assignments/A2/src at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2/src
+2/15/2022 08:41:37 AM	UNC-COMP533-Assignments/A2/src/main at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2/src/main
+2/15/2022 08:41:48 AM	Add missing KeyValue class for A2 · cnell7/UNC-COMP533-Assignments@f0f7ce3	https://github.com/cnell7/UNC-COMP533-Assignments/commit/f0f7ce3ebc5cbf2b023a800a26fa49bbf27c2b7c
+2/15/2022 08:41:58 AM	UNC-COMP533-Assignments/A2 at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/tree/master/A2
+2/15/2022 08:42:04 AM	History for A2/src - cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/commits/master/A2/src
+2/15/2022 09:10:16 AM	UNC-COMP533-Assignments/MyMapReduceConfiguration.java at master · cnell7/UNC-COMP533-Assignments	https://github.com/cnell7/UNC-COMP533-Assignments/blob/master/A2/src/MyMapReduceConfiguration.java
+2/15/2022 10:24:38 AM	NickWu007/COMP533: COMP 533 Assignment Code	https://github.com/NickWu007/COMP533
+2/15/2022 10:24:39 AM	unc comp 533 assignment - Google ??	https://www.google.com/search?q=unc+comp+533+assignment&rlz=1C1FQRR_enJP961__961&oq=unc+comp533+assognment&aqs=chrome.1.69i57j33i10i160.6728j0j7&sourceid=chrome&ie=UTF-8
+2/15/2022 10:24:36 AM	COMP533/consensus at master · NickWu007/COMP533	https://github.com/NickWu007/COMP533/tree/master/consensus
+2/15/2022 10:24:49 AM	unc comp 533 assignment - Google ??	https://www.google.com/search?q=unc+comp+533+assignment&rlz=1C1FQRR_enJP961__961&sxsrf=APq-WBv11WEGZpf2prMExGmbHHItUK6-oQ:1644938650783&ei=msULYq3vLeLDkPIPrfO66Ao&start=10&sa=N&ved=2ahUKEwitpNL_gYL2AhXiIUQIHa25Dq0Q8tMDegQIARA-&biw=767&bih=704&dpr=1.25

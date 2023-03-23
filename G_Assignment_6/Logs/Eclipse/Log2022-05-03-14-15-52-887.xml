@@ -1,0 +1,1102 @@
+<Events startTimestamp="1651601752887" logVersion="1.0.0.202108012048">
+  <Command __id="699" _type="PauseCommand" date="Tue May 03 16:55:15 EDT 2022" range="10s-20s" starttimestamp="1651601752887" timestamp="9562634">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[13368]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="698" _type="ShellCommand" date="Tue May 03 16:55:15 EDT 2022" starttimestamp="1651601752887" timestamp="9562634" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="700" _type="EclipseCommand" commandID="" date="Tue May 03 16:55:15 EDT 2022" starttimestamp="1651601752887" timestamp="9562647" />
+  <Command __id="701" _type="EclipseCommand" commandID="" date="Tue May 03 16:55:15 EDT 2022" starttimestamp="1651601752887" timestamp="9562649" />
+  <Command __id="703" _type="PauseCommand" date="Tue May 03 16:55:21 EDT 2022" range="5s-10s" starttimestamp="1651601752887" timestamp="9569018">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[6369]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="702" _type="ShellCommand" date="Tue May 03 16:55:21 EDT 2022" starttimestamp="1651601752887" timestamp="9569018" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="705" _type="PauseCommand" date="Tue May 03 16:55:30 EDT 2022" range="5s-10s" starttimestamp="1651601752887" timestamp="9577381">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[8363]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="704" _type="ShellCommand" date="Tue May 03 16:55:30 EDT 2022" starttimestamp="1651601752887" timestamp="9577381" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="706" _type="EclipseCommand" commandID="" date="Tue May 03 16:55:30 EDT 2022" starttimestamp="1651601752887" timestamp="9577544" />
+  <Command __id="707" _type="EclipseCommand" commandID="" date="Tue May 03 16:55:30 EDT 2022" starttimestamp="1651601752887" timestamp="9577545" />
+  <Command __id="709" _type="PauseCommand" date="Tue May 03 16:55:31 EDT 2022" range="1s-2s" starttimestamp="1651601752887" timestamp="9578563">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1018]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="708" _type="ShellCommand" date="Tue May 03 16:55:31 EDT 2022" starttimestamp="1651601752887" timestamp="9578563" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="711" _type="PauseCommand" date="Tue May 03 16:56:00 EDT 2022" range="20s-30s" starttimestamp="1651601752887" timestamp="9607820">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[29257]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="710" _type="ConsoleOutput" date="Tue May 03 16:56:00 EDT 2022" overflow="false" starttimestamp="1651601752887" timestamp="9607820" type="ConsoleOutput">
+    <outputString><![CDATA[GIPCRMINIOOneClientReadWriteNonAtomic did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*
+RMI and GIPC are not checked because NIO failed%0.0
+
+Test execution time (ms):58553
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"GIPCRMINIOOneClient"), Diff(DELETE,"Connection"), Diff(INSERT,"ReadWriteNonAtomic"), Diff(EQUAL," did not pass completely:In Server enabling NIO, no line found matching regex: .*?\{main\}.*?SocketChannelBound.*"), Diff(INSERT,"¶RMI and GIPC are not checked because NIO failed"), Diff(EQUAL,"%0.0¶¶Test execution time (ms):585"), Diff(DELETE,"49"), Diff(INSERT,"53"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="718" _type="PauseCommand" date="Tue May 03 16:56:49 EDT 2022" range="5s-10s" starttimestamp="1651601752887" timestamp="9656839">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[ProgramExecutionEvent]]></prev>
+    <pause><![CDATA[5456]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="717" _type="EclipseCommand" commandID="" date="Tue May 03 16:56:49 EDT 2022" starttimestamp="1651601752887" timestamp="9656839" />
+  <Command __id="719" _type="EclipseCommand" commandID="" date="Tue May 03 16:56:49 EDT 2022" starttimestamp="1651601752887" timestamp="9656967" />
+  <Command __id="38" _type="DiffBasedFileOpenCommand" date="Tue May 03 14:15:54 EDT 2022" docASTNodeCount="742" docActiveCodeLength="5319" docExpressionCount="522" docLength="5516" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="1178">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\client\RMIAndGIPCClient.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.client;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+import assignments.util.mainArgs.ClientArgsProcessor;
+import comp533.server.GIPCServer;
+import inputport.rpc.GIPCLocateRegistry;
+import inputport.rpc.GIPCRegistry;
+import util.annotations.Tags;
+import util.interactiveMethodInvocation.IPCMechanism;
+import util.interactiveMethodInvocation.SimulationParametersControllerFactory;
+import util.tags.DistributedTags;
+import util.trace.bean.BeanTraceUtility;
+import util.trace.port.PerformanceExperimentEnded;
+import util.trace.port.PerformanceExperimentStarted;
+import util.trace.port.consensus.RemoteProposeRequestSent;
+import util.trace.port.consensus.communication.CommunicationStateNames;
+import util.trace.port.rpc.gipc.GIPCObjectLookedUp;
+import util.trace.port.rpc.gipc.GIPCObjectRegistered;
+import util.trace.port.rpc.gipc.GIPCRPCTraceUtility;
+import util.trace.port.rpc.gipc.GIPCRegistryLocated;
+
+@SuppressWarnings("serial")
+@Tags({DistributedTags.CLIENT, DistributedTags.RMI, DistributedTags.GIPC})
+public class RMIAndGIPCClient extends RMIClient implements GIPCClient{
+
+	private static int number = 0;
+    private GIPCRegistry registry;
+    protected GIPCServer proxyServer;
+    
+    public static final String tryCommand = "move 1 -1";
+    protected int commands = 500;
+    
+    private static ClientInterface thisClient = new RMIAndGIPCClient();
+    
+    @Override
+    public void start(String[] arguments) {
+        this.init(arguments);
+        SimulationParametersControllerFactory.getSingleton().addSimulationParameterListener(this);
+        SimulationParametersControllerFactory.getSingleton().processCommands();
+    }
+
+    public static void main(String[] arguments) {
+        ClientInterface thisClient = new RMIAndGIPCClient();
+        thisClient.start(arguments);
+    }
+    
+
+    @Override
+    public void setTracing() {
+        super.setTracing();
+        BeanTraceUtility.setTracing();
+        GIPCRPCTraceUtility.setTracing();
+    }
+
+    public RMIAndGIPCClient() {
+        number++;
+    }
+    public static ClientInterface getSingleton() {
+        return thisClient;
+    }
+    @Override
+    protected void init(final String[] arguments) {
+        this.setTracing();
+        super.init(arguments);
+        
+        String hostName = ClientArgsProcessor.getServerHost(arguments);
+        final int port = ClientArgsProcessor.getGIPCPort(arguments);
+        
+        this.locateGIPCRegistry(port, hostName);
+        this.lookupGIPCServerProxy();
+
+		try {
+			this.exportGIPCClientProxy();
+		} catch (RemoteException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        System.out.println("should be registered");
+        System.out.println(this.proxyServer);
+//        System.out.println(thisClient.getClass());
+//        System.out.println(thisClient.getClass().getName());
+        System.out.println(this);
+        this.proxyServer.registerGIPCClients();
+    }
+    
+    protected void exportGIPCClientProxy() throws RemoteException {
+//    	UnicastRemoteObject.exportObject(this, 0);
+        this.registry.rebind(RMIAndGIPCClient.class.getName(), this);
+        GIPCObjectRegistered.newCase(this, RMIAndGIPCClient.class.getName(), this, this.registry);
+
+    }
+
+
+    @Override
+    public void NotificationReceiver(final String newCommand, final Object newProposal) {
+        this.receiveNotifications(CommunicationStateNames.COMMAND, newCommand);
+    }
+
+    @Override
+    public void experimentInput() {
+        long start = System.currentTimeMillis();
+        PerformanceExperimentStarted.newCase(this, start, commands);
+        boolean oldTrace = isTrace();
+        this.trace(false);
+        for (int i = 0; i < commands; i++) {
+            this.simulationCommand(tryCommand);
+        }
+        this.trace(oldTrace);
+        long end = System.currentTimeMillis();
+        PerformanceExperimentEnded.newCase(this, start, end, end - start, commands);
+        
+        
+        System.out.println("Printing out the time:");
+        System.out.println(end - start);
+    }
+
+
+    protected void sendCommand(final String newCommand) {
+        this.thisProcessor.setInputString(newCommand);
+        RemoteProposeRequestSent.newCase(this, CommunicationStateNames.IPC_MECHANISM, -1, ipcMechanism);
+        this.proxyServer.receiveCommandViaGIPC(newCommand, this);
+    }
+
+    @Override
+    public void simulationCommand(final String newCommand) {
+        if (this.ipcMechanism.equals(IPCMechanism.RMI)) {
+            super.simulationCommand(newCommand);
+        } else {
+            this.sendCommand(newCommand);
+        }
+    }
+
+    protected void locateGIPCRegistry(final int port, final String hostName) {
+        this.registry = GIPCLocateRegistry.getRegistry(hostName, port, GIPCClient.CLIENT_NAME + number);
+        GIPCRegistryLocated.newCase(this, hostName,port, GIPCClient.class.getName());
+    }
+
+    protected void lookupGIPCServerProxy() {
+    	System.out.println("I am not here");
+    	System.out.println(GIPCServer.class);
+    	System.out.println(GIPCServer.class.getName());
+    	
+        this.proxyServer = (GIPCServer) registry.lookup(GIPCServer.class, GIPCServer.class.getName());
+        System.out.println("I am here");
+        GIPCObjectLookedUp.newCase(this, this.proxyServer, GIPCServer.class, GIPCServer.class.getName(), this.registry);
+    }
+
+
+    
+}
+]]></snapshot>
+  </Command>
+  <Command __id="148" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:15 EDT 2022" docASTNodeCount="96" docActiveCodeLength="778" docExpressionCount="56" docLength="1197" projectName="533Assignment4" starttimestamp="1651601752887" timestamp="7582375">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment4\src\comp533\RunTests.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533;
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp533s22.assignment5.S22Assignment5Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+
+//import util.trace.Tracer;
+public class RunTests {
+	public static final int MAX_PRINTED_TRACES = 800;
+	public static final int MAX_TRACES = 2000;
+	public static final int TIME_OUT = 5;
+
+	
+	public static void main(final String[] args) {
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);	
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed		
+		GraderBasicsTraceUtility.setBufferTracedMessages(true);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		GraderBasicsTraceUtility.setMaxPrintedTraces(MAX_PRINTED_TRACES);
+		// Change this number if all traces together are longer than 2000
+		GraderBasicsTraceUtility.setMaxTraces(MAX_TRACES);
+		// Change this number if your process times out prematurely
+		BasicProjectExecution.setProcessTimeOut(TIME_OUT);
+		// You need to always call such a method
+		S22Assignment5Suite.main(args);
+
+	}
+}
+
+]]></snapshot>
+  </Command>
+  <Command __id="151" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:16 EDT 2022" docASTNodeCount="748" docActiveCodeLength="5423" docExpressionCount="557" docLength="5680" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7583117">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\server\RMIAndGIPCServer.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.server;
+
+import assignments.util.mainArgs.ServerArgsProcessor;
+import comp533.client.GIPCClient;
+import comp533.client.RMIAndGIPCClient;
+import comp533.client.RMIClientInterface;
+//import coupledsims.client.Ov;
+import inputport.ConnectionListener;
+import inputport.InputPort;
+import inputport.rpc.GIPCLocateRegistry;
+import inputport.rpc.GIPCRegistry;
+import port.ATracingConnectionListener;
+import stringProcessors.HalloweenCommandProcessor;
+import util.annotations.Tags;
+import util.interactiveMethodInvocation.SimulationParametersControllerFactory;
+import util.tags.DistributedTags;
+import util.trace.bean.BeanTraceUtility;
+import util.trace.factories.FactoryTraceUtility;
+import util.trace.misc.ThreadDelayed;
+import util.trace.port.consensus.ConsensusTraceUtility;
+import util.trace.port.consensus.ProposalLearnedNotificationSent;
+import util.trace.port.consensus.RemoteProposeRequestReceived;
+import util.trace.port.consensus.communication.CommunicationStateNames;
+import util.trace.port.nio.NIOTraceUtility;
+import util.trace.port.rpc.gipc.GIPCObjectLookedUp;
+import util.trace.port.rpc.gipc.GIPCObjectRegistered;
+import util.trace.port.rpc.gipc.GIPCRPCTraceUtility;
+import util.trace.port.rpc.gipc.GIPCRegistryCreated;
+import util.trace.port.rpc.rmi.RMITraceUtility;
+
+import java.rmi.RemoteException;
+import java.util.ArrayList;
+import java.util.List;
+
+@SuppressWarnings("serial")
+@Tags({DistributedTags.SERVER, DistributedTags.RMI, DistributedTags.GIPC})
+public class RMIAndGIPCServer extends RMIServer implements GIPCServer{
+
+	private static ServerInterface thisServer = new RMIAndGIPCServer();
+    private List<GIPCClient> clients;
+    private GIPCRegistry registry;
+
+    public RMIAndGIPCServer() {
+        this.clients = new ArrayList<>();
+    }
+
+    public static ServerInterface getSingleton() {
+        return thisServer;
+    }
+
+    @Override
+    public void start(String[] arguments) {
+        this.init(arguments);
+        SimulationParametersControllerFactory.getSingleton().addSimulationParameterListener(this);
+        SimulationParametersControllerFactory.getSingleton().processCommands();
+    }
+
+    public static void main(String[] arguments) {
+        ServerInterface thisServer = getSingleton();
+        thisServer.start(arguments);
+    }
+    
+    protected void init(final String[] arguments) {
+        this.setTracing();
+        super.init(arguments);
+        final int gipcServerPort = ServerArgsProcessor.getGIPCServerPort(arguments);
+        this.registry = GIPCLocateRegistry.createRegistry(gipcServerPort);
+        GIPCRegistryCreated.newCase(this, gipcServerPort);
+        this.registry.rebind(GIPCServer.class.getName(), this);
+        GIPCObjectRegistered.newCase(this, RMIServerInterface.class.getName(), this, this.registry);
+        final InputPort port = this.registry.getInputPort();
+        final ConnectionListener listener = new ATracingConnectionListener(port);
+        port.addConnectionListener(listener);
+    }
+    
+    @Override
+    public void setTracing() {
+        FactoryTraceUtility.setTracing();
+        BeanTraceUtility.setTracing();
+        RMITraceUtility.setTracing();
+        ConsensusTraceUtility.setTracing();
+        ThreadDelayed.enablePrint();
+        GIPCRPCTraceUtility.setTracing();
+        NIOTraceUtility.setTracing();
+        super.trace(true);
+    }
+
+    
+
+
+    protected void receiveRequestViaGIPC(final String newCommand, final GIPCClient thisClient) {
+        try {
+            RemoteProposeRequestReceived.newCase(this, CommunicationStateNames.COMMAND, -1, newCommand);
+        	System.out.println("@@@??????????????????????");
+        	System.out.println(this.clients);
+        	System.out.println("@@@!!!!!!!!!!!!!!!!!!!!!!");
+            for (GIPCClient otherClientProxy : this.clients) {
+            	
+            	System.out.println("?????????????????????????");
+            	System.out.println(otherClientProxy);
+            	System.out.println(thisClient);
+            	System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!");
+                if (!otherClientProxy.equals(thisClient)) {
+                    ProposalLearnedNotificationSent.newCase(this, CommunicationStateNames.BROADCAST_MODE, -1, newCommand);
+                    otherClientProxy.NotificationReceiver(CommunicationStateNames.COMMAND, newCommand);
+                }
+            }
+        } catch (RemoteException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    @Override
+    public void receiveCommandViaGIPC(String newCommand, GIPCClient thisClient) {
+        this.receiveRequestViaGIPC(newCommand, thisClient);
+    }
+
+    @Override
+    public void registerGIPCClients() {
+    	System.out.println("register called");
+    	//final RMIClientInterface clientProxy = (RMIClientInterface) this.rmiRegistry.lookup(RMIClientInterface.class.getName());
+        final GIPCClient clientProxy = (GIPCClient) this.registry.lookup(RMIAndGIPCClient.class, RMIAndGIPCClient.class.getName());
+        GIPCObjectLookedUp.newCase(this, clientProxy, RMIAndGIPCClient.class, RMIAndGIPCClient.class.getName(), this.registry);
+        this.clients.add(clientProxy);
+//        System.out.println(GIPCClient.class);
+//        System.out.println(GIPCClient.class.getName());
+        System.out.println(this.clients);
+        System.out.println(clientProxy);
+        System.out.println(this.registry.getInputPort());
+        System.out.println(this.registry.getRPCClientPort());
+        System.out.println(this.registry.getRPCServerPort());
+    	System.out.println("register finished");
+
+    }
+
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="153" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:16 EDT 2022" docASTNodeCount="712" docActiveCodeLength="5444" docExpressionCount="490" docLength="5444" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7584105">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\server\RMIServer.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.server;
+
+import assignments.util.inputParameters.AnAbstractSimulationParametersBean;
+import assignments.util.mainArgs.ServerArgsProcessor;
+import comp533.client.RMIClientInterface;
+import util.annotations.Tags;
+import util.interactiveMethodInvocation.IPCMechanism;
+import util.interactiveMethodInvocation.SimulationParametersControllerFactory;
+import util.tags.DistributedTags;
+import util.trace.factories.FactoryTraceUtility;
+import util.trace.misc.ThreadDelayed;
+import util.trace.port.consensus.ConsensusTraceUtility;
+import util.trace.port.consensus.ProposalLearnedNotificationSent;
+import util.trace.port.consensus.RemoteProposeRequestReceived;
+import util.trace.port.consensus.communication.CommunicationStateNames;
+import util.trace.port.nio.NIOTraceUtility;
+import util.trace.port.rpc.rmi.RMIObjectLookedUp;
+import util.trace.port.rpc.rmi.RMIObjectRegistered;
+import util.trace.port.rpc.rmi.RMIRegistryLocated;
+import util.trace.port.rpc.rmi.RMITraceUtility;
+
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.ArrayList;
+import java.util.List;
+
+@SuppressWarnings("serial")
+@Tags({DistributedTags.SERVER, DistributedTags.RMI})
+public class RMIServer extends AnAbstractSimulationParametersBean implements ServerInterface, RMIServerInterface {
+
+	private static ServerInterface thisServer = new RMIServer();
+    private List<RMIClientInterface> registeredRMIClients;
+    private Registry rmiRegistry;
+
+    RMIServer() {
+        this.registeredRMIClients = new ArrayList<>();
+    }
+
+    public static ServerInterface getSingleton() {
+        return thisServer;
+    }
+
+    @Override
+    public void quit(final int aCode) {
+        System.exit(aCode);
+    }
+
+    @Override
+    public void setTracing() {
+        FactoryTraceUtility.setTracing();
+        RMITraceUtility.setTracing();
+        ConsensusTraceUtility.setTracing();
+        NIOTraceUtility.setTracing();
+        ThreadDelayed.enablePrint();
+        this.trace(true);
+    }
+    
+
+    @Override
+    public void start(final String[] arguments) {
+        this.init(arguments);
+        SimulationParametersControllerFactory.getSingleton().addSimulationParameterListener(this);
+        SimulationParametersControllerFactory.getSingleton().processCommands();
+    }
+
+    public static void main(final String[] arguments) {
+        final ServerInterface thisServer = getSingleton();
+        thisServer.start(arguments);
+    }
+
+    @Override
+    public void locateRegistry(final int port, String host) throws RemoteException {
+        this.rmiRegistry = LocateRegistry.getRegistry(port);
+        RMIRegistryLocated.newCase(this, host, port, this.rmiRegistry);
+    }
+
+    @Override
+    public void exportServerProxy(final int rmiServerPort) throws RemoteException {
+        UnicastRemoteObject.exportObject(this, rmiServerPort);
+        this.rmiRegistry.rebind(RMIServerInterface.class.getName(), this);
+        RMIObjectRegistered.newCase(this, RMIServerInterface.class.getName(), this, this.rmiRegistry);
+    }
+
+    @Override
+    public void registerRMIClients() {
+        try {
+            final RMIClientInterface clientProxy = (RMIClientInterface) this.rmiRegistry.lookup(RMIClientInterface.class.getName());
+            RMIObjectLookedUp.newCase(this, clientProxy, RMIClientInterface.class.getName(), this.rmiRegistry);
+            this.registeredRMIClients.add(clientProxy);
+        } catch (RemoteException | NotBoundException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    protected void receiveRequestViaRMI(final String anObjectName, final Object aProposal, final RMIClientInterface currentClientProxy) {
+        try {
+            RemoteProposeRequestReceived.newCase(this, anObjectName, -1, aProposal);
+            for (RMIClientInterface otherClientProxy : this.registeredRMIClients) {
+                if (!otherClientProxy.equals(currentClientProxy)) {
+                    ProposalLearnedNotificationSent.newCase(this, CommunicationStateNames.BROADCAST_MODE, -1, anObjectName);
+                    otherClientProxy.receiveNotificationsViaRMI(anObjectName, aProposal);
+                }
+            }
+        } catch (RemoteException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    @Override
+    public void receiveCommandViaRMI(final String aCommand, final RMIClientInterface clientProxy) {
+        this.receiveRequestViaRMI(CommunicationStateNames.COMMAND, aCommand, clientProxy);
+    }
+
+    @Override
+    public void receiveIPCMechanismViaRMI(final IPCMechanism ipcMechanism, final RMIClientInterface clientProxy) {
+        this.receiveRequestViaRMI(CommunicationStateNames.IPC_MECHANISM, ipcMechanism, clientProxy);
+    }
+
+    protected void init(String[] arguments) {
+        try {
+            this.setTracing();
+            final int rmiRegistryPort = ServerArgsProcessor.getRegistryPort(arguments), rmiServerPort = ServerArgsProcessor.getServerPort(arguments);
+            final String host = ServerArgsProcessor.getRegistryHost(arguments);
+            this.locateRegistry(rmiRegistryPort, host);
+            this.exportServerProxy(rmiServerPort);
+        } catch (RemoteException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="155" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:17 EDT 2022" docASTNodeCount="158" docActiveCodeLength="1007" docExpressionCount="116" docLength="1007" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7584940">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\registry\MyRegistry.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.registry;
+
+import assignments.util.mainArgs.RegistryArgsProcessor;
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+import util.trace.port.rpc.rmi.RMIRegistryCreated;
+import util.trace.port.rpc.rmi.RMITraceUtility;
+
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.util.Scanner;
+
+
+@Tags({DistributedTags.REGISTRY, DistributedTags.RMI})
+public class MyRegistry {
+    public static void main(String[] args) {
+        try {
+            RMITraceUtility.setTracing();
+            int port = RegistryArgsProcessor.getRegistryPort(args);
+            final Registry registry = LocateRegistry.createRegistry(port);
+            RMIRegistryCreated.newCase(registry, port);
+            @SuppressWarnings("resource")
+			Scanner scanner = new Scanner(System.in);
+            scanner.nextLine();
+        } catch (RemoteException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="157" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:18 EDT 2022" docASTNodeCount="49" docActiveCodeLength="347" docExpressionCount="34" docLength="347" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7585631">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\server\GIPCServer.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.server;
+
+
+import comp533.client.GIPCClient;
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+
+@Tags({DistributedTags.SERVER_REMOTE_INTERFACE, DistributedTags.GIPC})
+
+public interface GIPCServer {
+    void registerGIPCClients();
+    void receiveCommandViaGIPC(String aCommand, GIPCClient clientProxy);
+}
+]]></snapshot>
+  </Command>
+  <Command __id="159" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:19 EDT 2022" docASTNodeCount="85" docActiveCodeLength="556" docExpressionCount="65" docLength="556" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7586268">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\server\ServerInterface.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.server;
+
+import assignments.util.inputParameters.SimulationParametersListener;
+import comp533.client.ClientInterface;
+
+import java.io.Serializable;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.registry.Registry;
+
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+
+@Tags({DistributedTags.SERVER_CONFIGURER, DistributedTags.RMI, DistributedTags.GIPC})
+
+public interface ServerInterface extends SimulationParametersListener {
+    void setTracing();
+    void start(String[] args);
+}
+]]></snapshot>
+  </Command>
+  <Command __id="161" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:20 EDT 2022" docASTNodeCount="120" docActiveCodeLength="966" docExpressionCount="77" docLength="966" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7587167">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\server\RMIServerInterface.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.server;
+
+import util.interactiveMethodInvocation.IPCMechanism;
+
+import java.io.Serializable;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+import comp533.client.RMIClientInterface;
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+
+@Tags({DistributedTags.SERVER_REMOTE_INTERFACE, DistributedTags.RMI})
+
+public interface RMIServerInterface extends Remote, Serializable {
+	void registerRMIClients() throws RemoteException;
+    void receiveCommandViaRMI(String aCommand, RMIClientInterface clientProxy) throws RemoteException;
+    void receiveIPCMechanismViaRMI(IPCMechanism newValue, RMIClientInterface clientProxy) throws RemoteException;
+    
+    void setTracing() throws RemoteException;
+    void locateRegistry(int registryPort, String registryHost) throws RemoteException;
+    void exportServerProxy(int serverPort) throws RemoteException;
+    void quit(int aCode) throws RemoteException;
+    
+}
+]]></snapshot>
+  </Command>
+  <Command __id="163" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:20 EDT 2022" docASTNodeCount="86" docActiveCodeLength="642" docExpressionCount="53" docLength="642" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7587816">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\client\ClientInterface.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.client;
+
+import assignments.util.inputParameters.SimulationParametersListener;
+import stringProcessors.HalloweenCommandProcessor;
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+
+@Tags({DistributedTags.CLIENT_CONFIGURER, DistributedTags.RMI, DistributedTags.GIPC})
+
+public interface ClientInterface extends SimulationParametersListener {
+    HalloweenCommandProcessor Processor = null;
+	void setTracing();
+    void locateRegistry(int port, String host);
+    void start(String[] args);
+    void simulationCommand(String aCommand);
+    void lookupServerProxy();
+    void exportClientProxy();
+}
+]]></snapshot>
+  </Command>
+  <Command __id="165" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:21 EDT 2022" docASTNodeCount="53" docActiveCodeLength="357" docExpressionCount="37" docLength="357" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7588970">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\client\GIPCClient.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.client;
+
+import java.rmi.RemoteException;
+
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+
+@Tags({DistributedTags.CLIENT_REMOTE_INTERFACE, DistributedTags.GIPC})
+public interface GIPCClient {
+    String CLIENT_NAME="Client ";
+    void NotificationReceiver(String name, Object proposal) throws RemoteException;
+}
+]]></snapshot>
+  </Command>
+  <Command __id="167" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:23 EDT 2022" docASTNodeCount="70" docActiveCodeLength="481" docExpressionCount="49" docLength="481" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7590278">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\client\RMIClientInterface.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.client;
+
+import java.io.Serializable;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+
+@Tags({DistributedTags.CLIENT_REMOTE_INTERFACE, DistributedTags.RMI})
+
+
+public interface RMIClientInterface extends Remote, Serializable {
+	void quit(int aCode) throws RemoteException;
+    void receiveNotificationsViaRMI(String object, Object newProposal) throws RemoteException;
+    
+}
+]]></snapshot>
+  </Command>
+  <Command __id="170" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:23 EDT 2022" docASTNodeCount="143" docActiveCodeLength="1141" docExpressionCount="107" docLength="1187" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7590856">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\client\RemoteClientObject.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.client;
+
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+
+import assignments.util.inputParameters.AnAbstractSimulationParametersBean;
+//import comp533.server.RemoteServerInterface;
+import stringProcessors.AHalloweenCommandProcessor;
+import stringProcessors.HalloweenCommandProcessor;
+import util.annotations.Tags;
+import util.interactiveMethodInvocation.SimulationParametersControllerFactory;
+import util.tags.DistributedTags;
+import util.trace.port.consensus.ProposalLearnedNotificationReceived;
+import util.trace.port.consensus.ProposedStateSet;
+import util.trace.port.consensus.communication.CommunicationStateNames;
+
+@SuppressWarnings("serial")
+@Tags({DistributedTags.CLIENT_REMOTE_OBJECT, DistributedTags.RMI, DistributedTags.GIPC})
+
+public class RemoteClientObject extends AnAbstractSimulationParametersBean implements Remote {
+	protected ClientInterface serverProxy;
+
+	private void processCommands(final String inputCommand) {
+		setBroadcastMetaState(true);
+        setIPCMechanism(ipcMechanism);
+		final HalloweenCommandProcessor processor = new AHalloweenCommandProcessor();
+		processor.processCommand(null);
+		
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="172" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:24 EDT 2022" docASTNodeCount="140" docActiveCodeLength="1116" docExpressionCount="99" docLength="1116" projectName="533Assignment5" starttimestamp="1651601752887" timestamp="7591992">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment5\src\comp533\coupler\Coupler.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.coupler;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.io.Serializable;
+
+import assignments.util.inputParameters.AnAbstractSimulationParametersBean;
+import stringProcessors.HalloweenCommandProcessor;
+import util.trace.trickOrTreat.LocalCommandObserved;
+
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+
+@Tags({DistributedTags.CLIENT_OUT_COUPLER, DistributedTags.RMI, DistributedTags.GIPC})
+
+public class Coupler extends AnAbstractSimulationParametersBean implements PropertyChangeListener, Serializable {
+	HalloweenCommandProcessor observingSimulation;
+
+	public Coupler (final HalloweenCommandProcessor newSimulation) {
+		observingSimulation = newSimulation;
+	}
+	
+
+	@Override
+	public void propertyChange(PropertyChangeEvent newEvent) {
+		if (!newEvent.getPropertyName().equals("InputString")) {
+			return;
+		}
+		
+		String newCommand = (String) newEvent.getNewValue();
+		getIPCMechanism();
+		LocalCommandObserved.newCase(this, newCommand);
+		observingSimulation.processCommand(newCommand);
+	}
+
+	
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="174" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:28 EDT 2022" docASTNodeCount="46" docActiveCodeLength="293" docExpressionCount="29" docLength="293" projectName="533Assignment6" starttimestamp="1651601752887" timestamp="7595467">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment6\src\coupledsims\RunA6Tests.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package coupledsims;
+
+import gradingTools.comp533s20.assignment6.Assignment6Suite;
+import util.trace.Tracer;
+
+public class RunA6Tests {
+	public static void main(String[] args) {
+		Tracer.showInfo(true);
+		Assignment6Suite.main(args);
+		Assignment6Suite.setProcessTimeOut(60);
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="177" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:29 EDT 2022" docASTNodeCount="144" docActiveCodeLength="1191" docExpressionCount="91" docLength="1191" projectName="533Assignment6" starttimestamp="1651601752887" timestamp="7596508">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment6\src\coupledsims\client\ClientRunnable.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package coupledsims.client;
+
+import coupledsims.nio.ByteBufferInfo;
+import gradingTools.comp533s19.assignment0.AMapReduceTracer;
+
+import java.nio.ByteBuffer;
+import java.util.concurrent.ArrayBlockingQueue;
+
+public class ClientRunnable extends AMapReduceTracer implements Runnable {
+    NIOClient client;
+
+    public ClientRunnable(NIOClient client) {
+        this.client = client;
+    }
+
+    public void notifyRunnable() {
+        this.synchronizedNotify();
+    }
+
+    @Override
+    public void run() {
+        do {
+            try {
+                ByteBufferInfo messageInfo = this.client.getMessageQueue().take();
+                ByteBuffer message = messageInfo.getMessage();
+                int messageLength = messageInfo.getMessageLength();
+                String messageString = new String(message.array(), message.position(), messageLength);
+                this.client.receiveProposalLearnedNotificationViaNIO(messageString);
+                this.synchronizedWait();
+            } catch (NullPointerException | InterruptedException ex) {
+                ex.printStackTrace();
+                break;
+            }
+        } while (true);
+    }
+}
+]]></snapshot>
+  </Command>
+  <Command __id="179" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:30 EDT 2022" docASTNodeCount="71" docActiveCodeLength="451" docExpressionCount="43" docLength="541" projectName="533Ass6" starttimestamp="1651601752887" timestamp="7597338">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Ass6\src\client\Client.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package client;
+
+import util.annotations.Tags;
+import util.tags.DistributedTags;
+
+@Tags({ DistributedTags.CLIENT, DistributedTags.RMI, DistributedTags.GIPC, DistributedTags.NIO })
+public class Client {
+	public static void main(final String[] args) {
+		try {
+
+			// create client object
+			//final ClientRemoteInterfaceRMI client = new ClientRemoteObject();
+			final ClientRemoteInterfaceRMI client = new ClientRemoteObjectNIO();
+			
+			client.start(args);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="181" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:31 EDT 2022" docASTNodeCount="117" docActiveCodeLength="878" docExpressionCount="75" docLength="1269" projectName="533Ass6" starttimestamp="1651601752887" timestamp="7598581">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Ass6\src\checks\Checks.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package checks;
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp533s22.assignment6.S22Assignment6Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+import util.trace.Tracer;
+
+public class Checks {
+	public static void main(final String[] args) {
+		Tracer.showInfo(true);
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		final int traces = 8000;
+		Tracer.setMaxTraces(traces);
+		
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);	
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed		
+		
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		
+		final int length = 600;
+		GraderBasicsTraceUtility.setMaxPrintedTraces(length);
+		// Change this number if all traces together are longer than 600
+		
+		final int time = 4000;
+		GraderBasicsTraceUtility.setMaxTraces(time);
+		// Change this number if your process times out prematurely
+		
+		final int timer = 50;
+		BasicProjectExecution.setProcessTimeOut(timer);
+		// You need to always call such a method
+		S22Assignment6Suite.main(args);
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="184" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:31 EDT 2022" docASTNodeCount="71" docActiveCodeLength="451" docExpressionCount="43" docLength="541" projectName="533Ass6" starttimestamp="1651601752887" timestamp="7598910">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Ass6\src\client\Client.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package client;¶¶import util.annotations.Tags;¶import util.tags.DistributedTags;¶¶@Tags({ DistributedTags.CLIENT, DistributedTags.RMI, DistributedTags.GIPC, DistributedTags.NIO })¶public class Client {¶	public static void main(final String[] args) {¶		try {¶¶			// create client object¶			//final ClientRemoteInterfaceRMI client = new ClientRemoteObject();¶			final ClientRemoteInterfaceRMI client = new ClientRemoteObjectNIO();¶			¶			client.start(args);¶¶		} catch (Exception e) {¶			e.printStackTrace();¶		}¶¶	}¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="186" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:32 EDT 2022" projectName="533Ass6" starttimestamp="1651601752887" timestamp="7600077">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Ass6\VerticalBarrier3.jpg]]></filePath>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="188" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:22:35 EDT 2022" docASTNodeCount="117" docActiveCodeLength="878" docExpressionCount="75" docLength="1269" projectName="533Ass7" starttimestamp="1651601752887" timestamp="7602220">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Ass7\src\checks\Checks.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package checks;
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp533s22.assignment7.S22Assignment7Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+import util.trace.Tracer;
+
+public class Checks {
+	public static void main(final String[] args) {
+		Tracer.showInfo(true);
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		final int traces = 8000;
+		Tracer.setMaxTraces(traces);
+		
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);	
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed		
+		
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		
+		final int length = 600;
+		GraderBasicsTraceUtility.setMaxPrintedTraces(length);
+		// Change this number if all traces together are longer than 600
+		
+		final int time = 4000;
+		GraderBasicsTraceUtility.setMaxTraces(time);
+		// Change this number if your process times out prematurely
+		
+		final int timer = 50;
+		BasicProjectExecution.setProcessTimeOut(timer);
+		// You need to always call such a method
+		S22Assignment7Suite.main(args);
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="252" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:25:51 EDT 2022" docASTNodeCount="119" docActiveCodeLength="886" docExpressionCount="77" docLength="1277" projectName="533Ass6" starttimestamp="1651601752887" timestamp="7798820">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Ass6\src\comp533\checks\Checks.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package comp533.checks;
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp533s22.assignment6.S22Assignment6Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+import util.trace.Tracer;
+
+public class Checks {
+	public static void main(final String[] args) {
+		Tracer.showInfo(true);
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		final int traces = 8000;
+		Tracer.setMaxTraces(traces);
+		
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);	
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed		
+		
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		
+		final int length = 600;
+		GraderBasicsTraceUtility.setMaxPrintedTraces(length);
+		// Change this number if all traces together are longer than 600
+		
+		final int time = 4000;
+		GraderBasicsTraceUtility.setMaxTraces(time);
+		// Change this number if your process times out prematurely
+		
+		final int timer = 50;
+		BasicProjectExecution.setProcessTimeOut(timer);
+		// You need to always call such a method
+		S22Assignment6Suite.main(args);
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="544" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:48:54 EDT 2022" docASTNodeCount="117" docActiveCodeLength="878" docExpressionCount="75" docLength="1269" projectName="533Assignment06" starttimestamp="1651601752887" timestamp="9182047">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Assignment06\src\checks\Checks.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package checks;
+
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp533s22.assignment6.S22Assignment6Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+import util.trace.Tracer;
+
+public class Checks {
+	public static void main(final String[] args) {
+		Tracer.showInfo(true);
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		final int traces = 8000;
+		Tracer.setMaxTraces(traces);
+		
+		// if you set this to false, grader steps will not be traced
+		GraderBasicsTraceUtility.setTracerShowInfo(true);	
+		// if you set this to false, all grader steps will be traced,
+		// not just the ones that failed		
+		
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+		// Change this number if a test trace gets longer than 600 and is clipped
+		
+		final int length = 600;
+		GraderBasicsTraceUtility.setMaxPrintedTraces(length);
+		// Change this number if all traces together are longer than 600
+		
+		final int time = 4000;
+		GraderBasicsTraceUtility.setMaxTraces(time);
+		// Change this number if your process times out prematurely
+		
+		final int timer = 50;
+		BasicProjectExecution.setProcessTimeOut(timer);
+		// You need to always call such a method
+		S22Assignment6Suite.main(args);
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="669" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:52:30 EDT 2022" docASTNodeCount="117" docActiveCodeLength="878" docExpressionCount="75" docLength="1269" projectName="533Ass6" starttimestamp="1651601752887" timestamp="9397750">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Ass6\src\checks\Checks.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package checks;¶¶import grader.basics.execution.BasicProjectExecution;¶import gradingTools.comp533s22.assignment6.S22Assignment6Suite;¶import trace.grader.basics.GraderBasicsTraceUtility;¶import util.trace.Tracer;¶¶public class Checks {¶	public static void main(final String[] args) {¶		Tracer.showInfo(true);¶		GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		final int traces = 8000;¶		Tracer.setMaxTraces(traces);¶		¶		// if you set this to false, grader steps will not be traced¶		GraderBasicsTraceUtility.setTracerShowInfo(true);	¶		// if you set this to false, all grader steps will be traced,¶		// not just the ones that failed		¶		¶		GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		// Change this number if a test trace gets longer than 600 and is clipped¶		¶		final int length = 600;¶		GraderBasicsTraceUtility.setMaxPrintedTraces(length);¶		// Change this number if all traces together are longer than 600¶		¶		final int time = 4000;¶		GraderBasicsTraceUtility.setMaxTraces(time);¶		// Change this number if your process times out prematurely¶		¶		final int timer = 50;¶		BasicProjectExecution.setProcessTimeOut(timer);¶		// You need to always call such a method¶		S22Assignment6Suite.main(args);¶	}¶}¶")]]]></diff>
+  </Command>
+  <Command __id="681" _type="DiffBasedFileOpenCommand" date="Tue May 03 16:52:53 EDT 2022" docASTNodeCount="117" docActiveCodeLength="878" docExpressionCount="75" docLength="1269" projectName="533Ass7" starttimestamp="1651601752887" timestamp="9420202">
+    <filePath><![CDATA[C:\Users\KaihaoLiu\eclipse-workspace\533Ass7\src\checks\Checks.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package checks;¶¶import grader.basics.execution.BasicProjectExecution;¶import gradingTools.comp533s22.assignment7.S22Assignment7Suite;¶import trace.grader.basics.GraderBasicsTraceUtility;¶import util.trace.Tracer;¶¶public class Checks {¶	public static void main(final String[] args) {¶		Tracer.showInfo(true);¶		GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		final int traces = 8000;¶		Tracer.setMaxTraces(traces);¶		¶		// if you set this to false, grader steps will not be traced¶		GraderBasicsTraceUtility.setTracerShowInfo(true);	¶		// if you set this to false, all grader steps will be traced,¶		// not just the ones that failed		¶		¶		GraderBasicsTraceUtility.setBufferTracedMessages(false);¶		// Change this number if a test trace gets longer than 600 and is clipped¶		¶		final int length = 600;¶		GraderBasicsTraceUtility.setMaxPrintedTraces(length);¶		// Change this number if all traces together are longer than 600¶		¶		final int time = 4000;¶		GraderBasicsTraceUtility.setMaxTraces(time);¶		// Change this number if your process times out prematurely¶		¶		final int timer = 50;¶		BasicProjectExecution.setProcessTimeOut(timer);¶		// You need to always call such a method¶		S22Assignment7Suite.main(args);¶	}¶}¶")]]]></diff>
+  </Command>
+  <Command __id="721" _type="PauseCommand" date="Tue May 03 16:56:54 EDT 2022" range="2s-5s" starttimestamp="1651601752887" timestamp="9661675">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[4708]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="722" _type="MoveCaretCommand" caretOffset="0" date="Tue May 03 16:56:54 EDT 2022" docOffset="0" starttimestamp="1651601752887" timestamp="9661821" />
+  <Command __id="724" _type="PauseCommand" date="Tue May 03 16:57:04 EDT 2022" range="5s-10s" starttimestamp="1651601752887" timestamp="9671241">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[9420]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="725" _type="MoveCaretCommand" caretOffset="0" date="Tue May 03 16:57:04 EDT 2022" docOffset="0" starttimestamp="1651601752887" timestamp="9671467" />
+  <Command __id="727" _type="PauseCommand" date="Tue May 03 16:57:10 EDT 2022" range="5s-10s" starttimestamp="1651601752887" timestamp="9677800">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[6333]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="728" _type="MoveCaretCommand" caretOffset="0" date="Tue May 03 16:57:10 EDT 2022" docOffset="0" starttimestamp="1651601752887" timestamp="9677917" />
+  <Command __id="730" _type="PauseCommand" date="Tue May 03 16:57:15 EDT 2022" range="5s-10s" starttimestamp="1651601752887" timestamp="9683064">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[5147]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="729" _type="MoveCaretCommand" caretOffset="121" date="Tue May 03 16:57:15 EDT 2022" docOffset="267" starttimestamp="1651601752887" timestamp="9683064" />
+  <Command __id="732" _type="PauseCommand" date="Tue May 03 16:57:18 EDT 2022" range="2s-5s" starttimestamp="1651601752887" timestamp="9685349">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2285]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="731" _type="EclipseCommand" commandID="org.eclipse.jdt.debug.ui.localJavaShortcut.run" date="Tue May 03 16:57:18 EDT 2022" starttimestamp="1651601752887" timestamp="9685349" />
+  <Command __id="733" _type="ShellCommand" date="Tue May 03 16:57:18 EDT 2022" starttimestamp="1651601752887" timestamp="9685656" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="735" _type="PauseCommand" date="Tue May 03 16:57:24 EDT 2022" range="5s-10s" starttimestamp="1651601752887" timestamp="9691963">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6307]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="734" _type="ShellCommand" date="Tue May 03 16:57:24 EDT 2022" starttimestamp="1651601752887" timestamp="9691963" type="ECLIPSE_GAINED_FOCUS" />
+</Events>
